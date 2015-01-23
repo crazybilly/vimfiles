@@ -140,7 +140,7 @@ execute pathogen#infect()
 set number
 
 "set some reasonable print options
-set printoptions=header:0
+set printoptions=header:0,formfeed:y
 set pfn=Consolas:h9
 
 " turn on CtrlP
