@@ -6,59 +6,29 @@ behave mswin
 set directory=.,$TEMP
 
 set diffexpr=MyDiff()
-"function MyDiff()
-"  let opt = '-a --binary '
-"  if &diffopt =~ 'icase' | let opt = opt . '-i ' | endif
-"  if &diffopt =~ 'iwhite' | let opt = opt . '-b ' | endif
-"  let arg1 = v:fname_in
-"  if arg1 =~ ' ' | let arg1 = '"' . arg1 . '"' | endif
-"  let arg2 = v:fname_new
-"  if arg2 =~ ' ' | let arg2 = '"' . arg2 . '"' | endif
-"  let arg3 = v:fname_out
-"  if arg3 =~ ' ' | let arg3 = '"' . arg3 . '"' | endif
-"  let eq = ''
-"  if $VIMRUNTIME =~ ' '
-"    if &sh =~ '\<cmd'
-"      let cmd = '""' . $VIMRUNTIME . '\diff"'
-"      let eq = '"'
-"    else
-"      let cmd = substitute($VIMRUNTIME, ' ', '" ', '') . '\diff"'
-"    endif
-"  else
-"    let cmd = $VIMRUNTIME . '\diff'
-"  endif
-"  silent execute '!' . cmd . ' ' . opt . arg1 . ' ' . arg2 . ' > ' . arg3 . eq
-"endfunction
-"
- function MyDiff()
-   let opt = '-a --binary '
-   if &diffopt =~ 'icase' | let opt = opt . '-i ' | endif
-   if &diffopt =~ 'iwhite' | let opt = opt . '-b ' | endif
-   let arg1 = v:fname_in
-   if arg1 =~ ' ' | let arg1 = '"' . arg1 . '"' | endif
-   let arg2 = v:fname_new
-   if arg2 =~ ' ' | let arg2 = '"' . arg2 . '"' | endif
-   let arg3 = v:fname_out
-   if arg3 =~ ' ' | let arg3 = '"' . arg3 . '"' | endif
-   if $VIMRUNTIME =~ ' '
-     if &sh =~ '\<cmd'
-       if empty(&shellxquote)
-         let l:shxq_sav = ''
-         set shellxquote&
-       endif
-       let cmd = '"' . $VIMRUNTIME . '\diff"'
-     else
-       let cmd = substitute($VIMRUNTIME, ' ', '" ', '') . '\diff"'
-     endif
-   else
-     let cmd = $VIMRUNTIME . '\diff'
-   endif
-   silent execute '!' . cmd . ' ' . opt . arg1 . ' ' . arg2 . ' > ' . arg3
-   if exists('l:shxq_sav')
-     let &shellxquote=l:shxq_sav
-   endif
- endfunction
-
+function MyDiff()
+  let opt = '-a --binary '
+  if &diffopt =~ 'icase' | let opt = opt . '-i ' | endif
+  if &diffopt =~ 'iwhite' | let opt = opt . '-b ' | endif
+  let arg1 = v:fname_in
+  if arg1 =~ ' ' | let arg1 = '"' . arg1 . '"' | endif
+  let arg2 = v:fname_new
+  if arg2 =~ ' ' | let arg2 = '"' . arg2 . '"' | endif
+  let arg3 = v:fname_out
+  if arg3 =~ ' ' | let arg3 = '"' . arg3 . '"' | endif
+  let eq = ''
+  if $VIMRUNTIME =~ ' '
+    if &sh =~ '\<cmd'
+      let cmd = '""' . $VIMRUNTIME . '\diff"'
+      let eq = '"'
+    else
+      let cmd = substitute($VIMRUNTIME, ' ', '" ', '') . '\diff"'
+    endif
+  else
+    let cmd = $VIMRUNTIME . '\diff'
+  endif
+  silent execute '!' . cmd . ' ' . opt . arg1 . ' ' . arg2 . ' > ' . arg3 . eq
+endfunction
 
 
 "desert color scheme
@@ -75,19 +45,13 @@ autocmd VimEnter * set vb t_vb=
 "make the window a nice size
 autocmd GUIEnter * winsize 120 82
 
+set gfn=Droid_Sans_Mono:h10:cANSI
+set pfn=Droid_Sans_Mono:h8:cANSI
 
-set encoding=utf-8 
-"set gfn=Droid_Sans_Mono:h10:cANSI
-"set pfn=Droid_Sans_Mono:h8:cANSI
-set gfn=Powerline_Consolas:h11:cANSI
-
-"Airline config
-
-	"make airline show up all the time
-	set laststatus=2
-	
-	" turn on airline fonts
-	let g:airline_powerline_fonts = 1
+"make airline show up all the time
+set laststatus=2
+" turn on airline fonts
+let g:airline_powerline_fonts = 1
 
 "turn off the gui buttons
 set go-=T
@@ -95,14 +59,6 @@ set go-=T
 "removes those annoying vim backup files 
 "(yes, they are useful, but I can't stand the clutter)
 set nobk
-
-
-" reload vimrc automatically
-augroup myvimrc
-	au!
-	au BufWritePost .vimrc,_vimrc,vimrc,.gvimrc,_gvimrc,gvimrc so $MYVIMRC | if has('gui_running') | so $MYGVIMRC | endif
-augroup END
-
 
 "turn off wrapping
 set nowrap
@@ -116,8 +72,6 @@ set is
 "set tab widths
 set tabstop=3
 set shiftwidth=3
-" for R files, don't use tabs
-autocmd FileType r,R   setlocal expandtab
 
 "turn folding on via indenting
 set foldmethod=indent
@@ -139,9 +93,7 @@ execute pathogen#infect()
 "turn line numbering on
 set number
 
-"set some reasonable print options
-set printoptions=header:0,formfeed:y
-set pfn=Consolas:h9
+
 
 " turn on CtrlP
 "set runtimepath^=C:/Program~/.vim/bundle/ctrlp.vim
@@ -149,12 +101,6 @@ let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 	"change the working directory to C:\Users\jtolbert
 	cd C:\Users\jtolbert
-	"be sure to cache the results of ctrlp
-	let g:ctrlp_cache_dir = $HOME . '/.cache/ctrlp'
-	" ignore various files by extension
-	set wildignore+=*\\tmp\\*,*.swp,*.zip,*.exe,*.ttf,*.otf,*.mp3,*.flac,*.mp4,*.pdf,*.doc,*.docx,*.xls,*.xlsx,*.pdf.txt
-
-
 
 " turn the leader to the spacebar
 let mapleader = "\<Space>"
@@ -163,21 +109,7 @@ let mapleader = "\<Space>"
 	nnoremap <Leader>o :CtrlP<CR>
 	"clear searches by whacking <space><space>
 	nmap <silent> <Leader><Leader> :nohl<CR>
-	"print
-	nmap <Leader>p :ha!<CR>
-	"markdown bullet
-	nmap <Leader>- :%s/^/- /g<CR>
 
-	" Commenting blocks of code.
-	autocmd FileType c,cpp,java,javascript,mysql,sql     let b:comment_leader = '// '
-	autocmd FileType sh,ruby,python,r,R   let b:comment_leader = '# '
-	autocmd FileType conf,fstab           let b:comment_leader = '# '
-	autocmd FileType tex                  let b:comment_leader = '% '
-	autocmd FileType mail                 let b:comment_leader = '> '
-	autocmd FileType vim                  let b:comment_leader = '" '
-	autocmd FileType autohotkey,ahk       let b:comment_leader = '; '
-	noremap <silent><Leader>cc :<C-B>silent <C-E>s/^/<C-R>=escape(b:comment_leader,'\/')<CR>/<CR>:nohlsearch<CR>
-	noremap <silent><Leader>cu :<C-B>silent <C-E>s/^\V<C-R>=escape(b:comment_leader,'\/')<CR>//e<CR>:nohlsearch<CR>
 
 "see either side of a DIFF
 "map <F2> :v/^</d<CR>:%s/^< //<CR>
@@ -201,7 +133,7 @@ map <F7> :%s/^\s\+//ge<CR>:%s/^\(XPARM2-KEY.*\n\)\@!//ge<CR>:%s/^[A-W].*\n//ge<C
 
 
 "set syntax to sql 
-map <F9> :set syntax=R<CR>
+map <F9> :set syntax=mysql<CR>
 
 "format sql
 "map <F10> :1,$!SqlFormatter.exe <CR><CR>
