@@ -89,6 +89,9 @@ set gfn=Powerline_Consolas:h11:cANSI
 	" turn on airline fonts
 	let g:airline_powerline_fonts = 1
 
+    " enable airline tabline
+     let g:airline#extensions#tabline#enabled = 1
+
 "turn off the gui buttons
 set go-=T
 
@@ -100,7 +103,7 @@ set nobk
 " reload vimrc automatically
 augroup myvimrc
 	au!
-	au BufWritePost .vimrc,_vimrc,vimrc,.gvimrc,_gvimrc,gvimrc so $MYVIMRC | if has('gui_running') | so $MYGVIMRC | endif
+	au BufWritePost .vimrc,_vimrc,vimrc,.gvimrc,_gvimrc,gvimrc so $MYVIMRC | if has('gui_running') | so $MYVIMRC | endif
 augroup END
 
 
@@ -166,7 +169,7 @@ let mapleader = "\<Space>"
 	" Leader shortcuts
 	nnoremap <Leader>o :CtrlP<CR>
 	"clear searches by whacking <space><space>
-	nmap <silent> <Leader><Leader> :nohl<CR>
+	nmap <silent> <Leader>l :nohl<CR>
 	"print
 	nmap <Leader>p :ha!<CR>
 	"markdown bullet
@@ -195,24 +198,37 @@ let mapleader = "\<Space>"
 map <F2> :%s/“/"/ge<CR>:%s/”/"/ge<CR>:%s/’/'/ge<CR>:%s/¿/'/ge<CR>:%s/‘/'/ge<CR>:%s/`/'/ge<CR>
 
 "prep MobileCause list of names for the True Blue 15 donor roll
-map <F3> :g/^\s*$/d<CR>
-			\:g/^letter/d<CR>
-			\:g/^Grand/d<CR>
-			\:g/Jerry \tBrunson/d<CR>
-			\:%s/SUNNY\tHULL/Sunny\tHull<CR>
-			\:%s/AMANDA\tBUTTERICK/Amanda\tButterick<CR>
-			\:%s/BRAD\tHOLMES/brad\tHolmes<CR>
-			\:%s/LAKEEYA\tFUNCHES/Lakeeya\tFunches<CR>
-			\:%s/CHARLES\tHOFFMAN/Charles\tHoffman<CR>
-			\:%s/ANNA-MARIE\tZURLINDEN/Anna-Marie\tZurlinden<CR>
-			\:%s/w\theather\twhite/W\tHeather\tWhite<CR>
-			\:%s/a\tcarmen\taravena/A\tCarmen\tAravena<CR>
-			\:let g:n = line('$')<CR>
-			\:let g:half = g:n/2<CR>
-			\:call append(n,"</ul>")<CR>
-			\:%s/^\(.\) Count\t\t.*/<\/ul>\r<h3 id="\1-roll">\1<\/h3>\r<ul>/<CR>
-			\:%s/^[A-Z]\t\(.*\)\t\(.*\)/\t<li>\1 \2<\/li>/<CR>
-			\:1s/<\/ul>//<CR>
+"map <F3> :g/^\s*$/d<CR>
+"			\:g/^letter/d<CR>
+"			\:g/^Grand/d<CR>
+"			\:g/Jerry \tBrunson/d<CR>
+"			\:%s/SUNNY\tHULL/Sunny\tHull<CR>
+"			\:%s/AMANDA\tBUTTERICK/Amanda\tButterick<CR>
+"			\:%s/BRAD\tHOLMES/brad\tHolmes<CR>
+"			\:%s/LAKEEYA\tFUNCHES/Lakeeya\tFunches<CR>
+"			\:%s/CHARLES\tHOFFMAN/Charles\tHoffman<CR>
+"			\:%s/ANNA-MARIE\tZURLINDEN/Anna-Marie\tZurlinden<CR>
+"			\:%s/w\theather\twhite/W\tHeather\tWhite<CR>
+"			\:%s/a\tcarmen\taravena/A\tCarmen\tAravena<CR>
+"			\:let g:n = line('$')<CR>
+"			\:let g:half = g:n/2<CR>
+"			\:call append(n,"</ul>")<CR>
+"			\:%s/^\(.\) Count\t\t.*/<\/ul>\r<h3 id="\1-roll">\1<\/h3>\r<ul>/<CR>
+"			\:%s/^[A-Z]\t\(.*\)\t\(.*\)/\t<li>\1 \2<\/li>/<CR>
+"			\:1s/<\/ul>//<CR>
+
+" prep XAMINFO for callprep 
+        " (gotta do this till Meredith gets around to enclosing strings in quotes)
+            " add quotes before first name
+            " add quotes after first name 
+            " add quotes before last name (depends on previous line)
+            " add quotes after last name
+            " remove any quotes in the header
+map <F3>  :%s/,/,"<CR> 
+            \:%s/,\([A-Z]\{4}\(,\|\*\)\)/",\1/<CR>
+            \:%s/,[A-Z0-9\-\*]*,[A-Z0-9\-\*]*,[A-Z0-9\-\*]*,[A-Z0-9\-\*]*,[A-Z0-9\-\*]*,[A-Z0-9\-\*]*,[A-Z0-9\-\*]*,/&"/<CR>
+            \:%s/,[A-Z\*]\+$/"&/<CR>
+            \:%s/"1s/"/g<CR>
 			
 
 " turns a Hobsons list of multiple attributes into a normalized list
@@ -241,6 +257,8 @@ map <F10>  :11s/\s\s\s\s\sClass/Class/e<CR>
 			 \:%s/^\(\s\+325657\)               /\1    Caterpillar/e<CR>
 			 \:%s/# GIFTS\n\s\+/# GIFTS\r  /e<CR>
 			 \:%s/^-\d*DEC-9999/                /e<CR>
+             \:%s/# GIFTS\n  \$0   0/# GIFTS\r  $0             0/<CR>
+             \:%s/\(CONSTITUENT\n.*\n  0\+\(\d\+\).*\n\s*\nSPOUSE\n.*\n\)\2\n/\1/<CR>
 
 "see the YankRing window
 ":nnoremap <silent> <F11> :YRShow<CR>

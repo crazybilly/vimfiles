@@ -79,8 +79,9 @@ return
 ;}
 DetectHiddenWindows, Off
 ; Register shell hook to detect flashing windows.
-DllCall("RegisterShellHookWindow", "uint", Script_Hwnd)
-OnMessage(DllCall("RegisterWindowMessage", "str", "SHELLHOOK"), "ShellEvent")
+DllCall( "RegisterShellHookWindow", UInt,Hwnd )
+MsgNum := DllCall( "RegisterWindowMessage", Str,"SHELLHOOK" )
+OnMessage( MsgNum, "ShellMessage" )
 ;...
 ShellEvent(wParam, lParam) {
     if (wParam = 0x8006) ; HSHELL_FLASH
