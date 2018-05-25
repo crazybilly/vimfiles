@@ -1,95 +1,67 @@
 
 SetCapsLockState, AlwaysOff
+SetTitleMatchMode 2
 
 ; --------------------------------------------
-; GROUPWISE SHORTCUTS 
+; OUTLOOK SHORTCUTS 
 ; --------------------------------------------
 
-; go in inbox
-#i::
-	KeyWait LWin
-	KeyWait RWin
-	SetTitleMatchMode 2
-	WinActivate Novell 
-	Send !e
-	Sleep, 150
-	Send r
-	Sleep, 150
-	SendInput Mailbox
-	Sleep, 150
-	Send {Enter}
+; a function to determine if you're in a particular ClassNN within a window
+ControlActive(ClassNN, WinTitle) {
+    ControlGetFocus, CurCon, % WinTitle
+    Return (CurCon=ClassNN)
+}
+
+
+; in Outlook, map Delete to Archiving instead of deleting
+;      but only do it when you're on the list of messages, not within a reply
+#If ControlActive("OutlookGrid3", "Outlook") 	; params: ControlActive( ClassNN , WinTitle)
+Delete::
+    Send ^+1
+#If
+Return
+
+
+; create a new email from anywhere
+#n::
+	SetTitleMatchMode 2	
+
+	IfWinExist, jtolbert@millikin.edu - Outlook
+		{
+			WinActivate
+			Sleep, 250
+            Send !4
+		} 
 return
+
 
 ; go in today in calendar
 #c::
 	KeyWait LWin
 	KeyWait RWin
 	SetTitleMatchMode 2
-	WinActivate Novell 
-	Send !e
-	Send r
-	Sleep, 100
-	SendInput Calendar
-	Sleep, 50
+	WinActivate  jtolbert@millikin.edu - Outlook
+	Send ^2 
+return
+
+
+; go in inbox
+#i::
+	KeyWait LWin
+	KeyWait RWin
+	SetTitleMatchMode RegEx 
+	WinActivate jtolbert.*Outlook
+	Send ^1 
+return
+
+
+; paste Excel table into Outlook message
+^+v::
+	Send !7
+	Sleep 200
+	Send {Home}
 	Send {Enter}
-	Sleep, 50
-	Send, ^g
 return
-
-
-
-;reply to email
-#r::
-Send {Alt}ar{enter}
-return
-
-; create a new email
-^+m::
-	SetTitleMatchMode 2	
-
-	IfWinActive, RStudio
-	{
-		SendInput {Space}`%>`%{Space}
-	} 
-
-	IfWinNotActive, RStudio
-	{
-		IfWinExist, Novell GroupWise
-		{
-			WinActivate
-			Sleep, 500
-			Send ^m
-		} 
-	}
-	return
-
-
-
-; raise flashing windows
-;Gui +LastFound
-;hWnd := WinExist() , DllCall( "RegisterShellHookWindow", UInt,hWnd )
-;MsgNum := DllCall( "RegisterWindowMessage", Str,"SHELLHOOK" )
-;OnMessage( MsgNum, "ShellMessage" )
-;Return ;                                                 // End of Auto-Execute Section //
-;ShellMessage( wParam,lParam ) {
-;  If ( wParam = 0x8006 ) ;  0x8006 is 32774 as shown in Spy!
-;    {
-;      WinActivate, ahk_id %lParam%
-;    }
-;}
-DetectHiddenWindows, Off
-; Register shell hook to detect flashing windows.
-DllCall( "RegisterShellHookWindow", UInt,Hwnd )
-MsgNum := DllCall( "RegisterWindowMessage", Str,"SHELLHOOK" )
-OnMessage( MsgNum, "ShellMessage" )
-;...
-ShellEvent(wParam, lParam) {
-    if (wParam = 0x8006) ; HSHELL_FLASH
-    {   ; lParam contains the ID of the window which flashed:
-        WinActivate, ahk_id %lParam%
-    }
-}
-
 
 
 
@@ -120,6 +92,7 @@ return
 Send ^{PgDn}
 return
 
+
 ; move from data blocks back up to the top
 ; 	ie. shift+F7
 ^+k::
@@ -144,7 +117,8 @@ Send \{{}
 Send -{}}
 return
 
-; send and actual tab character
+
+; send an actual tab character
 #Tab::
 Send ^q
 Send {Tab}
@@ -160,15 +134,74 @@ InputBox, unmapped,,numer of unmapped addresses
 
 Loop, %unmapped%
 {
-	Send {Down}
+	;Send {Down}
 	Send {Return}
 }
 
 return
 
+; enter default fund code stuff while creating a desgination
+; ^+v::
+; 
+; SendInput {Tab}
+; SendInput 98110
+; SendInput {Tab}
+; SendInput 52032 
+; SendInput {Tab}
+; SendInput 00
+; Send {Tab}{Tab}{Tab}
+; 
+; return
+
+
+
+
 ; --------------------------------------------
 ; EXCEL SHORTCUTS 
 ; --------------------------------------------
+
+; format as college RFC
+^+y::
+SetTitleMatchMode, 2
+IfWinActive Excel 
+{
+    KeyWait LWin
+    KeyWait RWin
+    Send {Alt}
+    Sleep, 200
+    Send y2
+    Sleep, 200
+    Send yl
+    Sleep, 500
+    Send ^{Home}
+}
+return
+
+; write RFC file name
+^+r::
+SetTitleMatchMode, 2
+IfWinActive Excel 
+{
+    InputBox, filename, subname of file
+    rfcstring = Cash-Giving-Report-
+    Send {F12} 
+    Send !n
+    Sleep, 500
+    Send %rfcstring%%filename%
+    Sleep, 500
+    Send {Up}
+    Sleep, 500
+    Send {End}
+    Send {Delete}{Delete}{Delete}{Delete}
+    Sleep, 500
+    Send {Tab}
+    Send {Down}{Home}{Enter}
+}
+return
+
+
+
+
 
 ; select visible cells in Excel
 #v::
@@ -200,15 +233,15 @@ Send {Enter}
 return
 
 ; automatically close the personal.xlsb is in use dialog
-SetTitleMatchMode, 2
-ProgramTitle = bosa_sdm_XL9
-Settimer, CheckWindow, 1000 ;Check every second
-CheckWindow:
-  IfWinActive, ahk_class %ProgramTitle%
-  {
-    Send !r
-    Settimer, CheckWindow, Off
-  }
+; SetTitleMatchMode, 2
+; ProgramTitle = bosa_sdm_XL9
+; Settimer, CheckWindow, 1000 ;Check every second
+; CheckWindow:
+;   IfWinActive, ahk_class %ProgramTitle%
+;   {
+;     Send !r
+;     Settimer, CheckWindow, Off
+;   }
 
 
 ;; write TRUE
@@ -222,8 +255,6 @@ return
 SendInput FALSE
 Send {Enter}
 return
-
-
 
 
 ; note - the following is an excel macro shortcut in PERSONAL.XLSB
@@ -249,23 +280,18 @@ return
 ; R SHORTCUTS 
 ; --------------------------------------------
 
-^+-::
-SendInput {Space}<-{Space}
-return
-
 ^+>::
 SendInput {Space}`%>`%{Space}
 return
 
 
+; ^+v::
+; SendInput View(
+; return
 
-^+v::
-SendInput View(
-return
-
-^+!v::
-SendInput `; View(
-return
+; ^+!v::
+; SendInput `; View(
+; return
 
 
 !-::
@@ -273,25 +299,35 @@ SendInput {Space}<-{Space}
 return
 
 
- ^+!r::
- KeyWait Ctrl
- KeyWait Alt
- KeyWait Shift
- Sleep, 100
- Send {Esc}
- Sleep, 100
- Send i
- Sleep, 100
- SendInput {#}{Space}libraries ---------------------------------------{Enter}{Enter}
- SendInput library(muadc); library(dplyr); library(tidyr); {Enter}
- SendInput library(stringr); library(lubridate); library(magrittr); {Enter}
- SendInput {Enter}
- SendInput {Enter}
- SendInput {#}{Space}data --------------------------------------------{Enter}
- Sleep, 100
- SendInput {Enter}
- SendInput initcommitsdb();
- SendInput {Enter}
- SendInput {Enter}
+#b::
+SendInput by = 'pidm', copy = T
+return
 
- return
+
+#w::
+SendInput write.clip(excel = T)
+return
+
+
+; ^+!r::
+; KeyWait Ctrl
+; KeyWait Alt
+; KeyWait Shift
+; Sleep, 100
+; Send {Esc}
+; Sleep, 100
+; Send i
+; Sleep, 100
+; SendInput {#}{Space}libraries ---------------------------------------{Enter}{Enter}
+; SendInput library(muadc); library(dplyr); library(tidyr); {Enter}
+; SendInput library(stringr); library(lubridate); library(magrittr); {Enter}
+; SendInput {Enter}
+; SendInput {Enter}
+; SendInput {#}{Space}data --------------------------------------------{Enter}
+; Sleep, 100
+; SendInput {Enter}
+; SendInput initcommitsdb();
+; SendInput {Enter}
+; SendInput {Enter}
+;
+; return

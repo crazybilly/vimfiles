@@ -60,7 +60,21 @@ CapsLock & 0::
                Send,+{Home}
 return
 
+;; gg  go to top of document
+; CapsLock & gg::
+;       if getkeystate("alt") = 0
+;               Send,gg
+;       else
+;               Send,^{Home}
+; return
 
+; G  go to end of document
+;CapsLock & G::
+;       if getkeystate("alt") = 0
+;               Send,G
+;       else
+;               Send,^{End}
+;return
 
 ; CapsLock & BS::Send,{Del}
 ; CapsLock & x::Send ^x
@@ -113,3 +127,4 @@ CapsLock & Space::Send,{Space}
 
 *Capslock::SetCapsLockState, AlwaysOff
 +Capslock::SetCapsLockState, On
+

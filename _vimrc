@@ -30,32 +30,32 @@ set directory=.,$TEMP
 "endfunction
 "
  function! MyDiff()
-   let opt = '-a --binary '
-   if &diffopt =~ 'icase' | let opt = opt . '-i ' | endif
-   if &diffopt =~ 'iwhite' | let opt = opt . '-b ' | endif
-   let arg1 = v:fname_in
-   if arg1 =~ ' ' | let arg1 = '"' . arg1 . '"' | endif
-   let arg2 = v:fname_new
-   if arg2 =~ ' ' | let arg2 = '"' . arg2 . '"' | endif
-   let arg3 = v:fname_out
-   if arg3 =~ ' ' | let arg3 = '"' . arg3 . '"' | endif
-   if $VIMRUNTIME =~ ' '
-     if &sh =~ '\<cmd'
-       if empty(&shellxquote)
-         let l:shxq_sav = ''
-         set shellxquote&
+       let opt = '-a --binary '
+       if &diffopt =~ 'icase' | let opt = opt . '-i ' | endif
+       if &diffopt =~ 'iwhite' | let opt = opt . '-b ' | endif
+       let arg1 = v:fname_in
+       if arg1 =~ ' ' | let arg1 = '"' . arg1 . '"' | endif
+       let arg2 = v:fname_new
+       if arg2 =~ ' ' | let arg2 = '"' . arg2 . '"' | endif
+       let arg3 = v:fname_out
+       if arg3 =~ ' ' | let arg3 = '"' . arg3 . '"' | endif
+       if $VIMRUNTIME =~ ' '
+         if &sh =~ '\<cmd'
+           if empty(&shellxquote)
+             let l:shxq_sav = ''
+             set shellxquote&
+           endif
+           let cmd = '"' . $VIMRUNTIME . '\diff"'
+         else
+           let cmd = substitute($VIMRUNTIME, ' ', '" ', '') . '\diff"'
+         endif
+       else
+         let cmd = $VIMRUNTIME . '\diff'
        endif
-       let cmd = '"' . $VIMRUNTIME . '\diff"'
-     else
-       let cmd = substitute($VIMRUNTIME, ' ', '" ', '') . '\diff"'
-     endif
-   else
-     let cmd = $VIMRUNTIME . '\diff'
-   endif
-   silent execute '!' . cmd . ' ' . opt . arg1 . ' ' . arg2 . ' > ' . arg3
-   if exists('l:shxq_sav')
-     let &shellxquote=l:shxq_sav
-   endif
+       silent execute '!' . cmd . ' ' . opt . arg1 . ' ' . arg2 . ' > ' . arg3
+       if exists('l:shxq_sav')
+         let &shellxquote=l:shxq_sav
+       endif
  endfunction
 
 
@@ -64,6 +64,9 @@ set diffexpr=MyDiff()
 "desert color scheme
 colo crazybilly 
 "colo mustang
+"
+"turn on pathogen
+execute pathogen#infect()
 
 "show white space characters
 set listchars=eol:$,tab:>-,trail:_,extends:>,precedes:<
@@ -71,6 +74,9 @@ set list
 
 "turns off that annoying bell!
 autocmd VimEnter * set vb t_vb=
+
+
+
 
 "make the window a nice size
 autocmd GUIEnter * winsize 120 82
@@ -90,14 +96,37 @@ set gfn=Powerline_Consolas:h11:cANSI
 	let g:airline_powerline_fonts = 1
 
     " enable airline tabline
-     let g:airline#extensions#tabline#enabled = 1
+    " let g:airline#extensions#tabline#enabled = 1
 
 "turn off the gui buttons
 set go-=T
 
-"removes those annoying vim backup files 
+
+" set the colors of the autocomplete menu to something sane
+"    the supertab plugin brings this up
+highlight Pmenu    guibg=#CCCCCC
+highlight PmenuSel guibg=#00AAAA
+
+
+"moves those annoying vim backup files to ~/vimtmp
 "(yes, they are useful, but I can't stand the clutter)
-set nobk
+" set nobackup
+" set nowritebackup
+" set noswapfile
+set backup
+set backupdir=~/vimtmp,.
+set backupskip=~/vimtmp/*,.
+set directory=~/vimtmp,.
+set undodir=~/vimtmp,.
+set writebackup
+
+
+" make the screen split below the current one (instead of above)
+set splitbelow
+"
+" Search case insensitive...but not when search pattern contains upper case characters
+set ignorecase
+set smartcase
 
 
 " reload vimrc automatically
@@ -139,8 +168,6 @@ imap <2-MiddleMouse> <Nop>
 imap <3-MiddleMouse> <Nop>
 imap <4-MiddleMouse> <Nop>
 
-"turn on pathogen
-execute pathogen#infect()
 
 
 "turn line numbering on
@@ -162,22 +189,33 @@ let g:ctrlp_cmd = 'CtrlP'
 	set wildignore+=*\\tmp\\*,*.swp,*.zip,*.exe,*.ttf,*.otf,*.mp3,*.flac,*.mp4,*.pdf,*.doc,*.docx,*.xls,*.xlsx,*.pdf.txt
 
 
+" set connection for dbtext to connect to warehouse
+ let g:dbext_default_profile_mySQL = 'type=MYSQL:user=adc:passwd=goBigBlue:dbname=commits:host=10.40.9.145' 
+ let g:dbext_default_profile = 'mySQL'
+
+
 
 " turn the leader to the spacebar
 let mapleader = "\<Space>"
 
 	" Leader shortcuts
 	nnoremap <Leader>o :CtrlP<CR>
-	"clear searches by whacking <space><space>
+
+	"clear searches by whacking <space> l
 	nmap <silent> <Leader>l :nohl<CR>
-	"print
+	
+    "print
 	nmap <Leader>p :ha!<CR>
-	"markdown bullet
+	
+    "markdown bullet
 	nmap <Leader>- :%s/^/- /g<CR>
-	"turn the whole thing to title case
+	
+    "turn the whole thing to title case
 	nmap <Leader>u :%s/\<\(\w\)\(\S*\)/\u\1\L\2/g<CR>%s/ \(And\|Of\) / \l\1 /g<CR>
-	"delete blank lines
+	
+    "delete blank lines
 	nmap <Leader>d :g/^\s*$/d<CR>
+
 
 	" Commenting blocks of code.
 	autocmd FileType c,cpp,java,javascript,mysql,sql     let b:comment_leader = '// '
@@ -242,10 +280,11 @@ map <F5> :NumbersToggle<CR>
 map <F6> :%s/\n/\~/ge<CR>:%s/\(.\{247}.\{-}\)\~/\1\r/ge<CR>:%s/^\~*//ge<CR>:%s/\~*\s*$//ge<CR>:%s/\~0\+/\~/ge<CR>:%s/^0\+//ge<CR>
 
 "turn a popsel log file into a list of pidms
-map <F7> :%s/^\s\+//ge<CR>:%s/^\(XPARM2-KEY.*\n\)\@!//ge<CR>:%s/^[A-W].*\n//ge<CR>:%s/^[Y-Z].*\n//ge<CR>:%s/^\n//ge<CR>:%s/^-.*\n//ge<CR>:%s/^\*.*\n//ge<CR>:%s/^[a-z].*\n//ge<CR>:%s/XPARM2-KEY = \s\+.*\n//ge<CR>:%s/XPARM2-KEY\s\+=\s\+//ge<CR>:%s/^<---.*//ge<CR>:%s/^\s*\n//ge<CR>:%s/\s\+$//ge<CR>
+"map <F7> :%s/^\s\+//ge<CR>:%s/^\(XPARM2-KEY.*\n\)\@!//ge<CR>:%s/^[A-W].*\n//ge<CR>:%s/^[Y-Z].*\n//ge<CR>:%s/^\n//ge<CR>:%s/^-.*\n//ge<CR>:%s/^\*.*\n//ge<CR>:%s/^[a-z].*\n//ge<CR>:%s/XPARM2-KEY = \s\+.*\n//ge<CR>:%s/XPARM2-KEY\s\+=\s\+//ge<CR>:%s/^<---.*//ge<CR>:%s/^\s*\n//ge<CR>:%s/\s\+$//ge<CR>
+map <F7> :v/XPARM2-KEY/d<CR>:%s/.*=\s\+\([0-9]\+\)\s*/\1/g<CR>:sort u<CR>
 
 
-"set syntax to sql 
+"set syntax to R
 map <F9> :set syntax=R<CR>
 
 "format sql
