@@ -1,3 +1,5 @@
+scriptencoding utf-8
+set encoding=utf-8
 set nocompatible
 source $VIMRUNTIME/vimrc_example.vim
 source $VIMRUNTIME/mswin.vim
@@ -233,7 +235,7 @@ let mapleader = "\<Space>"
 "map <F3> :v/^>/d<CR>:%s/^> //<CR>
 
 "remove special characters from contact reports (and other text blobs)
-map <F2> :%s/ì/"/ge<CR>:%s/î/"/ge<CR>:%s/í/'/ge<CR>:%s/ø/'/ge<CR>:%s/ë/'/ge<CR>:%s/`/'/ge<CR>
+map <F2> g/^$/d<CR>:%s/‚Äù/"/ge<CR>:%s/‚Äú/"/ge<CR>:%s/‚Äô/'/ge<CR>%s/\‚Äî/--/ge<CR>
 
 "prep MobileCause list of names for the True Blue 15 donor roll
 "map <F3> :g/^\s*$/d<CR>
@@ -262,6 +264,7 @@ map <F2> :%s/ì/"/ge<CR>:%s/î/"/ge<CR>:%s/í/'/ge<CR>:%s/ø/'/ge<CR>:%s/ë/'/ge<CR>:
             " add quotes before last name (depends on previous line)
             " add quotes after last name
             " remove any quotes in the header
+            
 map <F3>  :%s/,/,"<CR> 
             \:%s/,\([A-Z]\{4}\(,\|\*\)\)/",\1/<CR>
             \:%s/,[A-Z0-9\-\*]*,[A-Z0-9\-\*]*,[A-Z0-9\-\*]*,[A-Z0-9\-\*]*,[A-Z0-9\-\*]*,[A-Z0-9\-\*]*,[A-Z0-9\-\*]*,/&"/<CR>
@@ -277,12 +280,14 @@ map <F4> @q
 map <F5> :NumbersToggle<CR>
 
 "convert a list of pidms to hobsons filter rows
-map <F6> :%s/\n/\~/ge<CR>:%s/\(.\{247}.\{-}\)\~/\1\r/ge<CR>:%s/^\~*//ge<CR>:%s/\~*\s*$//ge<CR>:%s/\~0\+/\~/ge<CR>:%s/^0\+//ge<CR>
+map <F6> :sort u<CR>:%s/\n/\~/ge<CR>:%s/\(.\{247}.\{-}\)\~/\1\r/ge<CR>:%s/^\~*//ge<CR>:%s/\~*\s*$//ge<CR>:%s/\~0\+/\~/ge<CR>:%s/^0\+//ge<CR>
 
 "turn a popsel log file into a list of pidms
 "map <F7> :%s/^\s\+//ge<CR>:%s/^\(XPARM2-KEY.*\n\)\@!//ge<CR>:%s/^[A-W].*\n//ge<CR>:%s/^[Y-Z].*\n//ge<CR>:%s/^\n//ge<CR>:%s/^-.*\n//ge<CR>:%s/^\*.*\n//ge<CR>:%s/^[a-z].*\n//ge<CR>:%s/XPARM2-KEY = \s\+.*\n//ge<CR>:%s/XPARM2-KEY\s\+=\s\+//ge<CR>:%s/^<---.*//ge<CR>:%s/^\s*\n//ge<CR>:%s/\s\+$//ge<CR>
 map <F7> :v/XPARM2-KEY/d<CR>:%s/.*=\s\+\([0-9]\+\)\s*/\1/g<CR>:sort u<CR>
 
+"turn an appstdi file into a list of pidms
+map <F8> :g/^$/d<CR>:v/^\d/d<CR>:g/Millikin Uni/d<CR>:g/Student-Advancement Interface/d<CR>:%s/  .*//<CR>
 
 "set syntax to R
 map <F9> :set syntax=R<CR>
