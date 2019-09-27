@@ -2,6 +2,45 @@
 SetCapsLockState, AlwaysOff
 SetTitleMatchMode 2
 
++F9::
+  Send {Media_Play_Pause}
+return
+
++F10::
+  Send {Volume_Mute}
+return
+
++F11::
+  Send {Volume_Down}
+return
+
++F12::
+  Send {Volume_Up}
+return
+
+Launch_Media::
+   IfWinNotExist, Spotify
+   {
+	Run, C:\Users\jtolbert\AppData\Roaming\Spotify\Spotify.exe
+   } else
+   {
+	WinActivate Spotify
+   }
+return
+
+; Launch_mail
+
+Browser_home::
+	WinActivate Chrome
+return
+
+Launch_App2::
+	WinActivate Rstudio
+return
+
+
+
+
 ; --------------------------------------------
 ; OUTLOOK SHORTCUTS 
 ; --------------------------------------------
@@ -30,7 +69,9 @@ Return
 		{
 			WinActivate
 			Sleep, 250
-            Send !4
+            Send ^1
+			Sleep, 250
+            Send !5
 		} 
 return
 
@@ -58,7 +99,7 @@ return
 ; paste Excel table into Outlook message
 ^+v::
 	Send !7
-	Sleep 200
+	Sleep 500
 	Send {Home}
 	Send {Enter}
 return
@@ -103,6 +144,12 @@ return
 ; MISC and VIM SHORTCUTS 
 ; --------------------------------------------
 
+; send .Rproj for searching
+#y::
+Send Rproj
+return
+
+
 ; get properties quickly
 ^AppsKey::
 Send {AppsKey}
@@ -124,8 +171,6 @@ Send ^q
 Send {Tab}
 return
 
-
-
 ; in MapPoint, map unfound addresses to their zip code
 #m::
 KeyWait LWin
@@ -141,17 +186,22 @@ Loop, %unmapped%
 return
 
 ; enter default fund code stuff while creating a desgination
-; ^+v::
-; 
-; SendInput {Tab}
-; SendInput 98110
-; SendInput {Tab}
-; SendInput 52032 
-; SendInput {Tab}
-; SendInput 00
+; ^+m::
+ 
+;  SendInput {Tab}
+;  Sleep, 350
+;  SendInput 98110
+;  Sleep, 350
+;  SendInput {Tab}
+;  Sleep, 350
+;  SendInput 52032 
+;  Sleep, 350
+;  SendInput {Tab}
+;  Sleep, 350
+;  SendInput 00
 ; Send {Tab}{Tab}{Tab}
 ; 
-; return
+;  return
 
 
 
@@ -161,10 +211,10 @@ return
 ; --------------------------------------------
 
 ; format as college RFC
+#IfWinActive, ahk_class XLMAIN
 ^+y::
 SetTitleMatchMode, 2
-IfWinActive Excel 
-{
+
     KeyWait LWin
     KeyWait RWin
     Send {Alt}
@@ -174,19 +224,17 @@ IfWinActive Excel
     Send yl
     Sleep, 500
     Send ^{Home}
-}
 return
 
 ; write RFC file name
+#IfWinActive, ahk_class XLMAIN
 ^+r::
 SetTitleMatchMode, 2
-IfWinActive Excel 
-{
     InputBox, filename, subname of file
     rfcstring = Cash-Giving-Report-
     Send {F12} 
     Send !n
-    Sleep, 500
+    Sleep, 750
     Send %rfcstring%%filename%
     Sleep, 500
     Send {Up}
@@ -196,12 +244,11 @@ IfWinActive Excel
     Sleep, 500
     Send {Tab}
     Send {Down}{Home}{Enter}
-}
 return
 
 
 
-
+#IfWinActive
 
 ; select visible cells in Excel
 #v::

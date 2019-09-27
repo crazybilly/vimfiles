@@ -1,0 +1,1151 @@
+"Package","LibPath","Version","Priority","Depends","Imports","LinkingTo","Suggests","Enhances","License","License_is_FOSS","License_restricts_use","OS_type","MD5sum","NeedsCompilation","Built"
+"abind","C:/Users/jtolbert/Documents/R/win-library/3.5","1.4-5",,"R (>= 1.5.0)","methods, utils",,,,"LGPL (>= 2)",,,,,"no","3.5.2"
+"acepack","C:/Users/jtolbert/Documents/R/win-library/3.5","1.4.1",,,,,"testthat",,"MIT + file LICENSE",,,,,"yes","3.5.2"
+"ada","C:/Users/jtolbert/Documents/R/win-library/3.5","2.0-5",,"R(>= 2.10),rpart",,,,,"GPL",,,,,"no","3.5.2"
+"adabag","C:/Users/jtolbert/Documents/R/win-library/3.5","4.2",,"rpart, caret, foreach, doParallel",,,"mlbench",,"GPL (>= 2)",,,,,"no","3.5.2"
+"alphahull","C:/Users/jtolbert/Documents/R/win-library/3.5","2.2",,,"ggplot2, tripack, R.utils, sgeostat, spatstat, splancs",,,,"file LICENSE",,"yes",,,"yes","3.5.3"
+"antiword","C:/Users/jtolbert/Documents/R/win-library/3.5","1.3",,,"sys (>= 2.0)",,,,"GPL-2",,,,,"yes","3.5.2"
+"anytime","C:/Users/jtolbert/Documents/R/win-library/3.5","0.3.6",,"R (>= 3.2.0)","Rcpp (>= 0.12.9)","Rcpp (>= 0.12.9), BH","tinytest (>= 1.0.0), gettz",,"GPL (>= 2)",,,,,"yes","3.5.3"
+"ape","C:/Users/jtolbert/Documents/R/win-library/3.5","5.3",,"R (>= 3.2.0)","nlme, lattice, graphics, methods, stats, tools, utils,
+parallel, Rcpp (>= 0.12.0)","Rcpp","gee, expm, igraph",,"GPL (>= 2)",,,,,"yes","3.5.3"
+"arm","C:/Users/jtolbert/Documents/R/win-library/3.5","1.10-1",,"R (>= 3.1.0), MASS, Matrix (>= 1.0), stats, lme4 (>= 1.0)","abind, coda, graphics, grDevices, methods, nlme, utils",,,,"GPL (>= 3)",,,,,"no","3.5.2"
+"askpass","C:/Users/jtolbert/Documents/R/win-library/3.5","1.1",,,"sys (>= 2.1)",,"testthat",,"MIT + file LICENSE",,,,,"yes","3.5.2"
+"assertthat","C:/Users/jtolbert/Documents/R/win-library/3.5","0.2.1",,,"tools",,"testthat, covr",,"GPL-3",,,,,"no","3.5.3"
+"AUC","C:/Users/jtolbert/Documents/R/win-library/3.5","0.3.0",,,,,,,"GPL (>= 2)",,,,,"no","3.5.2"
+"audio","C:/Users/jtolbert/Documents/R/win-library/3.5","0.1-6",,"R (>= 2.0.0)",,,,,"MIT + file LICENSE",,,,,"yes","3.5.3"
+"backports","C:/Users/jtolbert/Documents/R/win-library/3.5","1.1.4",,"R (>= 3.0.0)","utils",,,,"GPL-2",,,,,"yes","3.5.3"
+"BAMMtools","C:/Users/jtolbert/Documents/R/win-library/3.5","2.1.6",,"ape, R (>= 2.10)","Rcpp (>= 0.11.0), gplots, methods",,"parallel",,"GPL (>= 2)",,,,,"yes","3.5.2"
+"base64enc","C:/Users/jtolbert/Documents/R/win-library/3.5","0.1-3",,"R (>= 2.9.0)",,,,"png","GPL-2 | GPL-3",,,,,"yes","3.5.2"
+"BatchGetSymbols","C:/Users/jtolbert/Documents/R/win-library/3.5","2.5.3",,"R (>= 3.4.0), rvest, dplyr","stringr, curl, quantmod, XML, tidyr, lubridate, scales, furrr,
+purrr, future, tibble, zoo",,"knitr, rmarkdown, testthat, ggplot2",,"GPL-2",,,,,"no","3.5.3"
+"bayesplot","C:/Users/jtolbert/Documents/R/win-library/3.5","1.7.0",,"R (>= 3.1.0)","dplyr (>= 0.8.0), ggplot2 (>= 2.2.1), ggridges, glue,
+reshape2, rlang (>= 0.3.0), stats, tibble, tidyselect, utils",,"gridExtra (>= 2.2.1), hexbin, knitr (>= 1.16), loo (>=
+2.0.0), RColorBrewer, rmarkdown (>= 1.0.0), rstan (>= 2.17.1),
+rstanarm (>= 2.17.4), rstantools (>= 1.5.0), scales, shinystan
+(>= 2.3.0), testthat (>= 2.0.0), vdiffr",,"GPL (>= 3)",,,,,"no","3.5.3"
+"BBmisc","C:/Users/jtolbert/Documents/R/win-library/3.5","1.11",,,"utils, methods, stats, checkmate (>= 1.8.0)",,"testthat, microbenchmark, codetools",,"BSD_2_clause + file LICENSE",,,,,"yes","3.5.2"
+"beepr","C:/Users/jtolbert/Documents/R/win-library/3.5","1.3",,,"stringr (>= 1.0.0), audio",,,,"GPL-3",,,,,"no","3.5.3"
+"BH","C:/Users/jtolbert/Documents/R/win-library/3.5","1.69.0-1",,,,,,,"BSL-1.0",,,,,"no","3.5.2"
+"bibtex","C:/Users/jtolbert/Documents/R/win-library/3.5","0.4.2",,"R (>= 3.0.2)","stringr, utils",,"testthat",,"GPL (>= 2)",,,,,"yes","3.5.2"
+"bindr","C:/Users/jtolbert/Documents/R/win-library/3.5","0.1.1",,,,,"testthat",,"MIT + file LICENSE",,,,,"no","3.5.2"
+"bindrcpp","C:/Users/jtolbert/Documents/R/win-library/3.5","0.2.2",,,"bindr (>= 0.1.1), Rcpp (>= 0.12.16)","plogr, Rcpp","testthat",,"MIT + file LICENSE",,,,,"yes","3.5.2"
+"binman","C:/Users/jtolbert/Documents/R/win-library/3.5","0.1.1",,"R (>= 3.3)","rappdirs, yaml, httr, jsonlite, xml2, utils, stats,
+assertthat, semver",,"testthat, covr, knitr, rmarkdown",,"MIT + file LICENSE",,,,,"no","3.5.2"
+"BiocInstaller","C:/Users/jtolbert/Documents/R/win-library/3.5","1.30.0",,"R (>= 3.5.0)",,,"remotes, RUnit, BiocGenerics",,"Artistic-2.0",,,,,"no","3.5.0"
+"bit","C:/Users/jtolbert/Documents/R/win-library/3.5","1.1-14",,"R (>= 2.9.2)",,,,,"GPL-2",,,,,"yes","3.5.2"
+"bit64","C:/Users/jtolbert/Documents/R/win-library/3.5","0.9-7",,"R (>= 3.0.1), bit (>= 1.1-12), utils, methods, stats",,,,,"GPL-2",,,,,"yes","3.5.2"
+"bitops","C:/Users/jtolbert/Documents/R/win-library/3.5","1.0-6",,,,,,,"GPL (>= 2)",,,,,"yes","3.5.2"
+"blastula","C:/Users/jtolbert/Documents/R/win-library/3.5","0.2.2",,"R (>= 3.2.1)","commonmark (>= 1.7), downloader (>= 0.4), dplyr (>= 0.8.0.1),
+fs (>= 1.2.6), getPass (>= 0.2-2), glue (>= 1.3.1), htmltools
+(>= 0.3.6), httr (>= 1.4.0), jsonlite (>= 1.6), magrittr (>=
+1.5), processx (>= 3.3.0), stringr (>= 1.4.0), tidyr (>=
+0.8.2), xml2 (>= 1.2.0), mime (>= 0.6), base64enc (>= 0.1-3)",,"covr, ggplot2, testthat, keyring, knitr, rmarkdown",,"MIT + file LICENSE",,,,,"no","3.5.2"
+"blob","C:/Users/jtolbert/Documents/R/win-library/3.5","1.2.0",,,"methods, prettyunits, rlang, vctrs (>= 0.2.0)",,"covr, crayon, pillar (>= 1.2.1), testthat",,"GPL-3",,,,,"no","3.5.3"
+"bmp","C:/Users/jtolbert/Documents/R/win-library/3.5","0.3",,,,,"pixmap, testthat",,"GPL (>= 2)",,,,,"no","3.5.2"
+"bnclassify","C:/Users/jtolbert/Documents/R/win-library/3.5","0.4.2",,"R (>= 3.2.0)","assertthat (>= 0.1), entropy(>= 1.2.0), matrixStats(>=
+0.14.0), rpart(>= 4.1-8), Rcpp,","Rcpp, BH","graph(>= 1.42.0), gRain(>= 1.2-3), gRbase(>= 1.7-0.1), mlr(>=
+2.2), testthat(>= 0.8.1), knitr(>= 1.10.5), ParamHelpers(>=
+1.5), Rgraphviz(>= 2.8.1), rmarkdown(>= 0.7), mlbench, covr",,"GPL (>= 2)",,,,,"yes","3.5.3"
+"bookdown","C:/Users/jtolbert/Documents/R/win-library/3.5","0.13",,,"htmltools (>= 0.3.6), knitr (>= 1.22), rmarkdown (>= 1.12),
+xfun (>= 0.6), tinytex (>= 0.12)",,"htmlwidgets, rstudioapi, miniUI, rsconnect (>= 0.4.3), servr
+(>= 0.13), shiny, testit (>= 0.9), tufte, webshot",,"GPL-3",,,,,"no","3.5.3"
+"boot","C:/Users/jtolbert/Documents/R/win-library/3.5","1.3-23","recommended","R (>= 3.0.0), graphics, stats",,,"MASS, survival",,"Unlimited",,,,,"no","3.5.3"
+"brew","C:/Users/jtolbert/Documents/R/win-library/3.5","1.0-6",,,,,,,"GPL-2",,,,,,"3.5.2"
+"brnn","C:/Users/jtolbert/Documents/R/win-library/3.5","0.7",,"R (>= 3.1.2), Formula",,,,,"GPL-2",,,,,"yes","3.5.2"
+"broom","C:/Users/jtolbert/Documents/R/win-library/3.5","0.5.2",,"R (>= 3.1)","backports, dplyr, generics (>= 0.0.2), methods, nlme, purrr,
+reshape2, stringr, tibble, tidyr",,"AER, akima, AUC, bbmle, betareg, biglm, binGroup, boot, brms,
+btergm, car, caret, coda, covr, e1071, emmeans, ergm, gam (>=
+1.15), gamlss, gamlss.data, gamlss.dist, geepack, ggplot2,
+glmnet, gmm, Hmisc, irlba, joineRML, Kendall, knitr, ks,
+Lahman, lavaan, lfe, lme4, lmodel2, lmtest, lsmeans, maps,
+maptools, MASS, Matrix, mclust, mgcv, muhaz, multcomp, network,
+nnet, orcutt (>= 2.2), ordinal, plm, plyr, poLCA, psych,
+quantreg, rgeos, rmarkdown, robust, rsample, rstan, rstanarm,
+sp, speedglm, statnet.common, survey, survival, testthat,
+tseries, xergm, zoo",,"MIT + file LICENSE",,,,,"no","3.5.3"
+"bst","C:/Users/jtolbert/Documents/R/win-library/3.5","0.3-17",,,"rpart, methods, foreach, doParallel, gbm",,"hdi, pROC, R.rsp, knitr, gdata",,"GPL (>= 2)",,,,,"no","3.5.3"
+"C50","C:/Users/jtolbert/Documents/R/win-library/3.5","0.1.2",,"R (>= 2.10.0)","partykit, Cubist (>= 0.2.1)",,"recipes, knitr",,"GPL-3",,,,,"yes","3.5.2"
+"Cairo","C:/Users/jtolbert/Documents/R/win-library/3.5","1.5-10",,"R (>= 2.4.0)","grDevices, graphics",,"png","FastRWeb","GPL-2",,,,,"yes","3.5.3"
+"callr","C:/Users/jtolbert/Documents/R/win-library/3.5","3.3.1",,,"processx (>= 3.4.0), R6, utils",,"cliapp, covr, crayon, knitr, pingr, ps, rmarkdown, rprojroot,
+spelling, testthat, tibble, withr",,"MIT + file LICENSE",,,,,"no","3.5.3"
+"car","C:/Users/jtolbert/Documents/R/win-library/3.5","3.0-3",,"R (>= 3.5.0), carData (>= 3.0-0)","abind, MASS, mgcv, nnet, pbkrtest (>= 0.4-4), quantreg,
+grDevices, utils, stats, graphics, maptools, rio, lme4, nlme",,"alr4, boot, coxme, leaps, lmtest, Matrix, MatrixModels, rgl
+(>= 0.93.960), sandwich, SparseM, survival, survey",,"GPL (>= 2)",,,,,"no","3.5.3"
+"carData","C:/Users/jtolbert/Documents/R/win-library/3.5","3.0-2",,"R (>= 3.0)",,,,,"GPL (>= 2)",,,,,"no","3.5.2"
+"caret","C:/Users/jtolbert/Documents/R/win-library/3.5","6.0-84",,"R (>= 3.2.0), lattice (>= 0.20), ggplot2","foreach, methods, plyr, ModelMetrics (>= 1.1.0), nlme,
+reshape2, stats, stats4, utils, grDevices, recipes (>= 0.1.4),
+withr (>= 2.0.0)",,"BradleyTerry2, e1071, earth (>= 2.2-3), fastICA, gam (>=
+1.15), ipred, kernlab, knitr, klaR, MASS, ellipse, mda, mgcv,
+mlbench, MLmetrics, nnet, party (>= 0.9-99992), pls, pROC,
+proxy, randomForest, RANN, spls, subselect, pamr, superpc,
+Cubist, testthat (>= 0.9.1), rpart, dplyr",,"GPL (>= 2)",,,,,"yes","3.5.3"
+"caTools","C:/Users/jtolbert/Documents/R/win-library/3.5","1.17.1.2",,"R (>= 2.2.0)","bitops",,"MASS, rpart",,"GPL-3",,,,,"yes","3.5.3"
+"cellranger","C:/Users/jtolbert/Documents/R/win-library/3.5","1.1.0",,"R (>= 3.0.0)","rematch, tibble",,"covr, testthat (>= 1.0.0), knitr, rmarkdown",,"MIT + file LICENSE",,,,,"no","3.5.2"
+"charlatan","C:/Users/jtolbert/Documents/R/win-library/3.5","0.3.0",,,"R6 (>= 2.2.0), tibble (>= 1.2), whisker",,"roxygen2 (>= 6.1.0), testthat, knitr, rmarkdown, iptools,
+stringi",,"MIT + file LICENSE",,,,,"no","3.5.2"
+"checkmate","C:/Users/jtolbert/Documents/R/win-library/3.5","1.9.4",,"R (>= 3.0.0)","backports (>= 1.1.0), utils",,"R6, bit, fastmatch, data.table (>= 1.9.8), devtools, ggplot2,
+knitr, magrittr, microbenchmark, rmarkdown, testthat (>=
+0.11.0), tibble",,"BSD_3_clause + file LICENSE",,,,,"yes","3.5.3"
+"chron","C:/Users/jtolbert/Documents/R/win-library/3.5","2.3-54",,"R (>= 2.12.0)","graphics, stats",,"scales, ggplot2","zoo","GPL-2",,,,,"yes","3.5.2"
+"CircStats","C:/Users/jtolbert/Documents/R/win-library/3.5","0.2-6",,"MASS, boot",,,,,"GPL-2",,,,,"no","3.5.2"
+"class","C:/Users/jtolbert/Documents/R/win-library/3.5","7.3-15","recommended","R (>= 3.0.0), stats, utils","MASS",,,,"GPL-2 | GPL-3",,,,,"yes","3.5.2"
+"classInt","C:/Users/jtolbert/Documents/R/win-library/3.5","0.4-1",,"R (>= 2.2)","grDevices, stats, graphics, e1071, class, KernSmooth",,"spData (>= 0.2.6.2), units",,"GPL (>= 2)",,,,,"yes","3.5.3"
+"cli","C:/Users/jtolbert/Documents/R/win-library/3.5","1.1.0",,"R (>= 2.10)","assertthat, crayon (>= 1.3.4), methods, utils",,"covr, fansi, mockery, testthat, webshot, withr",,"MIT + file LICENSE",,,,,"no","3.5.3"
+"clipr","C:/Users/jtolbert/Documents/R/win-library/3.5","0.7.0",,,"utils",,"covr, knitr, rmarkdown, rstudioapi (>= 0.5), testthat (>=
+2.0.0)",,"GPL-3",,,,,"no","3.5.3"
+"clisymbols","C:/Users/jtolbert/Documents/R/win-library/3.5","1.2.0",,,,,"testthat",,"MIT + file LICENSE",,,,,"no","3.5.2"
+"cluster","C:/Users/jtolbert/Documents/R/win-library/3.5","2.1.0","recommended","R (>= 3.3.0)","graphics, grDevices, stats, utils",,"MASS, Matrix",,"GPL (>= 2)",,,,,"yes","3.5.3"
+"coda","C:/Users/jtolbert/Documents/R/win-library/3.5","0.19-3",,"R (>= 2.14.0)","lattice",,,,"GPL (>= 2)",,,,,"no","3.5.3"
+"codetools","C:/Users/jtolbert/Documents/R/win-library/3.5","0.2-16","recommended","R (>= 2.1)",,,,,"GPL",,,,,"no","3.5.2"
+"coin","C:/Users/jtolbert/Documents/R/win-library/3.5","1.3-1",,"R (>= 3.4.0), survival","methods, parallel, stats, stats4, utils, libcoin (>= 1.0-0),
+matrixStats (>= 0.54.0), modeltools (>= 0.2-9), mvtnorm (>=
+1.0-5), multcomp","libcoin (>= 1.0-0)","xtable, e1071, vcd, TH.data (>= 1.0-7)",,"GPL-2",,,,,"yes","3.5.3"
+"coindeskr","C:/Users/jtolbert/Documents/R/win-library/3.5","0.1.0",,,"httr, jsonlite",,"testthat",,"CC0",,,,,"no","3.5.2"
+"coinmarketcapr","C:/Users/jtolbert/Documents/R/win-library/3.5","0.2",,,"jsonlite, ggplot2, curl",,"testthat, knitr, rmarkdown, ggthemes, dplyr",,"MIT + file LICENSE",,,,,"no","3.5.3"
+"colorspace","C:/Users/jtolbert/Documents/R/win-library/3.5","1.4-1",,"R (>= 3.0.0), methods","graphics, grDevices, stats",,"datasets, utils, KernSmooth, MASS, kernlab, mvtnorm, vcd,
+tcltk, shiny, shinyjs, ggplot2, dplyr, scales, grid, png, jpeg,
+knitr, rmarkdown, RColorBrewer, rcartocolor, scico, viridis,
+wesanderson",,"BSD_3_clause + file LICENSE",,,,,"yes","3.5.3"
+"colourpicker","C:/Users/jtolbert/Documents/R/win-library/3.5","1.0",,"R (>= 3.1.0)","ggplot2, htmltools, htmlwidgets (>= 0.7), jsonlite, miniUI (>=
+0.1.1), shiny (>= 0.11.1), shinyjs, utils",,"knitr (>= 1.7), rmarkdown, rstudioapi (>= 0.5)",,"MIT + file LICENSE",,,,,"no","3.5.3"
+"combinat","C:/Users/jtolbert/Documents/R/win-library/3.5","0.0-8",,,,,,,"GPL-2",,,,,,"3.5.2"
+"commonmark","C:/Users/jtolbert/Documents/R/win-library/3.5","1.7",,,,,"curl, testthat, xml2",,"BSD_2_clause + file LICENSE",,,,,"yes","3.5.2"
+"condformat","C:/Users/jtolbert/Documents/R/win-library/3.5","0.8.0",,,"grDevices, graphics, gridExtra (>= 2.3), gtable (>= 0.2.0),
+htmlTable (>= 1.9), htmltools (>= 0.3.6), tibble (>= 1.3.4),
+scales (>= 0.5.0), dplyr (>= 0.7.4), lazyeval (>= 0.2.0), knitr
+(>= 1.20), rmarkdown (>= 0.9.6), magrittr (>= 1.5), rlang (>=
+0.2.2), tidyselect (>= 0.2.2)",,"promises, shiny (>= 1.0.5), testthat (>= 1.0), xlsx (>=
+0.6.1)",,"BSD_3_clause + file LICENSE",,,,,"no","3.5.2"
+"corrplot","C:/Users/jtolbert/Documents/R/win-library/3.5","0.84",,,,,"knitr, RColorBrewer, testthat",,"GPL",,,,,"no","3.5.2"
+"corrr","C:/Users/jtolbert/Documents/R/win-library/3.5","0.4.0",,"R (>= 3.3.0)","dplyr (>= 0.8), ggplot2 (>= 2.2.0), seriation (>= 1.2-0),
+purrr (>= 0.2.2), tibble (>= 2.0), ggrepel (>= 0.6.5), methods
+(>= 3.4.3), rlang(>= 0.4.0)",,"testthat (>= 2.1.0), knitr (>= 1.13), rmarkdown (>= 0.9.6),
+dbplyr (>= 1.2.1), DBI, RSQLite, sparklyr (>= 0.9), covr",,"MIT + file LICENSE",,,,,"no","3.5.3"
+"countess","C:/Users/jtolbert/Documents/R/win-library/3.5","0.0-1",,,"dplyr,
+rlang",,,,"Unlimited",,,,,,"3.5.0"
+"countrycode","C:/Users/jtolbert/Documents/R/win-library/3.5","1.1.0",,"R (>= 2.10)",,,"testthat (>= 0.5)",,"GPL-3",,,,,"no","3.5.2"
+"covr","C:/Users/jtolbert/Documents/R/win-library/3.5","3.3.1",,"R (>= 3.1.0), methods","digest, stats, utils, jsonlite, rex, httr, crayon, withr (>=
+1.0.2), yaml",,"R6, knitr, rmarkdown, htmltools, DT (>= 0.2), testthat,
+rlang, rstudioapi (>= 0.2), xml2 (>= 1.0.0), parallel, memoise,
+mockery",,"GPL-3",,,,,"yes","3.5.3"
+"cowplot","C:/Users/jtolbert/Documents/R/win-library/3.5","1.0.0",,"R (>= 3.5.0)","ggplot2 (> 2.2.1), grid, gtable, grDevices, methods, rlang,
+scales, utils",,"Cairo, covr, dplyr, forcats, gridGraphics (>= 0.4-0), knitr,
+lattice, magick, maps, PASWR, rmarkdown, testthat (>= 1.0.0),
+tidyr, vdiffr (>= 0.3.0), VennDiagram",,"GPL-2",,,,,"no","3.5.3"
+"cowsay","C:/Users/jtolbert/Documents/R/win-library/3.5","0.7.0",,,"crayon, fortunes, rmsfact",,"curl, jsonlite, knitr, multicolor, rmarkdown, roxygen2 (>=
+6.1.0), testthat",,"MIT + file LICENSE",,,,,"no","3.5.2"
+"crayon","C:/Users/jtolbert/Documents/R/win-library/3.5","1.3.4",,,"grDevices, methods, utils",,"mockery, rstudioapi, testthat, withr",,"MIT + file LICENSE",,,,,"no","3.5.2"
+"crosstalk","C:/Users/jtolbert/Documents/R/win-library/3.5","1.0.0",,,"htmltools (>= 0.3.5), jsonlite, lazyeval, R6, shiny (>= 0.11),
+ggplot2",,,,"MIT + file LICENSE",,,,,"no","3.5.2"
+"crypto","C:/Users/jtolbert/Documents/R/win-library/3.5","1.1.1",,"R (>= 3.4.0), rvest, xml2","dplyr, tibble, jsonlite, lubridate, xts, curl, utils, cli,
+crayon, progress, stats, tidyr, httr, rstudioapi",,"R6",,"MIT + file LICENSE",,,,,"no","3.5.3"
+"Cubist","C:/Users/jtolbert/Documents/R/win-library/3.5","0.2.2",,"lattice","reshape2",,"mlbench, caret, knitr",,"GPL-3",,,,,"yes","3.5.2"
+"curl","C:/Users/jtolbert/Documents/R/win-library/3.5","4.0",,"R (>= 3.0.0)",,,"askpass, spelling, testthat (>= 1.0.0), knitr, jsonlite,
+rmarkdown, magrittr, httpuv (>= 1.4.4), webutils",,"MIT + file LICENSE",,,,,"yes","3.5.3"
+"curlconverter","C:/Users/jtolbert/Documents/R/win-library/3.5","1.0.0",,"R (>= 3.2.0),
+httr","curl,
+clipr,
+stringi,
+formatR,
+magrittr,
+jsonlite,
+methods,
+docopt,
+stats",,"testthat,
+covr",,"AGPL",,,,,,"3.5.0"
+"CVST","C:/Users/jtolbert/Documents/R/win-library/3.5","0.2-2",,"kernlab,Matrix",,,,,"GPL (>= 2.0)",,,,,"no","3.5.2"
+"das","C:/Users/jtolbert/Documents/R/win-library/3.5","0.1.0",,,,,,,"What license is it under?",,,,,,"3.5.0"
+"das18","C:/Users/jtolbert/Documents/R/win-library/3.5","0.1.0",,,,,,,"What license is it under?",,,,,,"3.5.0"
+"data.table","C:/Users/jtolbert/Documents/R/win-library/3.5","1.12.2",,"R (>= 3.1.0)","methods",,"bit64, curl, R.utils, knitr, xts, nanotime, zoo",,"MPL-2.0 | file LICENSE",,,,,"yes","3.5.3"
+"data.tree","C:/Users/jtolbert/Documents/R/win-library/3.5","0.7.8",,"R (>= 3.0)","R6, stringr, methods, DiagrammeR (>= 1.0.0)",,"Formula, graphics, testthat, knitr, rmarkdown, ape, yaml,
+networkD3, jsonlite, igraph, treemap, party, partykit,
+doParallel, foreach, htmlwidgets","","GPL (>= 2)",,,,,"no","3.5.3"
+"datapasta","C:/Users/jtolbert/Documents/R/win-library/3.5","3.0.0",,"R (>= 3.3.0)","readr (>= 1.0.0), clipr (>= 0.3.0), rstudioapi (>= 0.6)",,"tibble (>= 1.2), testthat, knitr, rmarkdown, covr",,"MIT + file LICENSE",,,,,"no","3.5.2"
+"daymetr","C:/Users/jtolbert/Documents/R/win-library/3.5","1.4",,"R (>= 3.4)","sp, raster, httr, tidyr, tibble, tools, utils",,"ggplot2, dplyr, rgeos, rgdal, ncdf4, knitr, rmarkdown, covr,
+testthat",,"AGPL-3",,,,,"no","3.5.2"
+"DBI","C:/Users/jtolbert/Documents/R/win-library/3.5","1.0.0",,"R (>= 3.0.0), methods",,,"blob, covr, hms, knitr, magrittr, rprojroot, rmarkdown,
+RSQLite (>= 1.1-2), testthat, xml2",,"LGPL (>= 2)",,,,,"no","3.5.2"
+"DBItest","C:/Users/jtolbert/Documents/R/win-library/3.5","1.5-2",,"R (>= 3.0.0)","blob, DBI (>= 0.4-9), desc, hms, methods, R6, testthat (>=
+1.0.2), withr",,"knitr, lintr, rmarkdown",,"LGPL (>= 2)",,,,,"no","3.5.2"
+"dbplyr","C:/Users/jtolbert/Documents/R/win-library/3.5","1.4.2",,"R (>= 3.1)","assertthat (>= 0.2.0), DBI (>= 1.0.0), dplyr (>= 0.8.0), glue
+(>= 1.2.0), methods, purrr (>= 0.2.5), R6 (>= 2.2.2), rlang (>=
+0.2.0), tibble (>= 1.4.2), tidyselect (>= 0.2.4), utils",,"bit64, covr, knitr, Lahman, nycflights13, RMariaDB (>=
+1.0.2), rmarkdown, RMySQL (>= 0.10.11), RPostgreSQL (>= 0.4.1),
+RSQLite (>= 2.1.0), testthat (>= 2.0.0), withr (>= 2.1.2)",,"MIT + file LICENSE",,,,,"no","3.5.3"
+"ddalpha","C:/Users/jtolbert/Documents/R/win-library/3.5","1.3.9",,"R (>= 2.10), stats, utils, graphics, grDevices, MASS, class,
+robustbase, sfsmisc, geometry","Rcpp (>= 0.11.0)","BH, Rcpp",,,"GPL-2",,,,,"yes","3.5.3"
+"debugme","C:/Users/jtolbert/Documents/R/win-library/3.5","1.1.0",,,"crayon, grDevices",,"covr, mockery, R6, testthat, withr",,"MIT + file LICENSE",,,,,"no","3.5.2"
+"deldir","C:/Users/jtolbert/Documents/R/win-library/3.5","0.1-23",,"R (>= 0.99)","graphics, grDevices",,"polyclip",,"GPL (>= 2)",,,,,"yes","3.5.3"
+"dendextend","C:/Users/jtolbert/Documents/R/win-library/3.5","1.12.0",,"R (>= 3.0.0)","utils, stats, datasets, magrittr (>= 1.0.1), ggplot2, viridis",,"knitr, rmarkdown, testthat, seriation, colorspace, ape,
+profdpm, microbenchmark, gplots, heatmaply, d3heatmap,
+dynamicTreeCut, pvclust, corrplot, DendSer, MASS, cluster, fpc,
+circlize (>= 0.2.5), covr","ggdendro, dendroextras, Hmisc, data.table, rpart","GPL-2 | GPL-3",,,,,"no","3.5.3"
+"DEoptimR","C:/Users/jtolbert/Documents/R/win-library/3.5","1.0-8",,,"stats",,,"robustbase","GPL (>= 2)",,,,,"no","3.5.2"
+"Deriv","C:/Users/jtolbert/Documents/R/win-library/3.5","3.8.5",,,,,"testthat",,"GPL (>= 3)",,,,,"no","3.5.2"
+"desc","C:/Users/jtolbert/Documents/R/win-library/3.5","1.2.0",,"R (>= 3.1.0)","assertthat, utils, R6, crayon, rprojroot",,"covr, testthat, whoami, withr",,"MIT + file LICENSE",,,,,"no","3.5.2"
+"devtools","C:/Users/jtolbert/Documents/R/win-library/3.5","2.2.0",,"R (>= 3.0.2), usethis (>= 1.5.0)","callr, cli, covr (>= 3.2.0), crayon, desc, digest, DT,
+ellipsis, glue, git2r (>= 0.23.0), httr (>= 0.4), jsonlite,
+memoise (>= 1.0.0), pkgbuild (>= 1.0.3), pkgload (>= 1.0.2),
+rcmdcheck (>= 1.3.3), remotes (>= 2.1.0), roxygen2 (>= 6.1.1),
+rstudioapi (>= 0.7), rversions, sessioninfo (>= 1.1.1), stats,
+testthat (>= 2.1.1), tools, utils, withr",,"BiocManager, bitops, curl (>= 0.9), evaluate, foghorn (>=
+1.1.0), gmailr (> 0.7.0), knitr, lintr (>= 0.2.1), mockery,
+pingr, MASS, pkgdown, Rcpp (>= 0.10.0), rhub (>= 1.0.2),
+rmarkdown, spelling (>= 1.1), whisker",,"GPL (>= 2)",,,,,"no","3.5.3"
+"DiagrammeR","C:/Users/jtolbert/Documents/R/win-library/3.5","1.0.1",,"R (>= 3.2.0)","dplyr (>= 0.7.4), downloader (>= 0.4), glue (>= 1.2.0),
+htmltools (>= 0.3.6), htmlwidgets (>= 1.0), igraph (>= 1.1.2),
+influenceR (>= 0.1.0), magrittr (>= 1.5), purrr (>= 0.2.4),
+RColorBrewer (>= 1.1-2), readr (>= 1.1.1), rlang (>= 0.2.0),
+rstudioapi (>= 0.7), rgexf (>= 0.15.3), scales (>= 0.5.0),
+stringr (>= 1.3.0), tibble (>= 1.4.2), tidyr (>= 0.8.0),
+viridis (>= 0.5.0), visNetwork (>= 2.0.3)",,"covr, DiagrammeRsvg, rsvg, knitr, testthat",,"MIT + file LICENSE",,,,,"no","3.5.3"
+"dials","C:/Users/jtolbert/Documents/R/win-library/3.5","0.0.2",,"scales","glue, purrr, rlang, tibble, dplyr, utils, withr",,"testthat, knitr, rpart, covr, kernlab",,"GPL-2",,,,,"no","3.5.3"
+"dichromat","C:/Users/jtolbert/Documents/R/win-library/3.5","2.0-0",,"R (>= 2.10), stats",,,,,"GPL-2",,,,,,"3.5.2"
+"digest","C:/Users/jtolbert/Documents/R/win-library/3.5","0.6.20",,"R (>= 3.1.0)",,,"tinytest, knitr, rmarkdown",,"GPL (>= 2)",,,,,"yes","3.5.3"
+"dimRed","C:/Users/jtolbert/Documents/R/win-library/3.5","0.2.3",,"R (>= 3.0.0), DRR","magrittr, methods",,"NMF, MASS, Matrix, RANN, RSpectra, Rtsne, cccd, coRanking,
+diffusionMap, energy, fastICA, ggplot2, graphics, igraph,
+keras, kernlab, knitr, lle, loe, optimx, pcaL1, pcaPP,
+reticulate, rgl, scales, scatterplot3d, stats, tensorflow,
+testthat, tidyr, tinytex, umap, vegan",,"GPL-3 | file LICENSE",,,,,"yes","3.5.3"
+"diptest","C:/Users/jtolbert/Documents/R/win-library/3.5","0.75-7",,,,,,,"GPL (>= 2)",,,,,"yes","3.5.2"
+"directlabels","C:/Users/jtolbert/Documents/R/win-library/3.5","2018.05.22",,,"grid, quadprog",,"MASS, inlinedocs, ggplot2 (>= 2.0), rlang, lattice,
+alphahull, nlme, ElemStatLearn, lars, latticeExtra, dplyr",,"GPL-3",,,,,"no","3.5.2"
+"dlookr","C:/Users/jtolbert/Documents/R/win-library/3.5","0.3.11",,"R (>= 3.2.0), mice","dplyr, magrittr, tidyr, ggplot2, RcmdrMisc, corrplot, rlang,
+purrr, tibble, tidyselect, classInt, moments, kableExtra,
+prettydoc, smbinning, xtable, knitr, rmarkdown, RColorBrewer,
+gridExtra, tinytex, methods, DMwR, rpart",,"ISLR, nycflights13, randomForest, dbplyr, DBI, RSQLite,
+testthat",,"GPL-2 | file LICENSE",,,,,"no","3.5.3"
+"DMwR","C:/Users/jtolbert/Documents/R/win-library/3.5","0.4.1",,"R(>= 2.10), methods, graphics, lattice (>= 0.18-3), grid (>=
+2.10.1)","xts (>= 0.6-7), quantmod (>= 0.3-8), zoo (>= 1.6-4), abind (>=
+1.1-0), rpart (>= 3.1-46), class (>= 7.3-1), ROCR (>= 1.0)",,,,"GPL (>= 2)",,,,,"no","3.5.2"
+"docker","C:/Users/jtolbert/Documents/R/win-library/3.5","0.0.2",,"R (>= 3.1.0)","reticulate",,"testthat, knitr, rmarkdown",,"MIT + file LICENSE",,,,,"no","3.5.2"
+"docopt","C:/Users/jtolbert/Documents/R/win-library/3.5","0.6.1",,,"methods",,"testthat",,"MIT + file LICENSE",,,,,"no","3.5.2"
+"docstring","C:/Users/jtolbert/Documents/R/win-library/3.5","1.0.0",,,"roxygen2, utils, tools",,"devtools, rstudioapi, knitr, rmarkdown",,"GPL-2",,,,,"no","3.5.2"
+"doParallel","C:/Users/jtolbert/Documents/R/win-library/3.5","1.0.15",,"R (>= 2.14.0), foreach(>= 1.2.0), iterators(>= 1.0.0),
+parallel, utils",,,"caret, mlbench, rpart, RUnit","compiler","GPL-2",,,,,"no","3.5.3"
+"doRNG","C:/Users/jtolbert/Documents/R/win-library/3.5","1.7.1",,"R (>= 3.0.0), foreach, rngtools (>= 1.3)","stats, utils, iterators, pkgmaker (>= 0.20)",,"doParallel, doMPI, doRedis, rbenchmark, devtools, knitr,
+bibtex, testthat",,"GPL (>= 2)",,,,,"no","3.5.2"
+"downloader","C:/Users/jtolbert/Documents/R/win-library/3.5","0.4",,,"utils, digest",,"testthat",,"GPL-2",,,,,"no","3.5.2"
+"dplyr","C:/Users/jtolbert/Documents/R/win-library/3.5","0.8.3",,"R (>= 3.2.0)","assertthat (>= 0.2.0), glue (>= 1.3.0), magrittr (>= 1.5),
+methods, pkgconfig, R6, Rcpp (>= 1.0.1), rlang (>= 0.4.0),
+tibble (>= 2.0.0), tidyselect (>= 0.2.5), utils","BH, plogr (>= 0.2.0), Rcpp (>= 1.0.1)","bit64, callr, covr, crayon (>= 1.3.4), DBI, dbplyr, dtplyr,
+ggplot2, hms, knitr, Lahman, lubridate, MASS, mgcv,
+microbenchmark, nycflights13, rmarkdown, RMySQL, RPostgreSQL,
+RSQLite, testthat, withr, broom, purrr, readr",,"MIT + file LICENSE",,,,,"yes","3.5.3"
+"DRR","C:/Users/jtolbert/Documents/R/win-library/3.5","0.0.3",,"kernlab, CVST, Matrix","stats, methods",,"knitr, rmarkdown",,"GPL-3 | file LICENSE",,,,,"no","3.5.2"
+"DT","C:/Users/jtolbert/Documents/R/win-library/3.5","0.8",,,"htmltools (>= 0.3.6), htmlwidgets (>= 1.3), jsonlite (>=
+0.9.16), magrittr, crosstalk, promises",,"knitr (>= 1.8), rmarkdown, shiny (>= 1.1.0)",,"GPL-3 | file LICENSE",,,,,"no","3.5.3"
+"dtplyr","C:/Users/jtolbert/Documents/R/win-library/3.5","0.0.3",,,"dplyr (>= 0.5.0), data.table (>= 1.9.6), lazyeval, rlang",,"Lahman, nycflights13, testthat, covr",,"GPL (>= 2)",,,,,"no","3.5.3"
+"dtt","C:/Users/jtolbert/Documents/R/win-library/3.5","0.1-2",,,,,,,"GPL (>= 2)",,,,,"no","3.5.2"
+"dygraphs","C:/Users/jtolbert/Documents/R/win-library/3.5","1.1.1.6",,"R (>= 3.0)","magrittr, htmlwidgets (>= 0.6), htmltools (>= 0.3.5), zoo (>=
+1.7-10), xts (>= 0.9-7)",,"testthat","rmarkdown (>= 0.3.3), shiny (>= 0.10.2.1)","MIT + file LICENSE",,,,,"no","3.5.2"
+"e1071","C:/Users/jtolbert/Documents/R/win-library/3.5","1.7-2",,,"graphics, grDevices, class, stats, methods, utils",,"cluster, mlbench, nnet, randomForest, rpart, SparseM, xtable,
+Matrix, MASS, slam",,"GPL-2 | GPL-3",,,,,"yes","3.5.3"
+"earth","C:/Users/jtolbert/Documents/R/win-library/3.5","5.1.1",,"R (>= 3.4.0), Formula (>= 1.2-3), plotmo (>= 3.5.4),
+TeachingDemos (>= 2.10)",,,"gam (>= 1.16), mgcv (>= 1.8-26), mda (>= 0.4-10), MASS (>=
+7.3-51)",,"GPL-3",,,,,"yes","3.5.3"
+"editData","C:/Users/jtolbert/Documents/R/win-library/3.5","0.1.2",,"R (>= 2.10)","shiny (>= 0.13), miniUI (>= 0.1.1), rstudioapi (>= 0.5), DT,
+tibble",,"knitr, rmarkdown",,"GPL-3",,,,,"no","3.5.2"
+"elasticnet","C:/Users/jtolbert/Documents/R/win-library/3.5","1.1.1",,"R (>= 2.10), lars",,,,,"GPL (>= 2)",,,,,"no","3.5.2"
+"ellipse","C:/Users/jtolbert/Documents/R/win-library/3.5","0.4.1",,"R (>= 2.0.0),graphics,stats",,,"MASS",,"GPL (>= 2)",,,,,"no","3.5.3"
+"ellipsis","C:/Users/jtolbert/Documents/R/win-library/3.5","0.2.0.1",,"R (>= 3.1)","rlang (>= 0.3.0)",,"covr, testthat",,"GPL-3",,,,,"yes","3.5.3"
+"emmeans","C:/Users/jtolbert/Documents/R/win-library/3.5","1.4.1",,"R (>= 3.2)","estimability (>= 1.3), graphics, methods, numDeriv, stats,
+utils, plyr, mvtnorm, xtable (>= 1.8-2)",,"bayesplot, biglm, brms, car, coda (>= 0.17), ggplot2,
+lattice, mediation, mgcv, multcomp, multcompView, nlme, ordinal
+(>= 2014.11-12), pbkrtest (>= 0.4-1), lme4, lmerTest (>=
+2.0.32), MASS, MuMIn, rsm, knitr, rmarkdown, scales, testthat","CARBayes, coxme, gee, geepack, MCMCglmm, MCMCpack, mice,
+nnet, pscl, rstanarm, sommer, survival","GPL-2 | GPL-3",,,,,"no","3.5.3"
+"enc","C:/Users/jtolbert/Documents/R/win-library/3.5","0.2.1",,"R (>= 3.1)","methods",,"digest, pillar, readr, rlang, testthat, withr",,"GPL-3",,,,,"yes","3.5.3"
+"entropy","C:/Users/jtolbert/Documents/R/win-library/3.5","1.2.1",,"R (>= 2.15.1)",,,"",,"GPL (>= 3)",,,,,"no","3.5.2"
+"estimability","C:/Users/jtolbert/Documents/R/win-library/3.5","1.3",,"stats",,,,,"GPL (>= 3)",,,,,"no","3.5.2"
+"evaluate","C:/Users/jtolbert/Documents/R/win-library/3.5","0.14",,"R (>= 3.0.2)","methods",,"testthat, lattice, ggplot2",,"MIT + file LICENSE",,,,,"no","3.5.3"
+"extraDistr","C:/Users/jtolbert/Documents/R/win-library/3.5","1.8.11",,"R (>= 3.1.0)","Rcpp","Rcpp","testthat, LaplacesDemon, VGAM, evd, hoa, skellam, triangle,
+actuar",,"GPL-2",,,,,"yes","3.5.3"
+"extrafont","C:/Users/jtolbert/Documents/R/win-library/3.5","0.17",,"R (>= 2.15)","extrafontdb, grDevices, utils, Rttf2pt1",,"fontcm",,"GPL-2",,,,,"no","3.5.2"
+"extrafontdb","C:/Users/jtolbert/Documents/R/win-library/3.5","1.0",,"R (>= 2.14)",,,,,"GPL-2",,,,,,"3.5.2"
+"extraTrees","C:/Users/jtolbert/Documents/R/win-library/3.5","1.0.5",,"R (>= 2.7.0), rJava (>= 0.5-0)",,,"testthat, Matrix",,"Apache License 2.0",,,,,"no","3.5.2"
+"factoextra","C:/Users/jtolbert/Documents/R/win-library/3.5","1.0.5",,"R (>= 3.1.2), ggplot2 (>= 2.2.0)","abind, cluster, dendextend, FactoMineR, ggpubr(>= 0.1.5),
+grid, stats, reshape2, ggrepel, tidyr",,"ade4, ca, igraph, MASS, knitr, mclust",,"GPL-2",,,,,"no","3.5.3"
+"FactoMineR","C:/Users/jtolbert/Documents/R/win-library/3.5","1.42",,"R (>= 3.0.0)","car,cluster,ellipse,flashClust,graphics,grDevices,lattice,leaps,MASS,scatterplot3d,stats,utils",,"missMDA,knitr",,"GPL (>= 2)",,,,,"no","3.5.3"
+"fansi","C:/Users/jtolbert/Documents/R/win-library/3.5","0.4.0",,"R (>= 3.1.0)",,,"unitizer, knitr, rmarkdown",,"GPL (>= 2)",,,,,"yes","3.5.2"
+"fastAdaboost","C:/Users/jtolbert/Documents/R/win-library/3.5","1.0.0",,"R (>= 3.1.2)","Rcpp, rpart","Rcpp (>= 0.12.0)","testthat, knitr, MASS",,"MIT + file LICENSE",,,,,"yes","3.5.2"
+"fastmatch","C:/Users/jtolbert/Documents/R/win-library/3.5","1.1-0",,,,,,,"GPL-2",,,,,"yes","3.5.2"
+"feather","C:/Users/jtolbert/Documents/R/win-library/3.5","0.3.5",,,"Rcpp, tibble (>= 2.0.0), hms","Rcpp","testthat",,"Apache License 2.0",,,,,"yes","3.5.2"
+"filelock","C:/Users/jtolbert/Documents/R/win-library/3.5","1.0.2",,,,,"callr (>= 2.0.0), covr, testthat",,"MIT + file LICENSE",,,,,"yes","3.5.2"
+"FinancialInstrument","C:/Users/jtolbert/Documents/R/win-library/3.5","1.3.1",,"R (>= 3.0.0), methods, quantmod (>= 0.4-3), zoo (>= 1.7-5),
+xts (>= 0.10-0)","TTR",,"foreach, XML (>= 3.96.1.1), testthat, timeSeries",,"GPL",,,,,"no","3.5.2"
+"flashClust","C:/Users/jtolbert/Documents/R/win-library/3.5","1.01-2",,"R (>= 2.3.0)",,,,,"GPL (>= 2)",,,,,,"3.5.2"
+"flexclust","C:/Users/jtolbert/Documents/R/win-library/3.5","1.4-0",,"R (>= 2.14.0), graphics, grid, lattice, modeltools","methods, parallel, stats, stats4, class",,"ellipse, clue, cluster, seriation, skmeans",,"GPL-2",,,,,"yes","3.5.2"
+"flexmix","C:/Users/jtolbert/Documents/R/win-library/3.5","2.3-15",,"R (>= 2.15.0), lattice","graphics, grid, grDevices, methods, modeltools (>= 0.2-16),
+nnet, stats, stats4, utils",,"actuar, codetools, diptest, Ecdat, ellipse, gclus, glmnet,
+lme4 (>= 1.1), MASS, mgcv (>= 1.8-0), mlbench, multcomp,
+mvtnorm, SuppDists, survival",,"GPL (>= 2)",,,,,"no","3.5.2"
+"flextable","C:/Users/jtolbert/Documents/R/win-library/3.5","0.5.5",,,"stats, utils, grDevices, graphics, officer (>= 0.2.0),
+rmarkdown, knitr, htmltools, xml2, data.table, gdtools (>=
+0.1.6), rlang, base64enc",,"testthat, xtable, magrittr, webshot, magick, ggplot2",,"GPL-3",,,,,"no","3.5.3"
+"forcats","C:/Users/jtolbert/Documents/R/win-library/3.5","0.4.0",,"R (>= 3.1)","ellipsis, magrittr, rlang, tibble",,"covr, ggplot2, testthat, readr, knitr, rmarkdown, dplyr",,"GPL-3",,,,,"no","3.5.2"
+"foreach","C:/Users/jtolbert/Documents/R/win-library/3.5","1.4.7",,"R (>= 2.5.0)","codetools, utils, iterators",,"randomForest","compiler, doMC, RUnit, doParallel","Apache License (== 2.0)",,,,,"no","3.5.3"
+"forecast","C:/Users/jtolbert/Documents/R/win-library/3.5","8.9",,"R (>= 3.0.2),","colorspace, fracdiff, ggplot2 (>= 2.2.1), graphics, lmtest,
+magrittr, nnet, parallel, Rcpp (>= 0.11.0), stats, timeDate,
+tseries, urca, zoo","Rcpp (>= 0.11.0), RcppArmadillo (>= 0.2.35)","uroot, knitr, rmarkdown, rticles, testthat, methods",,"GPL-3",,,,,"yes","3.5.3"
+"foreign","C:/Users/jtolbert/Documents/R/win-library/3.5","0.8-72","recommended","R (>= 3.0.0)","methods, utils, stats",,,,"GPL (>= 2)",,,,,"yes","3.5.3"
+"formatR","C:/Users/jtolbert/Documents/R/win-library/3.5","1.7",,"R (>= 3.0.2)",,,"codetools, shiny, testit, rmarkdown, knitr",,"GPL",,,,,"no","3.5.3"
+"formattable","C:/Users/jtolbert/Documents/R/win-library/3.5","0.2.0.1",,"R (> 3.0.2)","methods, htmltools, htmlwidgets, knitr, rmarkdown",,"testthat, DT, shiny, covr",,"MIT + file LICENSE",,,,,"no","3.5.3"
+"Formula","C:/Users/jtolbert/Documents/R/win-library/3.5","1.2-3",,"R (>= 2.0.0), stats",,,,,"GPL-2 | GPL-3",,,,,"no","3.5.2"
+"fortunes","C:/Users/jtolbert/Documents/R/win-library/3.5","1.5-4",,,"utils",,,,"GPL-2 | GPL-3",,,,,"no","3.5.2"
+"fpc","C:/Users/jtolbert/Documents/R/win-library/3.5","2.2-3",,"R (>= 2.0)","MASS, cluster, mclust, flexmix, prabclus, class, diptest,
+robustbase, kernlab, grDevices, graphics, methods, stats,
+utils, parallel",,"tclust, pdfCluster, EMMIXskew, mvtnorm",,"GPL",,,,,"no","3.5.3"
+"fracdiff","C:/Users/jtolbert/Documents/R/win-library/3.5","1.4-2",,,,,"longmemo, urca",,"GPL (>= 2)",,,,,,"3.5.2"
+"fs","C:/Users/jtolbert/Documents/R/win-library/3.5","1.3.1",,"R (>= 3.1)","methods, Rcpp","Rcpp","testthat, covr, pillar (>= 1.0.0), crayon, rmarkdown, knitr,
+withr, spelling",,"GPL-3",,,,,"yes","3.5.3"
+"fundRaising","C:/Users/jtolbert/Documents/R/win-library/3.5","0.1.0",,,"lubridate,
+stringr,
+dplyr,
+purrr,
+rlang,
+zipcode,
+ggmap,
+tibble",,,,"GPL3",,,,,,"3.5.2"
+"furrr","C:/Users/jtolbert/Documents/R/win-library/3.5","0.1.0",,"R (>= 3.2.0), future (>= 1.6.2)","globals (>= 0.10.3), rlang (>= 0.2.0), purrr (>= 0.2.4)",,"listenv (>= 0.6.0), dplyr (>= 0.7.4), testthat",,"LGPL (>= 2.1)",,,,,"no","3.5.3"
+"futile.logger","C:/Users/jtolbert/Documents/R/win-library/3.5","1.4.3",,"R (>= 3.0.0)","utils, lambda.r (>= 1.1.0), futile.options",,"testthat, jsonlite",,"LGPL-3",,,,,"no","3.5.3"
+"futile.options","C:/Users/jtolbert/Documents/R/win-library/3.5","1.0.1",,"R (>= 2.8.0)",,,,,"LGPL-3",,,,,"no","3.5.2"
+"future","C:/Users/jtolbert/Documents/R/win-library/3.5","1.14.0",,,"digest, globals (>= 0.12.4), listenv (>= 0.7.0), parallel,
+utils",,"R.rsp, markdown",,"LGPL (>= 2.1)",,,,,"no","3.5.3"
+"fuzzyforest","C:/Users/jtolbert/Documents/R/win-library/3.5","1.0.5",,"R (>= 3.2.1)","randomForest, foreach, doRNG, doParallel, parallel, ggplot2,
+mvtnorm",,"WGCNA, testthat",,"GPL-3",,,,,"no","3.5.2"
+"fuzzyjoin","C:/Users/jtolbert/Documents/R/win-library/3.5","0.1.5",,"R (>= 2.10)","stringdist, stringr, dplyr (>= 0.8.1), tidyr (>= 0.4.0),
+purrr, geosphere, tibble",,"testthat, knitr, ggplot2, qdapDictionaries, readr, rvest,
+rmarkdown, maps, IRanges, covr",,"MIT + file LICENSE",,,,,"no","3.5.3"
+"gargle","C:/Users/jtolbert/Documents/R/win-library/3.5","0.3.1",,"R (>= 3.2)","fs (>= 1.3.1), glue (>= 1.3.0), httr (>= 1.4.0), jsonlite,
+rlang, stats, withr",,"covr, knitr, rmarkdown, sodium, testthat (>= 2.1.0)",,"MIT + file LICENSE",,,,,"no","3.5.3"
+"gbm","C:/Users/jtolbert/Documents/R/win-library/3.5","2.1.5",,"R (>= 2.9.0)","gridExtra, lattice, parallel, survival",,"knitr, pdp, RUnit, splines, viridis",,"GPL (>= 2) | file LICENSE",,,,,"yes","3.5.2"
+"gclus","C:/Users/jtolbert/Documents/R/win-library/3.5","1.3.2",,"R (>= 2.10), cluster",,,"knitr, rmarkdown",,"GPL (>= 2)",,,,,"no","3.5.2"
+"gdalUtils","C:/Users/jtolbert/Documents/R/win-library/3.5","2.0.1.14",,"R (>= 2.14.0)","sp, foreach, R.utils, raster, rgdal",,,,"GPL (>= 2)",,,,,"no","3.5.2"
+"gdata","C:/Users/jtolbert/Documents/R/win-library/3.5","2.18.0",,"R (>= 2.3.0)","gtools, stats, methods, utils",,"RUnit",,"GPL-2",,,,,"no","3.5.2"
+"gdtools","C:/Users/jtolbert/Documents/R/win-library/3.5","0.2.0",,,"Rcpp (>= 0.12.12), systemfonts (>= 0.1.1)","Rcpp","htmltools, testthat, fontquiver (>= 0.2.0), curl",,"GPL-3 | file LICENSE",,,,,"yes","3.5.3"
+"generator","C:/Users/jtolbert/Documents/R/win-library/3.5","0.1.0",,"R (>= 3.1.2)",,,"testthat",,"MIT + file LICENSE",,,,,"no","3.5.2"
+"generics","C:/Users/jtolbert/Documents/R/win-library/3.5","0.0.2",,"R (>= 3.1)","methods",,"covr, pkgload, testthat, tibble",,"GPL-2",,,,,"no","3.5.2"
+"geometry","C:/Users/jtolbert/Documents/R/win-library/3.5","0.4.4",,"R (>= 3.0.0)","magic, Rcpp, lpSolve, linprog","Rcpp, RcppProgress","spelling, testthat, rgl, R.matlab, tripack",,"GPL (>= 3)",,,,,"yes","3.5.3"
+"geosphere","C:/Users/jtolbert/Documents/R/win-library/3.5","1.5-10",,"R (>= 3.0.0)","sp",,"methods, raster",,"GPL (>= 3)",,,,,"yes","3.5.3"
+"getPass","C:/Users/jtolbert/Documents/R/win-library/3.5","0.2-2",,"R (>= 3.0.0)","utils, rstudioapi (>= 0.5)",,"argon2",,"BSD 2-clause License + file LICENSE",,,,,"yes","3.5.2"
+"GGally","C:/Users/jtolbert/Documents/R/win-library/3.5","1.4.0",,"R (>= 3.1), ggplot2 (> 2.2.0)","grDevices, grid, gtable (>= 0.2.0), plyr (>= 1.8.3), progress,
+RColorBrewer, reshape (>= 0.8.5), utils, rlang",,"broom (>= 0.4.0), chemometrics, geosphere (>= 1.5-1), igraph
+(>= 1.0.1), intergraph (>= 2.0-2), maps (>= 3.1.0), mapproj,
+network (>= 1.12.0), scagnostics, scales (>= 0.4.0), sna (>=
+2.3-2), survival, packagedocs (>= 0.4.0), rmarkdown, roxygen2,
+testthat, crosstalk",,"GPL (>= 2.0)",,,,,"no","3.5.2"
+"ggdendro","C:/Users/jtolbert/Documents/R/win-library/3.5","0.1-20",,,"MASS, ggplot2(>= 0.9.2)",,"rpart(>= 4.0-0), tree, testthat, knitr, cluster, scales",,"GPL-2 | GPL-3",,,,,"no","3.5.2"
+"ggfortify","C:/Users/jtolbert/Documents/R/win-library/3.5","0.4.7",,"methods, ggplot2 (>= 2.0.0)","dplyr (>= 0.3), tidyr, gridExtra, grid, scales, stringr,
+tibble",,"testthat, cluster, changepoint, dlm, fGarch, forecast,
+ggrepel, glmnet, grDevices, KFAS, knitr, lintr, mapdata, MASS,
+MSwM, nlme, raster, ROCR, sp, stats, strucchange, survival,
+timeSeries, tseries, utils, vars, xts, zoo, lfda",,"GPL-2",,,,,"no","3.5.3"
+"ggmap","C:/Users/jtolbert/Documents/R/win-library/3.5","3.0.0",,"R (>= 3.1.0), ggplot2 (>= 2.2.0)","RgoogleMaps, png, plyr, rjson, jpeg, digest, scales, dplyr,
+bitops, grid, glue, httr, stringr, purrr, magrittr, tibble,
+tidyr",,"MASS, hexbin, testthat",,"GPL-2",,,,,"no","3.5.2"
+"ggplot2","C:/Users/jtolbert/Documents/R/win-library/3.5","3.2.1",,"R (>= 3.2)","digest, grDevices, grid, gtable (>= 0.1.1), lazyeval, MASS,
+mgcv, reshape2, rlang (>= 0.3.0), scales (>= 0.5.0), stats,
+tibble, viridisLite, withr (>= 2.0.0)",,"covr, dplyr, ggplot2movies, hexbin, Hmisc, knitr, lattice,
+mapproj, maps, maptools, multcomp, munsell, nlme, profvis,
+quantreg, rgeos, rmarkdown, rpart, sf (>= 0.7-3), svglite (>=
+1.2.0.9001), testthat (>= 0.11.0), vdiffr (>= 0.3.0)","sp","GPL-2 | file LICENSE",,,,,"no","3.5.3"
+"ggpubr","C:/Users/jtolbert/Documents/R/win-library/3.5","0.2.3",,"R (>= 3.1.0), ggplot2, magrittr","ggrepel, grid, ggsci, stats, utils, tidyr, purrr, dplyr (>=
+0.7.1), cowplot, ggsignif, scales, gridExtra, glue, polynom,
+rlang",,"grDevices, knitr, RColorBrewer, gtable",,"GPL-2",,,,,"no","3.5.3"
+"ggrepel","C:/Users/jtolbert/Documents/R/win-library/3.5","0.8.1",,"R (>= 3.0.0), ggplot2 (>= 2.2.0)","grid, Rcpp, scales (>= 0.3.0)","Rcpp","knitr, rmarkdown, testthat, gridExtra, devtools, prettydoc",,"GPL-3 | file LICENSE",,,,,"yes","3.5.3"
+"ggridges","C:/Users/jtolbert/Documents/R/win-library/3.5","0.5.1",,"R (>= 3.2)","ggplot2 (>= 2.2.0), grid (>= 3.0.0), plyr (>= 1.8.0), scales
+(>= 0.4.1), withr (>= 2.1.1)",,"covr, dplyr, gridExtra, ggplot2movies, DAAG, forcats, knitr,
+rmarkdown, testthat, vdiffr, viridis",,"GPL-2 | file LICENSE",,,,,"no","3.5.3"
+"ggsci","C:/Users/jtolbert/Documents/R/win-library/3.5","2.9",,"R (>= 3.0.2)","grDevices, scales, ggplot2 (>= 2.0.0)",,"knitr, rmarkdown, gridExtra, reshape2",,"GPL-3 | file LICENSE",,,,,"no","3.5.2"
+"ggsignif","C:/Users/jtolbert/Documents/R/win-library/3.5","0.6.0",,,"ggplot2 (>= 2.0.0)",,"testthat, knitr, rmarkdown",,"GPL-3",,,,,"no","3.5.3"
+"ggvis","C:/Users/jtolbert/Documents/R/win-library/3.5","0.4.4",,"R (>= 3.0)","assertthat, jsonlite (>= 0.9.11), shiny (>= 0.11.1), magrittr,
+dplyr (>= 0.4.0), lazyeval, htmltools (>= 0.2.4), methods",,"MASS, mgcv, lubridate, testthat (>= 0.8.1), knitr (>= 1.6),
+rmarkdown",,"GPL-2 | file LICENSE",,,,,"no","3.5.2"
+"gh","C:/Users/jtolbert/Documents/R/win-library/3.5","1.0.1",,,"ini, jsonlite, httr",,"covr, pingr, testthat",,"MIT + file LICENSE",,,,,"no","3.5.2"
+"git2r","C:/Users/jtolbert/Documents/R/win-library/3.5","0.26.1",,"R (>= 3.1)","graphics, utils",,"getPass",,"GPL-2",,,,,"yes","3.5.3"
+"gld","C:/Users/jtolbert/Documents/R/win-library/3.5","2.6",,,"stats, graphics, e1071, lmom",,"",,"GPL (>= 2)",,,,,"yes","3.5.3"
+"glmnet","C:/Users/jtolbert/Documents/R/win-library/3.5","2.0-18",,"Matrix (>= 1.0-6), utils, foreach","methods",,"survival, knitr, lars",,"GPL-2",,,,,"yes","3.5.3"
+"globals","C:/Users/jtolbert/Documents/R/win-library/3.5","0.12.4",,"R (>= 3.1.2)","codetools",,,,"LGPL (>= 2.1)",,,,,"no","3.5.2"
+"glue","C:/Users/jtolbert/Documents/R/win-library/3.5","1.3.1",,"R (>= 3.1)","methods",,"testthat, covr, magrittr, crayon, knitr, rmarkdown, DBI,
+RSQLite, R.utils, forcats, microbenchmark, rprintf, stringr,
+ggplot2, dplyr, withr",,"MIT + file LICENSE",,,,,"yes","3.5.3"
+"goftest","C:/Users/jtolbert/Documents/R/win-library/3.5","1.1-1",,"R (>= 3.3)","stats",,,,"GPL (>= 2)",,,,,"yes","3.5.2"
+"googledrive","C:/Users/jtolbert/Documents/R/win-library/3.5","1.0.0",,"R (>= 3.2)","curl (>= 2.8.1), gargle (>= 0.3.1), glue (>= 1.2.0), httr,
+jsonlite, magrittr, purrr (>= 0.2.3), rlang (>= 0.3.1), tibble
+(>= 2.0.0), utils, uuid",,"covr, dplyr, knitr, rmarkdown, roxygen2, sodium, testthat (>=
+2.1.1)",,"MIT + file LICENSE",,,,,"no","3.5.3"
+"googlePolylines","C:/Users/jtolbert/Documents/R/win-library/3.5","0.7.2",,"R (>= 3.3.0)","Rcpp (>= 0.12.13)","Rcpp, BH","covr, knitr, rmarkdown, sf, testthat",,"GPL-3",,,,,"yes","3.5.2"
+"googleway","C:/Users/jtolbert/Documents/R/win-library/3.5","2.7.1",,"R (>= 3.3.0)","jsonlite (>= 0.9.20), curl, htmlwidgets, htmltools, magrittr,
+shiny, jpeg, utils, jqr, viridisLite, scales, grDevices,
+googlePolylines (>= 0.7.1)",,"knitr, rmarkdown, testthat",,"GPL-3",,,,,"no","3.5.2"
+"gower","C:/Users/jtolbert/Documents/R/win-library/3.5","0.2.1",,,,,"tinytest (>= 0.9.3),",,"GPL-3",,,,,"yes","3.5.3"
+"gplots","C:/Users/jtolbert/Documents/R/win-library/3.5","3.0.1.1",,"R (>= 3.0)","gtools, gdata, stats, caTools, KernSmooth",,"grid, MASS",,"GPL-2",,,,,"no","3.5.2"
+"gridBase","C:/Users/jtolbert/Documents/R/win-library/3.5","0.4-7",,"R (>= 2.3.0)","graphics, grid",,"lattice",,"GPL",,,,,"no","3.5.2"
+"gridExtra","C:/Users/jtolbert/Documents/R/win-library/3.5","2.3",,,"gtable, grid, grDevices, graphics, utils",,"ggplot2, egg, lattice, knitr, testthat",,"GPL (>= 2)",,,,,"no","3.5.2"
+"gsubfn","C:/Users/jtolbert/Documents/R/win-library/3.5","0.7",,"proto",,,"boot, chron, grid, lattice, quantreg, svUnit, tcltk, zoo",,"GPL (>= 2)",,,,,"no","3.5.2"
+"gtable","C:/Users/jtolbert/Documents/R/win-library/3.5","0.3.0",,"R (>= 3.0)","grid",,"covr, testthat, knitr, rmarkdown, ggplot2, profvis",,"GPL-2",,,,,"no","3.5.3"
+"gtools","C:/Users/jtolbert/Documents/R/win-library/3.5","3.8.1",,"methods, stats, utils",,,,,"GPL-2",,,,,"yes","3.5.2"
+"HARtools","C:/Users/jtolbert/Documents/R/win-library/3.5","0.0.5",,"R (>= 3.0.0)","assertthat, magrittr, jsonlite, htmlwidgets, htmltools",,"testthat, covr, httr, shiny, knitr, rmarkdown",,"GPL-3",,,,,"no","3.5.2"
+"haven","C:/Users/jtolbert/Documents/R/win-library/3.5","2.1.1",,"R (>= 3.2)","forcats (>= 0.2.0), hms, Rcpp (>= 0.11.4), readr (>= 0.1.0),
+tibble","Rcpp","covr, fs, knitr, rmarkdown, testthat, pillar (>= 1.1.1), cli,
+crayon",,"MIT + file LICENSE",,,,,"yes","3.5.3"
+"here","C:/Users/jtolbert/Documents/R/win-library/3.5","0.1",,,"rprojroot (>= 1.2)",,,,"GPL-3",,,,,"no","3.5.2"
+"hexbin","C:/Users/jtolbert/Documents/R/win-library/3.5","1.27.3",,"R (>= 2.0.1), methods","lattice, grid, graphics, grDevices, stats, utils",,"marray, affy, Biobase, limma",,"GPL-2",,,,,"yes","3.5.3"
+"hflights","C:/Users/jtolbert/Documents/R/win-library/3.5","0.1",,"R (>= 2.10)",,,,,"CC0",,,,,"no","3.5.2"
+"highr","C:/Users/jtolbert/Documents/R/win-library/3.5","0.8",,"R (>= 3.2.3)",,,"knitr, testit",,"GPL",,,,,"no","3.5.3"
+"Hmisc","C:/Users/jtolbert/Documents/R/win-library/3.5","4.2-0",,"lattice, survival (>= 2.40-1), Formula, ggplot2 (>= 2.2)","methods, latticeExtra, cluster, rpart, nnet, acepack, foreign,
+gtable, grid, gridExtra, data.table, htmlTable (>= 1.11.0),
+viridis, htmltools, base64enc",,"chron, rms, mice, tables, knitr, ff, ffbase, plotly (>=
+4.5.6), rlang",,"GPL (>= 2)",,,,,"yes","3.5.2"
+"hms","C:/Users/jtolbert/Documents/R/win-library/3.5","0.5.1",,,"methods, pkgconfig, rlang, vctrs (>= 0.2.0)",,"crayon, lubridate, pillar (>= 1.1.0), testthat",,"GPL-3",,,,,"no","3.5.3"
+"hrbrthemes","C:/Users/jtolbert/Documents/R/win-library/3.5","0.6.0",,"R (>= 3.2.0)","ggplot2 (>= 2.2.1), grDevices, grid, scales, extrafont, knitr,
+rmarkdown, htmltools, tools, magrittr, gdtools",,"testthat, dplyr, gridExtra, hunspell, stringi, gcookbook,
+clipr, vdiffr, svglite",,"MIT + file LICENSE",,,,,"no","3.5.2"
+"htmlTable","C:/Users/jtolbert/Documents/R/win-library/3.5","1.13.1",,,"stringr, knitr (>= 1.6), magrittr (>= 1.5), methods,
+checkmate, htmlwidgets, htmltools, rstudioapi (>= 0.6)",,"testthat, XML, xtable, ztable, Hmisc, reshape, rmarkdown,
+pander, chron, lubridate, tibble, tidyr (>= 0.7.2), dplyr (>=
+0.7.4)",,"GPL (>= 3)",,,,,"no","3.5.2"
+"htmltools","C:/Users/jtolbert/Documents/R/win-library/3.5","0.3.6",,"R (>= 2.14.1)","utils, digest, Rcpp","Rcpp","markdown, testthat","knitr","GPL (>= 2)",,,,,"yes","3.5.2"
+"htmlwidgets","C:/Users/jtolbert/Documents/R/win-library/3.5","1.3",,,"grDevices, htmltools (>= 0.3), jsonlite (>= 0.9.16), yaml",,"knitr (>= 1.8)","shiny (>= 1.1)","MIT + file LICENSE",,,,,"no","3.5.2"
+"httpuv","C:/Users/jtolbert/Documents/R/win-library/3.5","1.5.2",,"R (>= 2.15.1)","Rcpp (>= 0.11.0), utils, R6, promises, later (>= 0.8.0)","Rcpp, BH, later","testthat, callr, curl, websocket",,"GPL (>= 2) | file LICENSE",,,,,"yes","3.5.3"
+"httr","C:/Users/jtolbert/Documents/R/win-library/3.5","1.4.1",,"R (>= 3.2)","curl (>= 3.0.0), jsonlite, mime, openssl (>= 0.8), R6",,"covr, httpuv, jpeg, knitr, png, readr, rmarkdown, testthat
+(>= 0.8.0), xml2",,"MIT + file LICENSE",,,,,"no","3.5.3"
+"hunspell","C:/Users/jtolbert/Documents/R/win-library/3.5","3.0",,"R (>= 3.0.2)","Rcpp, digest","Rcpp (>= 0.12.12)","spelling, testthat, pdftools, janeaustenr, wordcloud2, knitr,
+stopwords, rmarkdown",,"GPL-2 | LGPL-2.1 | MPL-1.1",,,,,"yes","3.5.3"
+"igraph","C:/Users/jtolbert/Documents/R/win-library/3.5","1.2.4.1",,"methods","graphics, grDevices, magrittr, Matrix, pkgconfig (>= 2.0.0),
+stats, utils",,"ape, digest, graph, igraphdata, rgl, scales, stats4, tcltk,
+testthat",,"GPL (>= 2)",,,,,"yes","3.5.3"
+"imager","C:/Users/jtolbert/Documents/R/win-library/3.5","0.41.2",,"R (>= 2.10.0),magrittr","Rcpp (>=
+0.11.5),methods,stringr,png,jpeg,readbitmap,grDevices,purrr,Cairo,downloader,igraph,plyr","Rcpp","knitr, rmarkdown,ggplot2,dplyr,scales,
+testthat,OpenMPController,raster,spatstat",,"LGPL",,,,,"yes","3.5.2"
+"import","C:/Users/jtolbert/Documents/R/win-library/3.5","1.1.0",,,,,"knitr",,"MIT + file LICENSE",,,,,"no","3.5.2"
+"infer","C:/Users/jtolbert/Documents/R/win-library/3.5","0.4.0.1",,"R (>= 3.1.2)","dplyr (>= 0.7.0), methods, tibble, rlang (>= 0.2.0), ggplot2,
+magrittr, glue (>= 1.3.0), grDevices",,"broom, devtools (>= 1.12.0), knitr, rmarkdown, nycflights13,
+stringr, testthat, covr",,"CC0",,,,,"no","3.5.3"
+"influenceR","C:/Users/jtolbert/Documents/R/win-library/3.5","0.1.0",,"R (>= 3.2.0)","igraph (>= 1.0.1), Matrix (>= 1.1-4), methods, utils",,"testthat",,"GPL-2",,,,,"yes","3.5.2"
+"ini","C:/Users/jtolbert/Documents/R/win-library/3.5","0.3.1",,,,,"testthat",,"GPL-3",,,,,"no","3.5.2"
+"inline","C:/Users/jtolbert/Documents/R/win-library/3.5","0.3.15",,"R (>= 2.4.0)","methods",,"Rcpp (>= 0.11.0)",,"LGPL",,,,,"no","3.5.2"
+"installr","C:/Users/jtolbert/Documents/R/win-library/3.5","0.22.0",,"R (>= 2.14.0), stringr, utils",,,"curl, XML, htmltab, devtools, rjson, data.table, plyr,
+ggplot2, sp, tools, pkgbuild",,"GPL-2",,,"windows",,"no","3.5.3"
+"inum","C:/Users/jtolbert/Documents/R/win-library/3.5","1.0-1",,"R (>= 3.3.0)","stats, libcoin (>= 1.0-0)",,,,"GPL-2",,,,,"no","3.5.3"
+"ipred","C:/Users/jtolbert/Documents/R/win-library/3.5","0.9-9",,"R (>= 2.10)","rpart (>= 3.1-8), MASS, survival, nnet, class, prodlim",,"mvtnorm, mlbench, TH.data",,"GPL (>= 2)",,,,,"yes","3.5.3"
+"irlba","C:/Users/jtolbert/Documents/R/win-library/3.5","2.3.3",,"Matrix","stats, methods","Matrix",,,"GPL-3",,,,,"yes","3.5.2"
+"ISOcodes","C:/Users/jtolbert/Documents/R/win-library/3.5","2019.04.22",,"R (>= 2.10.0)",,,,,"GPL-2",,,,,"no","3.5.3"
+"iterators","C:/Users/jtolbert/Documents/R/win-library/3.5","1.0.12",,"R (>= 2.5.0), utils",,,"RUnit, foreach",,"Apache License (== 2.0)",,,,,"no","3.5.3"
+"janeaustenr","C:/Users/jtolbert/Documents/R/win-library/3.5","0.1.5",,"R (>= 3.1.2)",,,"dplyr, testthat",,"MIT + file LICENSE",,,,,"no","3.5.3"
+"janitor","C:/Users/jtolbert/Documents/R/win-library/3.5","1.2.0",,"R (>= 3.1.2)","dplyr (>= 0.7.0), tidyr (>= 0.7.0), snakecase (>= 0.9.2),
+magrittr, purrr, rlang",,"testthat, knitr, rmarkdown, sf, tibble",,"MIT + file LICENSE",,,,,"no","3.5.3"
+"jomo","C:/Users/jtolbert/Documents/R/win-library/3.5","2.6-9",,,"stats, lme4, survival, MASS, ordinal",,"mitml",,"GPL-2",,,,,"yes","3.5.3"
+"jpeg","C:/Users/jtolbert/Documents/R/win-library/3.5","0.1-8",,"R (>= 2.9.0)",,,,,"GPL-2 | GPL-3",,,,,"yes","3.5.2"
+"jqr","C:/Users/jtolbert/Documents/R/win-library/3.5","1.1.0",,"R (>= 3.1.2)","magrittr, lazyeval",,"roxygen2 (>= 6.1.0), jsonlite, testthat, knitr, rmarkdown",,"MIT + file LICENSE",,,,,"yes","3.5.2"
+"jsonlite","C:/Users/jtolbert/Documents/R/win-library/3.5","1.6",,"methods",,,"httr, curl, plyr, testthat, knitr, rmarkdown, R.rsp, sp",,"MIT + file LICENSE",,,,,"yes","3.5.2"
+"kableExtra","C:/Users/jtolbert/Documents/R/win-library/3.5","1.1.0",,"R (>= 3.1.0)","knitr (>= 1.16), magrittr, stringr (>= 1.0), xml2 (>= 1.1.1),
+rvest, rmarkdown (>= 1.6.0), readr, scales, viridisLite, stats,
+grDevices, htmltools, rstudioapi, glue, tools, webshot, digest",,"testthat, magick, formattable, dplyr",,"MIT + file LICENSE",,,,,"no","3.5.3"
+"kernlab","C:/Users/jtolbert/Documents/R/win-library/3.5","0.9-27",,"R (>= 2.10)","methods, stats, grDevices, graphics",,,,"GPL-2",,,,,"yes","3.5.2"
+"KernSmooth","C:/Users/jtolbert/Documents/R/win-library/3.5","2.23-15","recommended","R (>= 2.5.0), stats",,,"MASS",,"Unlimited",,,,,"yes","3.5.2"
+"keyring","C:/Users/jtolbert/Documents/R/win-library/3.5","1.1.0",,,"assertthat, getPass, openssl, R6, utils, sodium, yaml,
+filelock, rappdirs, tools",,"callr, covr, mockery, testthat, withr",,"MIT + file LICENSE",,,,,"yes","3.5.2"
+"klippy","C:/Users/jtolbert/Documents/R/win-library/3.5","0.0.0.9500",,"R (>= 2.14.1)","assertthat (>= 0.2.0), htmltools (>= 0.3.5), stringi(>=
+0.5-2), grDevices",,"knitr (>= 1.16), prettydoc (>= 0.2.0), rmarkdown (>= 0.9.6)",,"MIT + file LICENSE",,,,,"no","3.5.1"
+"knitr","C:/Users/jtolbert/Documents/R/win-library/3.5","1.24",,"R (>= 3.2.3)","evaluate (>= 0.10), highr, markdown, stringr (>= 0.6), yaml
+(>= 2.1.19), methods, xfun, tools",,"formatR, testit, digest, rgl (>= 0.95.1201), codetools,
+rmarkdown, htmlwidgets (>= 0.7), webshot, tikzDevice (>= 0.10),
+tinytex, reticulate (>= 1.4), JuliaCall (>= 0.11.1), magick,
+png, jpeg, gifski, xml2 (>= 1.2.0), httr, DBI (>= 0.4-1),
+showtext, tibble, styler",,"GPL",,,,,"no","3.5.3"
+"labeling","C:/Users/jtolbert/Documents/R/win-library/3.5","0.3",,,,,,,"MIT + file LICENSE | Unlimited",,,,,"no","3.5.2"
+"lambda.r","C:/Users/jtolbert/Documents/R/win-library/3.5","1.2.3",,"R (>= 3.0.0)","formatR",,"testit",,"LGPL-3",,,,,"no","3.5.3"
+"LambertW","C:/Users/jtolbert/Documents/R/win-library/3.5","0.6.4",,"MASS, ggplot2,","lamW (>= 1.0.0), stats, graphics, grDevices, RColorBrewer,
+reshape2, Rcpp","Rcpp, lamW","boot, Rsolnp, nortest, numDeriv, testthat, moments,",,"GPL (>= 2)",,,,,"yes","3.5.2"
+"lamW","C:/Users/jtolbert/Documents/R/win-library/3.5","1.3.0",,"R (>= 3.0.2)","Rcpp, RcppParallel (>= 4.3.20)","Rcpp, RcppParallel (>= 4.3.20)","testthat",,"BSD_2_clause + file LICENSE",,,,,"yes","3.5.2"
+"lars","C:/Users/jtolbert/Documents/R/win-library/3.5","1.2",,"R (>= 2.10)",,,,,"GPL-2",,,,,"yes","3.5.2"
+"later","C:/Users/jtolbert/Documents/R/win-library/3.5","0.8.0",,,"Rcpp (>= 0.12.9), rlang","Rcpp, BH","knitr, rmarkdown, testthat",,"GPL (>= 2)",,,,,"yes","3.5.2"
+"lattice","C:/Users/jtolbert/Documents/R/win-library/3.5","0.20-38","recommended","R (>= 3.0.0)","grid, grDevices, graphics, stats, utils",,"KernSmooth, MASS, latticeExtra","chron","GPL (>= 2)",,,,,"yes","3.5.2"
+"latticeExtra","C:/Users/jtolbert/Documents/R/win-library/3.5","0.6-28",,"R (>= 2.10.0), lattice, RColorBrewer","grid, stats, utils, grDevices",,"maps, mapproj, deldir, tripack, zoo, MASS, quantreg, mgcv",,"GPL (>= 2)",,,,,"no","3.5.2"
+"lava","C:/Users/jtolbert/Documents/R/win-library/3.5","1.6.6",,"R (>= 3.0)","grDevices, graphics, methods, numDeriv, stats, survival,
+SQUAREM, utils",,"KernSmooth, Matrix, Rgraphviz, data.table, ellipse, fields,
+foreach, geepack, gof (>= 0.9), graph, igraph (>= 0.6),
+lava.tobit (>= 0.4.7), lme4, mets (>= 1.1), nlme, optimx,
+polycor, quantreg, rgl, testthat (>= 0.11), visNetwork, zoo",,"GPL-3",,,,,"no","3.5.3"
+"lazyeval","C:/Users/jtolbert/Documents/R/win-library/3.5","0.2.2",,"R (>= 3.1.0)",,,"knitr, rmarkdown (>= 0.2.65), testthat, covr",,"GPL-3",,,,,"yes","3.5.3"
+"leafem","C:/Users/jtolbert/Documents/R/win-library/3.5","0.0.1",,"R (>= 3.1.0)","htmltools (>= 0.3), htmlwidgets, leaflet (>= 2.0.1), raster,
+sf, sp",,"gdalUtils, plainview, png",,"MIT + file LICENSE",,,,,"no","3.5.3"
+"leaflet","C:/Users/jtolbert/Documents/R/win-library/3.5","2.0.2",,"R (>= 3.1.0)","base64enc, crosstalk, htmlwidgets, htmltools, magrittr,
+markdown, methods, png, RColorBrewer, raster, scales (>=
+1.0.0), sp, stats, viridis (>= 0.5.1)",,"knitr, maps, sf, shiny, testit (>= 0.4), rgdal, rgeos, R6,
+RJSONIO, purrr, testthat",,"GPL-3",,,,,"no","3.5.2"
+"leafpop","C:/Users/jtolbert/Documents/R/win-library/3.5","0.0.1",,,"base64enc, brew, gdalUtils, htmlwidgets, Rcpp (>= 1.0.0),
+svglite, uuid","Rcpp","lattice, leaflet (>= 2.0.0), sf, sp",,"MIT + file LICENSE",,,,,"yes","3.5.3"
+"leaps","C:/Users/jtolbert/Documents/R/win-library/3.5","3.0",,"",,,"biglm",,"GPL (>= 2)",,,,,"yes","3.5.3"
+"libcoin","C:/Users/jtolbert/Documents/R/win-library/3.5","1.0-5",,"R (>= 3.4.0)","stats, mvtnorm","mvtnorm","coin",,"GPL-2",,,,,"yes","3.5.2"
+"lifecycle","C:/Users/jtolbert/Documents/R/win-library/3.5","0.1.0",,"R (>= 3.2)","glue, rlang (>= 0.4.0)",,"covr, crayon, knitr, rmarkdown, testthat (>= 2.1.0)",,"GPL-3",,,,,"no","3.5.3"
+"limma","C:/Users/jtolbert/Documents/R/win-library/3.5","3.36.5",,"R (>= 2.3.0)","grDevices, graphics, stats, utils, methods",,"affy, AnnotationDbi, BiasedUrn, Biobase, ellipse, GO.db,
+gplots, illuminaio, locfit, MASS, org.Hs.eg.db, splines,
+statmod (>= 1.2.2), vsn",,"GPL (>=2)",,,,,"yes","3.5.1"
+"linprog","C:/Users/jtolbert/Documents/R/win-library/3.5","0.9-2",,"R (>= 2.4.0), lpSolve",,,,,"GPL (>= 2)",,,,,,"3.5.3"
+"listenv","C:/Users/jtolbert/Documents/R/win-library/3.5","0.7.0",,"R (>= 3.1.2)",,,"R.utils, R.rsp, markdown",,"LGPL (>= 2.1)",,,,,"no","3.5.3"
+"listviewer","C:/Users/jtolbert/Documents/R/win-library/3.5","2.1.0",,,"htmltools, htmlwidgets, shiny",,"jsonlite, miniUI, rstudioapi","reactR","MIT + file LICENSE",,,,,"no","3.5.2"
+"lme4","C:/Users/jtolbert/Documents/R/win-library/3.5","1.1-21",,"R (>= 3.2.0), Matrix (>= 1.2-1), methods, stats","graphics, grid, splines, utils, parallel, MASS, lattice, boot,
+nlme (>= 3.1-123), minqa (>= 1.1.15), nloptr (>= 1.0.4)","Rcpp (>= 0.10.5), RcppEigen","knitr, rmarkdown, PKPDmodels, MEMSS, testthat (>= 0.8.1),
+ggplot2, mlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest, HSAUR2,
+numDeriv, car, dfoptim",,"GPL (>= 2)",,,,,"yes","3.5.3"
+"lmom","C:/Users/jtolbert/Documents/R/win-library/3.5","2.8",,"R (>= 3.0.0)","stats, graphics",,,,"Common Public License Version 1.0",,,,,"yes","3.5.3"
+"lmtest","C:/Users/jtolbert/Documents/R/win-library/3.5","0.9-37",,"R (>= 3.0.0), stats, zoo","graphics",,"car, strucchange, sandwich, dynlm, stats4, survival, AER",,"GPL-2 | GPL-3",,,,,"yes","3.5.3"
+"loo","C:/Users/jtolbert/Documents/R/win-library/3.5","2.1.0",,"R (>= 3.1.2)","graphics, matrixStats (>= 0.52), parallel, stats, checkmate",,"bayesplot (>= 1.5.0), brms (>= 2.2.0), ggplot2, knitr,
+rmarkdown, rstan, rstanarm (>= 2.17.4), rstantools, spdep,
+testthat",,"GPL (>= 3)",,,,,"no","3.5.3"
+"lpSolve","C:/Users/jtolbert/Documents/R/win-library/3.5","5.6.13.3",,,,,,,"LGPL-2",,,,,"yes","3.5.3"
+"lsmeans","C:/Users/jtolbert/Documents/R/win-library/3.5","2.30-0",,"emmeans (>= 1.3), methods, R (>= 3.2)",,,"",,"GPL-2 | GPL-3",,,,,"no","3.5.3"
+"lubridate","C:/Users/jtolbert/Documents/R/win-library/3.5","1.7.4",,"methods, R (>= 3.0.0)","stringr, Rcpp (>= 0.12.13),","Rcpp,","testthat, knitr, covr","chron, fts, timeSeries, timeDate, tis, tseries, xts, zoo","GPL (>= 2)",,,,,"yes","3.5.2"
+"magic","C:/Users/jtolbert/Documents/R/win-library/3.5","1.5-9",,"R (>= 2.10), abind",,,,,"GPL-2",,,,,"no","3.5.2"
+"magrittr","C:/Users/jtolbert/Documents/R/win-library/3.5","1.5",,,,,"testthat, knitr",,"MIT + file LICENSE",,,,,"no","3.5.2"
+"mapproj","C:/Users/jtolbert/Documents/R/win-library/3.5","1.2.6",,"R (>= 3.0.0), maps (>= 2.3-0)","stats, graphics",,,,"Lucent Public License",,,,,"yes","3.5.2"
+"maps","C:/Users/jtolbert/Documents/R/win-library/3.5","3.3.0",,"R (>= 3.0.0)","graphics, utils",,"mapproj (>= 1.2-0), mapdata (>= 2.3.0), sp, maptools,
+rnaturalearth",,"GPL-2",,,,,"yes","3.5.2"
+"mapsapi","C:/Users/jtolbert/Documents/R/win-library/3.5","0.4.2",,,"magrittr (>= 1.5), xml2 (>= 1.1.1), sf (>= 0.5-3), bitops (>=
+1.0-6), plyr (>= 1.8.4)",,"knitr, rmarkdown, leaflet",,"MIT + file LICENSE",,,,,"no","3.5.3"
+"maptools","C:/Users/jtolbert/Documents/R/win-library/3.5","0.9-5",,"R (>= 2.10), sp (>= 1.0-11)","foreign (>= 0.8), methods, grid, lattice, stats, utils,
+grDevices",,"rgeos (>= 0.1-8), spatstat (>= 1.50), PBSmapping, maps,
+RColorBrewer, raster, polyclip, spatstat.utils","gpclib, RArcInfo","GPL (>= 2)",,,,,"yes","3.5.2"
+"mapview","C:/Users/jtolbert/Documents/R/win-library/3.5","2.7.0",,"methods, R (>= 2.10)","base64enc, brew, htmltools, htmlwidgets, lattice, leafem,
+leaflet (>= 2.0.0), leafpop, png, raster, Rcpp (>= 0.11.3),
+satellite, scales (>= 0.2.5), sf, sp, svglite, uuid,
+viridisLite, webshot","Rcpp","covr, dplyr, knitr, lwgeom, plainview, rmarkdown, stars,
+testthat",,"GPL (>= 3) | file LICENSE",,,,,"yes","3.5.3"
+"markdown","C:/Users/jtolbert/Documents/R/win-library/3.5","1.1",,"R (>= 2.11.1)","utils, xfun, mime (>= 0.3)",,"knitr, RCurl",,"GPL-2",,,,,"yes","3.5.3"
+"MASS","C:/Users/jtolbert/Documents/R/win-library/3.5","7.3-51.4","recommended","R (>= 3.1.0), grDevices, graphics, stats, utils","methods",,"lattice, nlme, nnet, survival",,"GPL-2 | GPL-3",,,,,"yes","3.5.3"
+"Matrix","C:/Users/jtolbert/Documents/R/win-library/3.5","1.2-17","recommended","R (>= 3.2.0)","methods, graphics, grid, stats, utils, lattice",,"expm, MASS","MatrixModels, graph, SparseM, sfsmisc","GPL (>= 2) | file LICENCE",,,,,"yes","3.5.3"
+"MatrixModels","C:/Users/jtolbert/Documents/R/win-library/3.5","0.4-1",,"R (>= 3.0.1)","stats, methods, Matrix (>= 1.1-5)",,,,"GPL (>= 2)",,,,,"no","3.5.2"
+"matrixStats","C:/Users/jtolbert/Documents/R/win-library/3.5","0.55.0",,"R (>= 2.12.0)",,,"base64enc, ggplot2, knitr, microbenchmark, R.devices, R.rsp",,"Artistic-2.0",,,,,"yes","3.5.3"
+"mboost","C:/Users/jtolbert/Documents/R/win-library/3.5","2.9-1",,"R (>= 3.2.0), methods, stats, parallel, stabs (>= 0.5-0)","Matrix, survival, splines, lattice, nnls, quadprog, utils,
+graphics, grDevices, partykit (>= 1.2-1)",,"TH.data, MASS, fields, BayesX, gbm, mlbench, RColorBrewer,
+rpart (>= 4.0-3), randomForest, nnet, testthat (>= 0.10.0),
+kangar00",,"GPL-2",,,,,"yes","3.5.2"
+"mclust","C:/Users/jtolbert/Documents/R/win-library/3.5","5.4.5",,"R (>= 3.0)","stats, utils, graphics, grDevices",,"knitr (>= 1.12), rmarkdown (>= 0.9), mix (>= 1.0), geometry
+(>= 0.3-6), MASS",,"GPL (>= 2)",,,,,"yes","3.5.3"
+"memoise","C:/Users/jtolbert/Documents/R/win-library/3.5","1.1.0",,,"digest (>= 0.6.3)",,"testthat, aws.s3, httr, covr",,"MIT + file LICENSE",,,,,"no","3.5.2"
+"mice","C:/Users/jtolbert/Documents/R/win-library/3.5","3.6.0",,"methods, R (>= 2.10.0), lattice","broom, dplyr, grDevices, graphics, MASS, mitml, nnet,
+parallel, Rcpp, rlang, rpart, splines, stats, survival, utils","Rcpp","AGD, CALIBERrfimpute, gamlss, lme4, mitools, nlme, pan,
+randomForest, Zelig, BSDA, knitr, rmarkdown, testthat, HSAUR3,
+micemd, miceadds, tidyr",,"GPL-2 | GPL-3",,,,,"yes","3.5.3"
+"microbenchmark","C:/Users/jtolbert/Documents/R/win-library/3.5","1.4-6",,,"graphics, stats",,"ggplot2, multcomp",,"BSD_2_clause + file LICENSE",,,,,"yes","3.5.2"
+"mime","C:/Users/jtolbert/Documents/R/win-library/3.5","0.7",,,"tools",,,,"GPL",,,,,"yes","3.5.3"
+"miniUI","C:/Users/jtolbert/Documents/R/win-library/3.5","0.1.1.1",,,"shiny (>= 0.13), htmltools (>= 0.3), utils",,,,"GPL-3",,,,,"no","3.5.2"
+"minpack.lm","C:/Users/jtolbert/Documents/R/win-library/3.5","1.2-1",,,,,"MASS",,"GPL-3",,,,,"yes","3.5.2"
+"minqa","C:/Users/jtolbert/Documents/R/win-library/3.5","1.2.4",,,"Rcpp (>= 0.9.10)","Rcpp",,,"GPL-2",,,,,"yes","3.5.2"
+"mitml","C:/Users/jtolbert/Documents/R/win-library/3.5","0.3-7",,,"pan, jomo, haven, grDevices, graphics, stats, utils",,"mice, miceadds, Amelia, lme4, nlme, geepack, survival, knitr,
+rmarkdown",,"GPL (>= 2)",,,,,"no","3.5.2"
+"mlapi","C:/Users/jtolbert/Documents/R/win-library/3.5","0.1.0",,"methods","R6 (>= 2.2.1), Matrix (>= 1.1)",,"knitr",,"MIT + file LICENSE",,,,,"no","3.5.3"
+"mlbench","C:/Users/jtolbert/Documents/R/win-library/3.5","2.1-1",,"R (>= 2.10)",,,"lattice",,"GPL-2",,,,,,"3.5.2"
+"MLmetrics","C:/Users/jtolbert/Documents/R/win-library/3.5","1.1.1",,"R (>= 2.10)","stats, utils, ROCR",,"e1071",,"GPL-2",,,,,"no","3.5.2"
+"mlr","C:/Users/jtolbert/Documents/R/win-library/3.5","2.15.0",,"ParamHelpers (>= 1.10), R (>= 3.0.2)","backports (>= 1.1.0), BBmisc (>= 1.11), checkmate (>= 1.8.2),
+data.table, ggplot2, methods, parallelMap (>= 1.3), stats,
+stringi, survival, utils, XML",,"ada, adabag, bartMachine, batchtools, brnn, bst, C50, care,
+caret (>= 6.0-57), class, clue, cluster, ClusterR, clusterSim
+(>= 0.44-5), clValid, cmaes, cowplot, CoxBoost, crs, Cubist,
+deepnet, DiceKriging, DiscriMiner, e1071, earth, elasticnet,
+emoa, evtree, extraTrees, fda.usc, FDboost, flare, FNN, fpc,
+frbs, FSelector, FSelectorRcpp (>= 0.2.1), gbm, GenSA, ggpubr,
+glmnet, GPfit, h2o (>= 3.6.0.8), Hmisc, hrbrthemes, irace (>=
+2.0), kernlab, kknn, klaR, knitr, laGP, LiblineaR, lintr (>=
+1.0.0.9001), MASS, mboost, mco, mda, memoise, mlbench, mldr,
+mlrMBO, mmpf, modeltools, mRMRe, neuralnet, nnet, nodeHarvest
+(>= 0.7-3), numDeriv, pamr, pander, party, penalized (>=
+0.9-47), pls, PMCMR (>= 4.1), praznik (>= 5.0.0), randomForest,
+randomForestSRC (>= 2.7.0), ranger (>= 0.8.0), rappdirs,
+refund, rex, rFerns, rgenoud, rknn, rmarkdown, ROCR,
+rotationForest, rpart, RRF, rrlda, rsm, RSNNS, RWeka, sda, sf,
+smoof, sparseLDA, stepPlr, survAUC, svglite, SwarmSVM,
+testthat, tgp, TH.data, wavelets, xgboost (>= 0.6-2)",,"BSD_2_clause + file LICENSE",,,,,"yes","3.5.3"
+"mnormt","C:/Users/jtolbert/Documents/R/win-library/3.5","1.5-5",,"R (>= 2.2.0)",,,,,"GPL-2 | GPL-3",,,,,"yes","3.5.2"
+"ModelMetrics","C:/Users/jtolbert/Documents/R/win-library/3.5","1.2.2",,"R (>= 3.2.2)","Rcpp, data.table","Rcpp","testthat",,"GPL (>= 2)",,,,,"yes","3.5.2"
+"modelr","C:/Users/jtolbert/Documents/R/win-library/3.5","0.1.5",,"R (>= 3.2)","broom, dplyr, magrittr, purrr (>= 0.2.2), rlang (>= 0.2.0),
+tibble, tidyr (>= 0.8.0)",,"compiler, covr, ggplot2, testthat",,"GPL-3",,,,,"no","3.5.3"
+"modeltools","C:/Users/jtolbert/Documents/R/win-library/3.5","0.2-22",,"stats, stats4","methods",,,,"GPL-2",,,,,"no","3.5.2"
+"moments","C:/Users/jtolbert/Documents/R/win-library/3.5","0.14",,,,,,,"GPL (>= 2)",,,,,"no","3.5.2"
+"monomvn","C:/Users/jtolbert/Documents/R/win-library/3.5","1.9-10",,"R (>= 2.14.0), pls, lars, MASS","quadprog, mvtnorm",,,,"LGPL",,,,,"yes","3.5.3"
+"MonteCarlo","C:/Users/jtolbert/Documents/R/win-library/3.5","1.0.6",,"snow(>= 0.4-1)","abind(>= 1.4-0), codetools(>= 0.2-8), rlecuyer(>= 0.3-4),
+snowfall(>= 1.84-4), stats(>= 3.0.2), utils(>= 3.0.2),
+reshape(>= 0.8.6)",,"knitr, rmarkdown, testthat, dplyr, ggplot2",,"GPL-2",,,,,"no","3.5.2"
+"muadc","C:/Users/jtolbert/Documents/R/win-library/3.5","1.0",,,"dplyr,
+magrittr,
+lazyeval,
+stringr,
+purrr,
+stats,
+stringr,
+readr,
+DBI,
+RMySQL,
+pool",,,,"GPL 2 or higher",,,,,,"3.5.2"
+"muaddresses","C:/Users/jtolbert/Documents/R/win-library/3.5","0.2.1",,"magrittr","xml2 , XML , dplyr , tidyr , purrr , httr , jsonlite",,,,"GPL-3",,,,,"no","3.5.2"
+"multcomp","C:/Users/jtolbert/Documents/R/win-library/3.5","1.4-10",,"stats, graphics, mvtnorm (>= 1.0-10), survival (>= 2.39-4),
+TH.data (>= 1.0-2)","sandwich (>= 2.3-0), codetools",,"lme4 (>= 0.999375-16), nlme, robustbase, coin, MASS, foreign,
+xtable, lmtest, coxme (>= 2.2-1), SimComp, ISwR, tram (>=
+0.2-5)",,"GPL-2",,,,,"no","3.5.3"
+"multicolor","C:/Users/jtolbert/Documents/R/win-library/3.5","0.1.3",,"R (>= 2.10)","cowsay, crayon, dplyr, glue, magrittr, purrr, stringi,
+stringr, tibble (>= 1.2), tidyr",,"covr, fansi, knitr, rmarkdown, testthat, viridisLite,
+wesanderson",,"MIT + file LICENSE",,,,,"no","3.5.3"
+"mumodels","C:/Users/jtolbert/Documents/R/win-library/3.5","0.2.0",,,"dplyr, lubridate, stringr, randomForest, broom, PRROC, caret",,"knitr, rmarkdown",,"GPL 3 or later",,,,,"no","3.5.2"
+"munsell","C:/Users/jtolbert/Documents/R/win-library/3.5","0.5.0",,,"colorspace, methods",,"ggplot2, testthat",,"MIT + file LICENSE",,,,,"no","3.5.2"
+"mvtnorm","C:/Users/jtolbert/Documents/R/win-library/3.5","1.0-11",,"R(>= 3.5.0)","stats, methods",,,,"GPL-2",,,,,"yes","3.5.3"
+"naivebayes","C:/Users/jtolbert/Documents/R/win-library/3.5","0.9.6",,,,,"knitr",,"GPL-2",,,,,"no","3.5.3"
+"ncdf4","C:/Users/jtolbert/Documents/R/win-library/3.5","1.16.1",,,,,,,"GPL (>= 3)",,,,,"yes","3.5.3"
+"ncmeta","C:/Users/jtolbert/Documents/R/win-library/3.5","0.1.0",,"R (>= 3.3.0)","dplyr, rlang, RNetCDF, tibble, stats, tidyr",,"testthat, covr",,"GPL-3",,,,,"no","3.5.3"
+"ndjson","C:/Users/jtolbert/Documents/R/win-library/3.5","0.7.0",,"R (>= 3.2.0)","Rcpp, data.table, dplyr, dtplyr","Rcpp","testthat",,"MIT + file LICENSE",,,,,"yes","3.5.2"
+"networkD3","C:/Users/jtolbert/Documents/R/win-library/3.5","0.4",,"R (>= 3.0.0)","htmlwidgets (>= 0.3.2), igraph, magrittr",,"htmltools (>= 0.2.6), jsonlite,","knitr, shiny","GPL (>= 3)",,,,,"no","3.5.3"
+"neuralnet","C:/Users/jtolbert/Documents/R/win-library/3.5","1.44.2",,"R (>= 2.9.0)","grid, MASS, grDevices, stats, utils, Deriv",,"testthat",,"GPL (>= 2)",,,,,"no","3.5.2"
+"nlme","C:/Users/jtolbert/Documents/R/win-library/3.5","3.1-141","recommended","R (>= 3.4.0)","graphics, stats, utils, lattice",,"Hmisc, MASS",,"GPL (>= 2) | file LICENCE",,,,,"yes","3.5.2"
+"nloptr","C:/Users/jtolbert/Documents/R/win-library/3.5","1.2.1",,,,,"testthat (>= 0.8.1), knitr, rmarkdown, inline (>= 0.3.14)",,"LGPL-3",,,,,"yes","3.5.2"
+"NLP","C:/Users/jtolbert/Documents/R/win-library/3.5","0.2-0",,"R (>= 3.2.0)","utils",,,"udpipe, spacyr, cleanNLP","GPL-3",,,,,"no","3.5.2"
+"nnet","C:/Users/jtolbert/Documents/R/win-library/3.5","7.3-12","recommended","R (>= 2.14.0), stats, utils",,,"MASS",,"GPL-2 | GPL-3",,,,,"yes","3.5.2"
+"nnls","C:/Users/jtolbert/Documents/R/win-library/3.5","1.4",,,,,,,"GPL (>= 2)",,,,,,"3.5.2"
+"noncensus","C:/Users/jtolbert/Documents/R/win-library/3.5","0.1",,"R (>= 2.14)",,,,,"MIT + file LICENSE",,,,,"no","3.5.2"
+"nortest","C:/Users/jtolbert/Documents/R/win-library/3.5","1.0-4",,,"stats",,,,"GPL (>= 2)",,,,,"no","3.5.2"
+"notifyR","C:/Users/jtolbert/Documents/R/win-library/3.5","1.02",,"R (>= 2.15.0), RCurl, rjson",,,,,"GPL-2",,,,,,"3.5.2"
+"numDeriv","C:/Users/jtolbert/Documents/R/win-library/3.5","2016.8-1.1",,"R (>= 2.11.1)",,,,,"GPL-2",,,,,"no","3.5.3"
+"nycflights13","C:/Users/jtolbert/Documents/R/win-library/3.5","1.0.0",,"R (>= 2.10)","tibble",,"dplyr",,"CC0",,,,,"no","3.5.2"
+"odbc","C:/Users/jtolbert/Documents/R/win-library/3.5","1.1.6",,"R (>= 3.2.0)","DBI (>= 1.0.0), methods, Rcpp (>= 0.12.11), blob (>= 1.1.0),
+bit64, hms","Rcpp, BH","tibble, DBItest, testthat, covr, magrittr",,"MIT + file LICENSE",,,,,"yes","3.5.2"
+"officer","C:/Users/jtolbert/Documents/R/win-library/3.5","0.3.5",,,"Rcpp (>= 0.12.12), R6, grDevices, base64enc, zip (>= 2.0.0),
+digest,uuid,stats, magrittr,htmltools,rlang, xml2 (>= 1.1.0)","Rcpp","testthat, devEMF,tibble,ggplot2, rmarkdown, knitr, rsvg",,"GPL-3",,,,,"yes","3.5.3"
+"openNLP","C:/Users/jtolbert/Documents/R/win-library/3.5","0.2-6",,,"NLP (>= 0.1-6.3), openNLPdata (>= 1.5.3-1), rJava (>= 0.6-3)",,"openNLPmodels.en",,"GPL-3",,,,,"no","3.5.2"
+"openNLPdata","C:/Users/jtolbert/Documents/R/win-library/3.5","1.5.3-4",,,"rJava (>= 0.6-3)",,,,"GPL-3",,,,,"no","3.5.2"
+"openssl","C:/Users/jtolbert/Documents/R/win-library/3.5","1.4.1",,,"askpass",,"testthat, digest, knitr, rmarkdown, jsonlite, jose, sodium",,"MIT + file LICENSE",,,,,"yes","3.5.3"
+"openxlsx","C:/Users/jtolbert/Documents/R/win-library/3.5","4.1.0.1",,"R (>= 3.3.0)","methods, Rcpp, grDevices, stats, utils, zip","Rcpp","knitr, testthat",,"MIT + file LICENSE",,,,,"yes","3.5.3"
+"ordinal","C:/Users/jtolbert/Documents/R/win-library/3.5","2019.4-25",,"R (>= 2.13.0), stats, methods","ucminf, MASS, Matrix, numDeriv",,"lme4, nnet, xtable, testthat (>= 0.8), tools",,"GPL (>= 2)",,,,,"yes","3.5.3"
+"packrat","C:/Users/jtolbert/Documents/R/win-library/3.5","0.5.0",,"R (>= 3.0.0)","tools, utils",,"testthat (>= 0.7), devtools, httr, knitr, rmarkdown",,"GPL-2",,,,,"no","3.5.3"
+"padr","C:/Users/jtolbert/Documents/R/win-library/3.5","0.5.0",,"R (>= 3.0.0)","Rcpp, dplyr (>= 0.6.0), lubridate, rlang","Rcpp","ggplot2, testthat, knitr, rmarkdown, lazyeval, tidyr,
+data.table, lintr",,"MIT + file LICENSE",,,,,"yes","3.5.3"
+"PairedData","C:/Users/jtolbert/Documents/R/win-library/3.5","1.1.1",,"methods,graphics,MASS,gld,mvtnorm,lattice,ggplot2",,,,,"GPL (>= 2)",,,,,"no","3.5.2"
+"pan","C:/Users/jtolbert/Documents/R/win-library/3.5","1.6",,,,,"mitools, lme4",,"GPL-3",,"no",,,"yes","3.5.2"
+"pander","C:/Users/jtolbert/Documents/R/win-library/3.5","0.6.3",,"R (>= 2.15.0)","grDevices, graphics, methods, utils, stats, digest, tools,
+Rcpp","Rcpp","grid, lattice, ggplot2 (>= 0.9.2), sylly, sylly.en,
+futile.logger, survival, microbenchmark, zoo, nlme, descr,
+MASS, knitr, rmarkdown, tables, reshape, memisc, Epi,
+randomForest, tseries, gtable, rms, forecast, data.table",,"AGPL-3 | file LICENSE",,,,,"yes","3.5.2"
+"parallelMap","C:/Users/jtolbert/Documents/R/win-library/3.5","1.4",,"R (>= 3.0.0)","BBmisc (>= 1.8), checkmate (>= 1.8.0), parallel, stats, utils",,"BatchJobs (>= 1.8), batchtools (>= 0.9.6), data.table, Rmpi,
+testthat",,"BSD_2_clause + file LICENSE",,,,,"no","3.5.3"
+"ParamHelpers","C:/Users/jtolbert/Documents/R/win-library/3.5","1.12",,,"backports, BBmisc (>= 1.10), checkmate (>= 1.8.2), fastmatch,
+methods",,"akima, eaf, emoa, GGally, ggplot2, gridExtra, grid, irace (>=
+2.1), lhs, plyr, reshape2, testthat",,"BSD_2_clause + file LICENSE",,,,,"yes","3.5.2"
+"parsnip","C:/Users/jtolbert/Documents/R/win-library/3.5","0.0.3.1",,"R (>= 2.10)","dplyr (>= 0.8.0.1), rlang (>= 0.3.1), purrr, utils, tibble (>=
+2.1.1), generics, glue, magrittr, stats, tidyr, globals, vctrs
+(>= 0.2.0)",,"testthat, knitr, rmarkdown, survival, keras, xgboost, covr,
+C50, sparklyr (>= 1.0.0), earth, glmnet, kernlab, kknn,
+randomForest, ranger, rpart, MASS, nlme",,"GPL-2",,,,,"no","3.5.3"
+"party","C:/Users/jtolbert/Documents/R/win-library/3.5","1.3-3",,"R (>= 3.0.0), methods, grid, stats, mvtnorm (>= 1.0-2),
+modeltools (>= 0.2-21), strucchange","survival (>= 2.37-7), coin (>= 1.1-0), zoo, sandwich (>=
+1.1-1)","mvtnorm","TH.data (>= 1.0-3), mlbench, colorspace, MASS, vcd, ipred,
+varImp",,"GPL-2",,,,,"yes","3.5.3"
+"partykit","C:/Users/jtolbert/Documents/R/win-library/3.5","1.2-5",,"R (>= 3.1.0), graphics, grid, libcoin (>= 1.0-0), mvtnorm","grDevices, stats, utils, survival, Formula (>= 1.2-1), inum
+(>= 1.0-0), rpart (>= 4.1-11)",,"XML, pmml, rJava, sandwich, strucchange, vcd, AER, mlbench,
+TH.data (>= 1.0-3), coin (>= 1.1-0), RWeka (>= 0.4-19),
+datasets, parallel, psychotools (>= 0.3-0), psychotree, party
+(>= 1.3-0)",,"GPL-2 | GPL-3",,,,,"yes","3.5.3"
+"pbkrtest","C:/Users/jtolbert/Documents/R/win-library/3.5","0.4-7",,"R (>= 3.2.3), lme4 (>= 1.1.10)","Matrix (>= 1.2.3), parallel, MASS, methods",,,,"GPL (>= 2)",,,,,"no","3.5.2"
+"pdftools","C:/Users/jtolbert/Documents/R/win-library/3.5","2.2",,,"Rcpp (>= 0.12.12), qpdf","Rcpp","jpeg, png, webp, testthat",,"MIT + file LICENSE",,,,,"yes","3.5.3"
+"PerformanceAnalytics","C:/Users/jtolbert/Documents/R/win-library/3.5","1.5.3",,"R (>= 3.0.0), xts (>= 0.10.0)","methods, quadprog, zoo",,"dygraphs, Hmisc, MASS, quantmod, gamlss, gamlss.dist,
+robustbase, quantreg, gplots, testthat",,"GPL-2 | GPL-3",,,,,"yes","3.5.3"
+"phonathonupdates","C:/Users/jtolbert/Documents/R/win-library/3.5","0.1.1",,"dplyr,
+stringr,
+lubridate,
+tidyr,
+purrr,
+muadc",,,,,"GPL 3 or later",,,,,,"3.5.0"
+"pillar","C:/Users/jtolbert/Documents/R/win-library/3.5","1.4.2",,,"cli, crayon (>= 1.3.4), fansi, rlang (>= 0.3.0), utf8 (>=
+1.1.0), vctrs",,"knitr, lubridate, testthat, withr",,"GPL-3",,,,,"no","3.5.3"
+"pkgbuild","C:/Users/jtolbert/Documents/R/win-library/3.5","1.0.5",,"R (>= 3.1)","callr (>= 3.2.0), cli, crayon, desc, prettyunits, R6,
+rprojroot, withr (>= 2.1.2)",,"Rcpp, testthat, covr",,"GPL-3",,,,,"no","3.5.2"
+"pkgconfig","C:/Users/jtolbert/Documents/R/win-library/3.5","2.0.2",,,"utils",,"covr, testthat, disposables (>= 1.0.3)",,"MIT + file LICENSE",,,,,"no","3.5.2"
+"pkgload","C:/Users/jtolbert/Documents/R/win-library/3.5","1.0.2",,,"desc, methods, pkgbuild, rlang, rprojroot, rstudioapi, utils,
+withr",,"bitops, covr, Rcpp, testthat",,"GPL-3",,,,,"yes","3.5.2"
+"pkgmaker","C:/Users/jtolbert/Documents/R/win-library/3.5","0.27",,"R (>= 3.0.0), methods, stats, registry","tools, grDevices, utils, graphics, codetools, digest, stringi,
+magrittr, stringr, xtable, withr, bibtex (>= 0.4)",,"devtools (>= 0.8), roxygen2, RUnit, testthat, knitr,
+rmarkdown, yaml, Biobase",,"GPL (>= 2)",,,,,"no","3.5.2"
+"plogr","C:/Users/jtolbert/Documents/R/win-library/3.5","0.2.0",,,,,"Rcpp",,"MIT + file LICENSE",,,,,"no","3.5.2"
+"plotly","C:/Users/jtolbert/Documents/R/win-library/3.5","4.9.0",,"R (>= 3.2.0), ggplot2 (>= 3.0.0)","tools, scales, httr, jsonlite (>= 1.6), magrittr, digest,
+viridisLite, base64enc, htmltools (>= 0.3.6), htmlwidgets (>=
+1.3), tidyr, hexbin, RColorBrewer, dplyr, tibble, lazyeval (>=
+0.2.0), rlang, crosstalk, purrr, data.table, promises",,"MASS, maps, ggthemes, GGally, testthat, knitr, devtools,
+shiny (>= 1.1.0), shinytest (>= 1.3.0), curl, rmarkdown,
+vdiffr, Cairo, broom, webshot, listviewer, dendextend, sf,
+maptools, rgeos, png, IRdisplay, processx, plotlyGeoAssets,
+forcats",,"MIT + file LICENSE",,,,,"no","3.5.3"
+"plotmo","C:/Users/jtolbert/Documents/R/win-library/3.5","3.5.5",,"R (>= 3.4.0), Formula (>= 1.2-3), plotrix, TeachingDemos",,,"C50 (>= 0.1.0-24), earth (>= 5.1.0), gbm (>= 2.1.1), glmnet
+(>= 2.0.5), glmnetUtils (>= 1.0.3), MASS (>= 7.3-45), mlr (>=
+2.12.1), neuralnet (>= 1.33), partykit (>= 1.2-2), pre (>=
+0.5.0), rpart (>= 4.1-10), rpart.plot (>= 2.1.0)",,"GPL-3",,,,,"no","3.5.3"
+"plotrix","C:/Users/jtolbert/Documents/R/win-library/3.5","3.7-6",,"R (>= 3.5.0)","grDevices, graphics, stats, utils",,,,"GPL (>= 2)",,,,,"no","3.5.3"
+"pls","C:/Users/jtolbert/Documents/R/win-library/3.5","2.7-1",,"R (>= 2.10)","grDevices, graphics, methods, stats",,"MASS, parallel, Rmpi, testthat, RUnit",,"GPL-2",,,,,"no","3.5.3"
+"plyr","C:/Users/jtolbert/Documents/R/win-library/3.5","1.8.4",,"R (>= 3.1.0)","Rcpp (>= 0.11.0)","Rcpp","abind, testthat, tcltk, foreach, doParallel, itertools,
+iterators, covr",,"MIT + file LICENSE",,,,,"yes","3.5.2"
+"png","C:/Users/jtolbert/Documents/R/win-library/3.5","0.1-7",,"R (>= 2.9.0)",,,,,"GPL-2 | GPL-3",,,,,"yes","3.5.2"
+"PoloniexR","C:/Users/jtolbert/Documents/R/win-library/3.5","0.0.1",,"R (>= 3.3)","zoo (>= 1.8.0), xts (>= 0.9.7), anytime (>= 0.3.0), jsonlite
+(>= 1.5), httr (>= 1.2.1), digest (>= 0.6.12), methods (>=
+3.3.0), RApiDatetime (>= 0.0.3),",,,,"MIT + file LICENSE",,,,,"no","3.5.2"
+"polyclip","C:/Users/jtolbert/Documents/R/win-library/3.5","1.10-0",,"R (>= 3.0.0)",,,,,"BSL",,,,,"yes","3.5.3"
+"polynom","C:/Users/jtolbert/Documents/R/win-library/3.5","1.4-0",,,"stats, graphics",,"knitr, rmarkdown",,"GPL-2",,,,,"no","3.5.3"
+"pool","C:/Users/jtolbert/Documents/R/win-library/3.5","0.1.4.2",,"R (>= 3.0.0), methods","DBI, R6, dplyr, dbplyr, later",,"testthat, tibble, RSQLite, RMySQL",,"GPL-3",,,,,"no","3.5.2"
+"prabclus","C:/Users/jtolbert/Documents/R/win-library/3.5","2.3-1",,"R (>= 2.10), MASS, mclust",,,"spdep, spatialreg, bootstrap, maptools, foreign, mvtnorm",,"GPL",,,,,"no","3.5.3"
+"praise","C:/Users/jtolbert/Documents/R/win-library/3.5","1.0.0",,,,,"testthat",,"MIT + file LICENSE",,,,,"no","3.5.2"
+"prettydoc","C:/Users/jtolbert/Documents/R/win-library/3.5","0.3.0",,,"rmarkdown (>= 1.0)",,"knitr, KernSmooth",,"Apache License (>= 2.0)",,,,,"no","3.5.3"
+"prettyunits","C:/Users/jtolbert/Documents/R/win-library/3.5","1.0.2",,,"magrittr, assertthat, methods",,"testthat",,"MIT + file LICENSE",,,,,"no","3.5.2"
+"pROC","C:/Users/jtolbert/Documents/R/win-library/3.5","1.15.3",,"R (>= 2.14)","methods, plyr, Rcpp (>= 0.11.1)","Rcpp","microbenchmark, tcltk, MASS, logcondens, doParallel,
+testthat, vdiffr, ggplot2",,"GPL (>= 3)",,,,,"yes","3.5.3"
+"processx","C:/Users/jtolbert/Documents/R/win-library/3.5","3.4.1",,,"ps (>= 1.2.0), R6, utils",,"callr (>= 3.2.0), codetools, covr, crayon, curl, debugme,
+parallel, testthat, withr",,"MIT + file LICENSE",,,,,"yes","3.5.3"
+"prodlim","C:/Users/jtolbert/Documents/R/win-library/3.5","2018.04.18",,"R (>= 2.9.0)","Rcpp (>= 0.11.5), stats, graphics, survival, KernSmooth, lava","Rcpp",,,"GPL (>= 2)",,,,,"yes","3.5.2"
+"profvis","C:/Users/jtolbert/Documents/R/win-library/3.5","0.3.6",,"R (>= 3.0)","htmlwidgets (>= 0.3.2), stringr",,"knitr, ggplot2, rmarkdown, testthat, devtools, shiny,
+htmltools",,"GPL-3 | file LICENSE",,,,,"yes","3.5.3"
+"progress","C:/Users/jtolbert/Documents/R/win-library/3.5","1.2.2",,,"hms, prettyunits, R6, crayon",,"Rcpp, testthat, withr",,"MIT + file LICENSE",,,,,"no","3.5.3"
+"promises","C:/Users/jtolbert/Documents/R/win-library/3.5","1.0.1",,,"R6, Rcpp, later, rlang, stats, magrittr","later, Rcpp","testthat, future, knitr, rmarkdown",,"MIT + file LICENSE",,,,,"yes","3.5.2"
+"prophet","C:/Users/jtolbert/Documents/R/win-library/3.5","0.5",,"R (>= 3.2.3), Rcpp (>= 0.12.0), rlang (>= 0.3.0.1)","dplyr (>= 0.7.7), dygraphs (>= 1.1.1.4), extraDistr, ggplot2,
+grid, rstan (>= 2.14.0), scales, stats, tidyr (>= 0.6.1), xts",,"knitr, testthat, readr",,"BSD_3_clause + file LICENSE",,,,,"yes","3.5.3"
+"proto","C:/Users/jtolbert/Documents/R/win-library/3.5","1.0.0",,,,,"testthat, covr",,"GPL-2",,,,,"no","3.5.2"
+"PRROC","C:/Users/jtolbert/Documents/R/win-library/3.5","1.3.1",,,,,"testthat, ggplot2, ROCR",,"GPL-3",,,,,"no","3.5.2"
+"pryr","C:/Users/jtolbert/Documents/R/win-library/3.5","0.1.4",,"R (>= 3.1.0)","stringr, codetools, methods, Rcpp (>= 0.11.0)","Rcpp","testthat (>= 0.8.0)",,"GPL-2",,,,,"yes","3.5.2"
+"ps","C:/Users/jtolbert/Documents/R/win-library/3.5","1.3.0",,"R (>= 3.1)","utils",,"callr, covr, curl, pingr, processx (>= 3.1.0), R6, rlang,
+testthat, tibble",,"BSD_3_clause + file LICENSE",,,,,"yes","3.5.2"
+"psych","C:/Users/jtolbert/Documents/R/win-library/3.5","1.8.12",,"R (>= 2.10)","mnormt,parallel,stats,graphics,grDevices,methods,foreign,lattice,nlme",,"GPArotation, lavaan, sem, lme4,Rcsdp, graph, Rgraphviz",,"GPL (>= 2)",,,,,"no","3.5.2"
+"purrr","C:/Users/jtolbert/Documents/R/win-library/3.5","0.3.2",,"R (>= 3.1)","magrittr (>= 1.5), rlang (>= 0.3.1)",,"covr, crayon, dplyr (>= 0.7.8), knitr, rmarkdown, testthat,
+tibble, tidyselect",,"GPL-3 | file LICENSE",,,,,"yes","3.5.3"
+"pwr","C:/Users/jtolbert/Documents/R/win-library/3.5","1.2-2",,,"stats, graphics",,"ggplot2, scales, knitr, rmarkdown",,"GPL (>= 3)",,,,,"no","3.5.2"
+"qap","C:/Users/jtolbert/Documents/R/win-library/3.5","0.1-1",,,,,"testthat",,"GPL-3",,,,,"yes","3.5.2"
+"qmao","C:/Users/jtolbert/Documents/R/win-library/3.5","1.6.11",,"xts, quantmod (>= 0.3.22), FinancialInstrument (>= 0.10.0),
+XML (>= 3.96-1.1)","RCurl, RJSONIO, gdata, pander, shiny (>= 0.6.0)",,"timeDate, testthat",,"GPL-3",,,,,"no","3.5.1"
+"qpdf","C:/Users/jtolbert/Documents/R/win-library/3.5","1.1",,,"Rcpp, askpass, curl","Rcpp","testthat",,"Apache License 2.0",,,,,"yes","3.5.3"
+"quadprog","C:/Users/jtolbert/Documents/R/win-library/3.5","1.5-7",,"R (>= 3.1.0)",,,,,"GPL (>= 2)",,,,,"yes","3.5.3"
+"Quandl","C:/Users/jtolbert/Documents/R/win-library/3.5","2.10.0",,"R (>= 2.15.0), xts","httr (>= 0.6.1), zoo, jsonlite (>= 0.9.14)",,"testthat (>= 0.10.0), roxygen2, timeSeries",,"MIT + file LICENSE",,,,,"no","3.5.3"
+"quantmod","C:/Users/jtolbert/Documents/R/win-library/3.5","0.4-15",,"R (>= 3.2.0), xts(>= 0.9-0), zoo, TTR(>= 0.2), methods","curl",,"DBI,RMySQL,RSQLite,timeSeries,XML,downloader,jsonlite(>= 1.1)",,"GPL-3",,,,,"no","3.5.3"
+"quantreg","C:/Users/jtolbert/Documents/R/win-library/3.5","5.51",,"R (>= 2.6), stats, SparseM","methods, graphics, Matrix, MatrixModels",,"tripack, akima, MASS, survival, rgl, logspline, nor1mix,
+Formula, zoo, R.rsp",,"GPL (>= 2)",,,,,"yes","3.5.3"
+"questionr","C:/Users/jtolbert/Documents/R/win-library/3.5","0.7.0",,"R (>= 2.10)","shiny (>= 1.0.5), miniUI, rstudioapi, highr, classInt,
+htmltools, graphics, stats, utils, labelled (>= 2.0.0)",,"memisc, testthat, roxygen2, dplyr, tidyr, janitor, forcats,
+knitr",,"GPL (>= 2)",,,,,"no","3.5.2"
+"R.methodsS3","C:/Users/jtolbert/Documents/R/win-library/3.5","1.7.1",,"R (>= 2.13.0)","utils",,,,"LGPL (>= 2.1)",,,,,"no","3.5.2"
+"R.oo","C:/Users/jtolbert/Documents/R/win-library/3.5","1.22.0",,"R (>= 2.13.0), R.methodsS3 (>= 1.7.1)","methods, utils",,"tools",,"LGPL (>= 2.1)",,,,,"no","3.5.2"
+"R.utils","C:/Users/jtolbert/Documents/R/win-library/3.5","2.9.0",,"R (>= 2.14.0), R.oo (>= 1.22.0)","methods, utils, tools, R.methodsS3 (>= 1.7.1)",,"digest (>= 0.6.10)",,"LGPL (>= 2.1)",,,,,"no","3.5.3"
+"R6","C:/Users/jtolbert/Documents/R/win-library/3.5","2.4.0",,"R (>= 3.0)",,,"knitr, microbenchmark, pryr, testthat, ggplot2, scales",,"MIT + file LICENSE",,,,,"no","3.5.2"
+"Radviz","C:/Users/jtolbert/Documents/R/win-library/3.5","0.7.0",,"R (>= 2.15)","graphics, stats, utils, grid, gridBase, hexbin, MASS,
+KernSmooth",,"knitr, rmarkdown, bodenmiller, colorspace",,"CC BY-NC-SA 4.0",,,,,"no","3.5.2"
+"randomForest","C:/Users/jtolbert/Documents/R/win-library/3.5","4.6-14",,"R (>= 3.2.2), stats",,,"RColorBrewer, MASS",,"GPL (>= 2)",,,,,"yes","3.5.2"
+"randomForestExplainer","C:/Users/jtolbert/Documents/R/win-library/3.5","0.9",,"R (>= 3.0)","data.table (>= 1.10.4), dplyr (>= 0.7.1), dtplyr (>= 0.0.2),
+DT (>= 0.2), GGally (>= 1.3.0), ggplot2 (>= 2.2.1), ggrepel (>=
+0.6.5), MASS (>= 7.3.47), randomForest (>= 4.6.12), reshape2
+(>= 1.4.2), rmarkdown (>= 1.5)",,"knitr",,"GPL",,,,,"no","3.5.2"
+"RApiDatetime","C:/Users/jtolbert/Documents/R/win-library/3.5","0.0.4",,,,,,,"GPL (>= 2)",,,,,"yes","3.5.2"
+"rappdirs","C:/Users/jtolbert/Documents/R/win-library/3.5","0.3.1",,"R (>= 2.14), methods",,,"testthat, roxygen2",,"MIT + file LICENSE",,,,,"yes","3.5.2"
+"rcmdcheck","C:/Users/jtolbert/Documents/R/win-library/3.5","1.3.3",,,"callr (>= 3.1.1.9000), cli (>= 1.1.0), crayon, desc (>=
+1.2.0), digest, pkgbuild, prettyunits, R6, rprojroot,
+sessioninfo (>= 1.1.1), utils, withr, xopen",,"covr, knitr, mockery, rmarkdown, testthat",,"MIT + file LICENSE",,,,,"no","3.5.3"
+"RcmdrMisc","C:/Users/jtolbert/Documents/R/win-library/3.5","2.5-1",,"R (>= 3.5.0), utils, car (>= 3.0-0), sandwich","abind, colorspace, Hmisc (>= 4.1-0), MASS, e1071, foreign,
+haven, readstata13, readxl, graphics, grDevices, stats, nortest",,"boot, datasets",,"GPL (>= 2)",,,,,"no","3.5.2"
+"RColorBrewer","C:/Users/jtolbert/Documents/R/win-library/3.5","1.1-2",,"R (>= 2.0.0)",,,,,"Apache License 2.0",,,,,"no","3.5.2"
+"Rcpp","C:/Users/jtolbert/Documents/R/win-library/3.5","1.0.2",,"R (>= 3.0.0)","methods, utils",,"RUnit, inline, rbenchmark, knitr, rmarkdown, pinp, pkgKitten
+(>= 0.1.2)",,"GPL (>= 2)",,,,,"yes","3.5.3"
+"RcppArmadillo","C:/Users/jtolbert/Documents/R/win-library/3.5","0.9.700.2.0",,"R (>= 3.3.0)","Rcpp (>= 0.11.0), stats, utils, methods","Rcpp","RUnit, Matrix, pkgKitten, reticulate, rmarkdown, knitr, pinp,
+slam",,"GPL (>= 2)",,,,,"yes","3.5.3"
+"RcppEigen","C:/Users/jtolbert/Documents/R/win-library/3.5","0.3.3.5.0",,"R (>= 2.15.1)","Matrix (>= 1.1-0), Rcpp (>= 0.11.0), stats, utils","Rcpp","inline, RUnit, pkgKitten, microbenchmark",,"GPL (>= 2) | file LICENSE",,,,,"yes","3.5.3"
+"RcppParallel","C:/Users/jtolbert/Documents/R/win-library/3.5","4.4.3",,"R (>= 3.0.2)",,,"Rcpp, RUnit, knitr, rmarkdown",,"GPL-2",,,,,"yes","3.5.3"
+"RcppProgress","C:/Users/jtolbert/Documents/R/win-library/3.5","0.4.1",,,,,"RcppArmadillo, devtools, roxygen2, testthat",,"GPL (>= 3)",,,,,"no","3.5.2"
+"RcppRoll","C:/Users/jtolbert/Documents/R/win-library/3.5","0.3.0",,"R (>= 2.15.1)","Rcpp","Rcpp","zoo, testthat",,"GPL (>= 2)",,,,,"yes","3.5.2"
+"RCurl","C:/Users/jtolbert/Documents/R/win-library/3.5","1.95-4.12",,"R (>= 3.0.0), methods, bitops",,,"Rcompression, XML",,"BSD",,,,,"yes","3.5.3"
+"readbitmap","C:/Users/jtolbert/Documents/R/win-library/3.5","0.1.5",,,"bmp, jpeg, png, tiff",,"pixmap, testthat",,"GPL (>= 2)",,,,,"no","3.5.2"
+"readODS","C:/Users/jtolbert/Documents/R/win-library/3.5","1.6.7",,,"xml2 (>= 1.0.0), cellranger, readr, stringi",,"dplyr, testthat, datasets",,"GPL-3",,,,,"no","3.5.2"
+"readr","C:/Users/jtolbert/Documents/R/win-library/3.5","1.3.1",,"R (>= 3.1)","Rcpp (>= 0.12.0.5), tibble, hms (>= 0.4.1), R6, clipr, crayon,
+methods","Rcpp, BH","curl, testthat, knitr, rmarkdown, stringi, covr, spelling",,"GPL (>= 2) | file LICENSE",,,,,"yes","3.5.3"
+"readstata13","C:/Users/jtolbert/Documents/R/win-library/3.5","0.9.2",,,"Rcpp (>= 0.11.5)","Rcpp","testthat",,"GPL-2 | file LICENSE",,,,,"yes","3.5.2"
+"readtext","C:/Users/jtolbert/Documents/R/win-library/3.5","0.75",,"R (>= 3.1)","antiword, data.table, digest, httr, jsonlite (>= 0.9.10),
+pdftools, readODS, readxl, streamR, stringi, striprtf, tibble,
+xml2, utils",,"knitr, pkgload, rmarkdown, quanteda (>= 1.1.0), testthat",,"GPL-3",,,,,"no","3.5.3"
+"readxl","C:/Users/jtolbert/Documents/R/win-library/3.5","1.3.1",,,"cellranger, Rcpp (>= 0.12.18), tibble (>= 1.3.1), utils","progress, Rcpp","covr, knitr, rmarkdown, rprojroot (>= 1.1), testthat",,"GPL-3",,,,,"yes","3.5.3"
+"recipes","C:/Users/jtolbert/Documents/R/win-library/3.5","0.1.7",,"R (>= 3.1), dplyr","generics, glue, gower, ipred, lubridate, magrittr, Matrix,
+purrr (>= 0.2.3), rlang (>= 0.4.0), stats, tibble, tidyr (>=
+0.8.3), tidyselect (>= 0.2.5), timeDate, utils, withr",,"covr, ddalpha, dimRed (>= 0.2.2), fastICA, ggplot2, igraph,
+kernlab, knitr, pls, RANN, RcppRoll, rmarkdown, rpart, rsample,
+RSpectra, testthat (>= 2.1.0)",,"GPL-2",,,,,"no","3.5.2"
+"registry","C:/Users/jtolbert/Documents/R/win-library/3.5","0.5-1",,"R (>= 2.6.0)","utils",,,,"GPL-2",,,,,"no","3.5.2"
+"rematch","C:/Users/jtolbert/Documents/R/win-library/3.5","1.0.1",,,,,"covr, testthat",,"MIT + file LICENSE",,,,,"no","3.5.2"
+"rematch2","C:/Users/jtolbert/Documents/R/win-library/3.5","2.1.0",,,"tibble",,"covr, testthat",,"MIT + file LICENSE",,,,,"no","3.5.3"
+"remotes","C:/Users/jtolbert/Documents/R/win-library/3.5","2.1.0",,"R (>= 3.0.0)","methods, stats, tools, utils",,"brew, callr, codetools, curl, covr, git2r (>= 0.23.0), knitr,
+mockery, pkgbuild (>= 1.0.1), pingr, rmarkdown, rprojroot,
+testthat, withr",,"GPL (>= 2)",,,,,"no","3.5.3"
+"reprex","C:/Users/jtolbert/Documents/R/win-library/3.5","0.3.0",,"R (>= 3.1)","callr (>= 2.0.0), clipr (>= 0.4.0), fs, rlang, rmarkdown,
+utils, whisker, withr",,"covr, devtools, fortunes, knitr, miniUI, rprojroot,
+rstudioapi, shiny, styler (>= 1.0.2), testthat (>= 2.0.0)",,"MIT + file LICENSE",,,,,"no","3.5.3"
+"reshape","C:/Users/jtolbert/Documents/R/win-library/3.5","0.8.8",,"R (>= 2.6.1)","plyr",,,,"MIT + file LICENSE",,,,,"yes","3.5.2"
+"reshape2","C:/Users/jtolbert/Documents/R/win-library/3.5","1.4.3",,"R (>= 3.1)","plyr (>= 1.8.1), Rcpp, stringr","Rcpp","covr, lattice, testthat (>= 0.8.0)",,"MIT + file LICENSE",,,,,"yes","3.5.2"
+"reticulate","C:/Users/jtolbert/Documents/R/win-library/3.5","1.13",,"R (>= 3.0)","utils, graphics, jsonlite, Rcpp (>= 0.12.7), Matrix","Rcpp","testthat, knitr, callr, rmarkdown",,"Apache License 2.0",,,,,"yes","3.5.3"
+"rex","C:/Users/jtolbert/Documents/R/win-library/3.5","1.1.2",,,"magrittr, lazyeval",,"testthat, knitr, rmarkdown, dplyr, ggplot2, Hmisc, stringr,
+rvest, roxygen2, covr",,"MIT + file LICENSE",,,,,"no","3.5.2"
+"Rfacebook","C:/Users/jtolbert/Documents/R/win-library/3.5","0.6.15",,"R (>= 2.12.0), httr, rjson, httpuv",,,,,"GPL-2",,,,,"no","3.5.2"
+"RForcecom","C:/Users/jtolbert/Documents/R/win-library/3.5","1.1",,"R (>= 3.1.0)","XML, httr, plyr, methods, RCurl, utils",,"testthat",,"Apache License 2.0",,,,,"no","3.5.3"
+"rgdal","C:/Users/jtolbert/Documents/R/win-library/3.5","1.4-4",,"R (>= 3.3.0), methods, sp (>= 1.1-0)","grDevices, graphics, stats, utils","sp",,,"GPL (>= 2)",,,,,"yes","3.5.3"
+"rgeos","C:/Users/jtolbert/Documents/R/win-library/3.5","0.5-1",,"R (>= 3.3.0), methods, sp (>= 1.1-0)","utils, stats, graphics","sp","maptools (>= 0.8-5), testthat, XML, maps, rgdal",,"GPL (>= 2)",,,,,"yes","3.5.3"
+"rgexf","C:/Users/jtolbert/Documents/R/win-library/3.5","0.15.3",,"XML, Rook, igraph",,,,,"GPL (>= 3)",,,,,"yes","3.5.2"
+"RgoogleMaps","C:/Users/jtolbert/Documents/R/win-library/3.5","1.4.4",,"R (>= 2.10)","graphics, stats, utils, grDevices, methods, png",,"PBSmapping, maptools, sp, loa, RColorBrewer, leaflet",,"GPL",,,,,"no","3.5.3"
+"rio","C:/Users/jtolbert/Documents/R/win-library/3.5","0.5.16",,"R (>= 2.15.0)","tools, stats, utils, foreign, haven (>= 1.1.0), curl (>= 0.6),
+data.table (>= 1.9.8), readxl (>= 0.1.1), openxlsx, tibble",,"datasets, bit64, testthat, knitr, magrittr, clipr, csvy,
+feather, fst, hexView, jsonlite, readODS (>= 1.6.4), readr,
+rmatio, xml2 (>= 1.2.0), yaml",,"GPL-2",,,,,"no","3.5.2"
+"rJava","C:/Users/jtolbert/Documents/R/win-library/3.5","0.9-11",,"R (>= 2.5.0), methods",,,,,"GPL-2",,,,,"yes","3.5.3"
+"rjson","C:/Users/jtolbert/Documents/R/win-library/3.5","0.2.20",,"R (>= 3.1.0)",,,,,"GPL-2",,,,,"yes","3.5.2"
+"RJSONIO","C:/Users/jtolbert/Documents/R/win-library/3.5","1.3-1.2",,,"methods",,,,"BSD_3_clause + file LICENSE",,,,,"yes","3.5.3"
+"rlang","C:/Users/jtolbert/Documents/R/win-library/3.5","0.4.0",,"R (>= 3.2.0)",,,"covr, crayon, magrittr, methods, pillar, rmarkdown, testthat
+(>= 2.0.0)",,"GPL-3",,,,,"yes","3.5.3"
+"rlecuyer","C:/Users/jtolbert/Documents/R/win-library/3.5","0.3-4",,,,,,,"GPL (>= 2)",,,,,"yes","3.5.2"
+"rmapcounties","C:/Users/jtolbert/Documents/R/win-library/3.5","0.2.0",,,"tidyverse, magrittr, leaflet, curl, muadc, purrr",,"knitr, rmarkdown",,"GPL v. 3.0 or later",,,,,"no","3.5.2"
+"RMariaDB","C:/Users/jtolbert/Documents/R/win-library/3.5","1.0.6",,"R (>= 2.8.0)","bit64, DBI (>= 1.0.0), hms, methods, Rcpp (>= 0.12.4)","BH, plogr, Rcpp","DBItest, rprojroot, testthat",,"GPL-2",,,,,"yes","3.5.2"
+"rmarkdown","C:/Users/jtolbert/Documents/R/win-library/3.5","1.15.1",,"R (>= 3.0)","tools, utils, knitr (>= 1.22), yaml (>= 2.1.19), htmltools (>=
+0.3.5), evaluate (>= 0.13), base64enc, jsonlite, mime, tinytex
+(>= 0.11), xfun, methods, stringr (>= 1.2.0)",,"shiny (>= 0.11), tufte, testthat, digest, dygraphs, tibble,
+fs, pkgdown, callr (>= 2.0.0)",,"GPL-3",,,,,"no","3.5.2"
+"rmdformats","C:/Users/jtolbert/Documents/R/win-library/3.5","0.3.5",,,"knitr, rmarkdown, bookdown, htmltools, questionr",,,,"GPL (>= 2)",,,,,"no","3.5.2"
+"rmsfact","C:/Users/jtolbert/Documents/R/win-library/3.5","0.0.3",,,,,,,"GPL-3",,,,,"no","3.5.2"
+"rmutil","C:/Users/jtolbert/Documents/R/win-library/3.5","1.1.3",,"R (>= 1.4)",,,,,"GPL-2",,,,,"yes","3.5.2"
+"RMySQL","C:/Users/jtolbert/Documents/R/win-library/3.5","0.10.17",,"R (>= 2.8.0), DBI (>= 0.4)","methods",,"RMariaDB, testthat, curl",,"GPL-2",,,,,"yes","3.5.3"
+"RNetCDF","C:/Users/jtolbert/Documents/R/win-library/3.5","1.9-1",,"R (>= 2.5.0)",,,,,"GPL (>= 2) | file LICENSE",,,,,"yes","3.5.2"
+"rngtools","C:/Users/jtolbert/Documents/R/win-library/3.5","1.4",,"R (>= 3.2.0), methods, pkgmaker (>= 0.20)","stringr, digest, utils, stats, parallel",,"covr, RUnit, testthat",,"GPL-3",,,,,"no","3.5.3"
+"ROAuth","C:/Users/jtolbert/Documents/R/win-library/3.5","0.9.6",,"R (>= 2.12.0)","RCurl, digest, methods",,,,"Artistic-2.0",,,,,"no","3.5.2"
+"robustbase","C:/Users/jtolbert/Documents/R/win-library/3.5","0.93-5",,"R (>= 3.1.0)","stats, graphics, utils, methods, DEoptimR",,"grid, MASS, lattice, boot, cluster, Matrix, robust,
+fit.models, MPV, xtable, ggplot2, GGally, RColorBrewer,
+reshape2, sfsmisc, catdata, doParallel, foreach, skewt",,"GPL (>= 2)",,,,,"yes","3.5.3"
+"ROCR","C:/Users/jtolbert/Documents/R/win-library/3.5","1.0-7",,"gplots, methods",,,,,"GPL (>= 2)",,,,,"no","3.5.2"
+"Rook","C:/Users/jtolbert/Documents/R/win-library/3.5","1.1-1",,"R (>= 2.13.0)","utils, tools, methods, brew",,,,"GPL-2",,,,,"yes","3.5.2"
+"ROSE","C:/Users/jtolbert/Documents/R/win-library/3.5","0.0-3",,,,,"MASS, nnet, rpart, tree",,"GPL-2",,,,,"no","3.5.2"
+"roxygen2","C:/Users/jtolbert/Documents/R/win-library/3.5","6.1.1",,"R (>= 3.1)","brew, commonmark, desc (>= 1.2.0), digest, methods, pkgload
+(>= 1.0.2), purrr, R6 (>= 2.1.2), Rcpp (>= 0.11.0), stringi,
+stringr (>= 1.0.0), utils, xml2","Rcpp","covr, devtools, knitr, rmarkdown, testthat (>= 0.8.0)",,"GPL (>= 2)",,,,,"yes","3.5.2"
+"rpart","C:/Users/jtolbert/Documents/R/win-library/3.5","4.1-15","recommended","R (>= 2.15.0), graphics, stats, grDevices",,,"survival",,"GPL-2 | GPL-3",,,,,"yes","3.5.3"
+"RPostgreSQL","C:/Users/jtolbert/Documents/R/win-library/3.5","0.6-2",,"R (>= 2.9.0), methods, DBI (>= 0.3)",,,,,"GPL-2 | file LICENSE",,,,,"yes","3.5.2"
+"rprojroot","C:/Users/jtolbert/Documents/R/win-library/3.5","1.3-2",,"R (>= 3.0.0)","backports",,"testthat, mockr, knitr, withr, rmarkdown",,"GPL-3",,,,,"no","3.5.2"
+"rredis","C:/Users/jtolbert/Documents/R/win-library/3.5","1.7.0",,,,,"RUnit",,"Apache License (>= 2.0)",,,,,"yes","3.5.2"
+"rsample","C:/Users/jtolbert/Documents/R/win-library/3.5","0.0.5",,"R (>= 3.1), tidyr","dplyr, purrr, tibble, rlang (>= 0.4.0), methods, generics,
+utils, tidyselect, furrr",,"ggplot2, testthat, rmarkdown, knitr, AmesHousing, recipes (>=
+0.1.4), broom",,"GPL-2",,,,,"no","3.5.3"
+"rsconnect","C:/Users/jtolbert/Documents/R/win-library/3.5","0.8.15",,"R (>= 3.0.0)","curl, jsonlite, openssl, packrat (>= 0.4.8-1), rstudioapi (>=
+0.5), yaml (>= 2.1.5)",,"RCurl, callr, httpuv, knitr, plumber (>= 0.3.2), reticulate,
+rmarkdown (>= 1.1), shiny, sourcetools, testthat, xtable",,"GPL-2",,,,,"no","3.5.3"
+"RSelenium","C:/Users/jtolbert/Documents/R/win-library/3.5","1.7.5",,"R (>= 3.0.0)","XML, methods, caTools, tools, utils, openssl, httr, wdman(>=
+0.2.2), binman",,"testthat, knitr, Rcompression, covr, rmarkdown",,"AGPL-3",,,,,"no","3.5.2"
+"RSQLite","C:/Users/jtolbert/Documents/R/win-library/3.5","2.1.2",,"R (>= 3.1.0)","bit64, blob (>= 1.2.0), DBI (>= 1.0.0), memoise, methods,
+pkgconfig, Rcpp (>= 0.12.7)","BH, plogr (>= 0.2.0), Rcpp","DBItest, knitr, rmarkdown, testthat",,"LGPL (>= 2)",,,,,"yes","3.5.3"
+"rstan","C:/Users/jtolbert/Documents/R/win-library/3.5","2.19.2",,"R (>= 3.4.0), StanHeaders (> 2.18.1), ggplot2 (>= 2.0.0)","methods, stats4, inline, gridExtra (>= 2.0.0), Rcpp (>=
+0.12.0), loo (>= 2.0.0), pkgbuild","Rcpp (>= 0.12.0), RcppEigen (>= 0.3.3.3.0), BH (>= 1.69.0),
+StanHeaders (> 2.18.1)","RUnit, RcppEigen (>= 0.3.3.3.0), BH (>= 1.66), parallel,
+KernSmooth, shinystan (>= 2.3.0), bayesplot (>= 1.5.0),
+rmarkdown, rstantools, rstudioapi, Matrix, knitr (>= 1.15.1)",,"GPL (>= 3)",,,,,"yes","3.5.3"
+"rstanarm","C:/Users/jtolbert/Documents/R/win-library/3.5","2.18.2",,"R (>= 3.4.0), Rcpp (>= 0.12.0), methods","bayesplot (>= 1.5.0), ggplot2 (>= 2.2.1), lme4 (>= 1.1-8), loo
+(>= 2.0.0), Matrix (>= 1.2-13), nlme (>= 3.1-124), rstan (>=
+2.18.1), rstantools (>= 1.4.0), shinystan (>= 2.3.0), stats,
+survival (>= 2.40.1), utils","StanHeaders (>= 2.18.0), rstan (>= 2.18.1), BH (>= 1.66.0),
+Rcpp (>= 0.12.0), RcppEigen (>= 0.3.3.3.0)","betareg, data.table (>= 1.10.0), digest, gridExtra, HSAUR3,
+knitr (>= 1.15.1), MASS, mgcv (>= 1.8-13), rmarkdown, roxygen2,
+testthat (>= 1.0.2)",,"GPL (>= 3)",,,,,"yes","3.5.3"
+"rstantools","C:/Users/jtolbert/Documents/R/win-library/3.5","2.0.0",,,"stats, utils, Rcpp (>= 0.12.16), desc",,"rstan (>= 2.17.2), usethis (>= 1.5.1), testthat (>= 2.0.0),
+knitr, pkgbuild, pkgload, roxygen2 (>= 6.0.1), rmarkdown,
+rstudioapi",,"GPL (>= 3)",,,,,"no","3.5.2"
+"rstudioapi","C:/Users/jtolbert/Documents/R/win-library/3.5","0.10",,,,,"testthat, knitr, rmarkdown",,"MIT + file LICENSE",,,,,"no","3.5.3"
+"Rttf2pt1","C:/Users/jtolbert/Documents/R/win-library/3.5","1.3.7",,"R (>= 2.15)",,,,,"file LICENSE","yes",,,,"yes","3.5.2"
+"rtweet","C:/Users/jtolbert/Documents/R/win-library/3.5","0.6.9",,"R (>= 3.1.0)","httr (>= 1.3.0), jsonlite (>= 0.9.22), magrittr (>= 1.5.0),
+tibble (>= 1.3.4), utils, progress, Rcpp, httpuv","Rcpp","ggplot2, knitr, magick, openssl, readr, rmarkdown, testthat
+(>= 2.1.0), webshot, covr, igraph",,"MIT + file LICENSE",,,,,"yes","3.5.3"
+"RUnit","C:/Users/jtolbert/Documents/R/win-library/3.5","0.4.32",,"R (>= 2.5.0), utils (>= 2.5.0), methods (>= 2.5.0), graphics
+(>= 2.5.0)",,,"XML (>= 3.1.0)",,"GPL-2",,,,,"no","3.5.2"
+"rusps","C:/Users/jtolbert/Documents/R/win-library/3.5","0.2.1",,,"XML
+, xml2
+, dplyr
+, tidyr
+, purrr
+, httr
+, jsonlite",,,,"GPL3",,,,,,"3.5.1"
+"rversions","C:/Users/jtolbert/Documents/R/win-library/3.5","2.0.0",,,"curl, xml2 (>= 1.0.0), utils",,"mockery, testthat",,"MIT + file LICENSE",,,,,"no","3.5.3"
+"rvest","C:/Users/jtolbert/Documents/R/win-library/3.5","0.3.4",,"R (>= 3.2), xml2","httr (>= 0.5), magrittr, selectr",,"covr, knitr, png, rmarkdown, spelling, stringi (>= 0.3.1),
+testthat",,"GPL-3",,,,,"no","3.5.3"
+"salesforcer","C:/Users/jtolbert/Documents/R/win-library/3.5","0.1.3",,"R (>= 3.5.0)","methods (>= 3.5.0), XML (>= 3.98-1.19), httr (>= 1.4.0), dplyr
+(>= 0.8.0), xml2 (>= 1.2.0), readr (>= 1.3.1), data.table (>=
+1.12.0), jsonlite, purrr, lubridate",,"knitr, testthat, rmarkdown, here, RForcecom",,"MIT + file LICENSE",,,,,"no","3.5.3"
+"samplesize","C:/Users/jtolbert/Documents/R/win-library/3.5","0.2-4",,,,,,,"GPL (>= 2)",,,,,"no","3.5.2"
+"sandwich","C:/Users/jtolbert/Documents/R/win-library/3.5","2.5-1",,"R (>= 2.10.0)","stats, utils, zoo",,"AER, car, geepack, lattice, lmtest, MASS, multiwayvcov,
+parallel, pcse, plm, pscl, scatterplot3d, stats4, strucchange,
+survival",,"GPL-2 | GPL-3",,,,,"no","3.5.3"
+"satellite","C:/Users/jtolbert/Documents/R/win-library/3.5","1.0.1",,"R (>= 2.10), raster, methods, utils, stats, grDevices,
+graphics","plyr, Rcpp (>= 0.10.3), tools, stats4","Rcpp","devtools, knitr, rgdal, testthat, rmarkdown",,"GPL (>= 3) | file LICENSE",,,,,"yes","3.5.2"
+"scales","C:/Users/jtolbert/Documents/R/win-library/3.5","1.0.0",,"R (>= 3.1)","labeling, munsell (>= 0.5), R6, RColorBrewer, Rcpp,
+viridisLite","Rcpp","dichromat, bit64, covr, hms, testthat (>= 2.0)",,"MIT + file LICENSE",,,,,"yes","3.5.2"
+"scatterplot3d","C:/Users/jtolbert/Documents/R/win-library/3.5","0.3-41",,"R (>= 2.7.0)","grDevices, graphics, stats",,,,"GPL-2",,,,,"no","3.5.2"
+"selectr","C:/Users/jtolbert/Documents/R/win-library/3.5","0.4-1",,"R (>= 3.0)","methods, stringr, R6",,"testthat, XML, xml2",,"BSD_3_clause + file LICENCE",,,,,"no","3.5.2"
+"semver","C:/Users/jtolbert/Documents/R/win-library/3.5","0.2.0",,,"Rcpp (>= 0.12.8), assertthat, utils","Rcpp","testthat, covr, knitr, rmarkdown",,"MIT + file LICENSE",,,,,"yes","3.5.2"
+"seriation","C:/Users/jtolbert/Documents/R/win-library/3.5","1.2-8",,"R (>= 2.14.0)","TSP, qap, grid, cluster, gclus, dendextend, colorspace, MASS,
+gplots, registry, methods, stats, grDevices",,"biclust, testthat, DendSer, GA",,"GPL-3",,,,,"yes","3.5.2"
+"sessioninfo","C:/Users/jtolbert/Documents/R/win-library/3.5","1.1.1",,,"cli, tools, utils, withr",,"callr, covr, mockery, testthat",,"GPL-2",,,,,"no","3.5.2"
+"sf","C:/Users/jtolbert/Documents/R/win-library/3.5","0.7-7",,"methods, R (>= 3.3.0)","classInt (>= 0.2-1), DBI (>= 0.8), graphics, grDevices, grid,
+magrittr, Rcpp (>= 0.12.18), stats, tools, units (>= 0.6-0),
+utils","Rcpp","blob, covr, dplyr (>= 0.8-3), ggplot2, knitr, lwgeom (>=
+0.1-5), maps, maptools, mapview, microbenchmark, odbc, pillar,
+pool, raster, rgdal, rgeos, rlang, rmarkdown, RPostgres (>=
+1.1.0), RPostgreSQL, RSQLite, sp (>= 1.2-4), spatstat, stars
+(>= 0.2-0), testthat, tibble (>= 1.4.1), tidyr (>= 0.7-2),
+tidyselect, tmap (>= 2.0)",,"GPL-2 | MIT + file LICENSE",,,,,"yes","3.5.3"
+"sfsmisc","C:/Users/jtolbert/Documents/R/win-library/3.5","1.1-4",,"R (>= 3.2.0)","grDevices, methods, utils, stats",,"datasets, tcltk, cluster, lattice, MASS, Matrix, nlme, lokern","mgcv, rpart, nor1mix, polycor, sm, tikzDevice","GPL (>= 2)",,,,,"no","3.5.3"
+"sgeostat","C:/Users/jtolbert/Documents/R/win-library/3.5","1.0-27",,"stats, grDevices, graphics, R (>= 2.0.0)",,,,,"GPL (>= 2)",,,,,"yes","3.5.2"
+"shiny","C:/Users/jtolbert/Documents/R/win-library/3.5","1.3.2",,"R (>= 3.0.2), methods","utils, grDevices, httpuv (>= 1.5.0), mime (>= 0.3), jsonlite
+(>= 0.9.16), xtable, digest, htmltools (>= 0.3.6), R6 (>= 2.0),
+sourcetools, later (>= 0.7.2), promises (>= 1.0.1), tools,
+crayon, rlang",,"datasets, Cairo (>= 1.5-5), testthat, knitr (>= 1.6),
+markdown, rmarkdown, ggplot2, reactlog (>= 1.0.0), magrittr",,"GPL-3 | file LICENSE",,,,,"no","3.5.3"
+"shinydashboard","C:/Users/jtolbert/Documents/R/win-library/3.5","0.7.1",,"R (>= 3.0)","utils, shiny (>= 1.0.0), htmltools (>= 0.2.6), promises",,,,"GPL (>= 2) | file LICENSE",,,,,"no","3.5.2"
+"shinyjs","C:/Users/jtolbert/Documents/R/win-library/3.5","1.0",,"R (>= 3.1.0)","digest (>= 0.6.8), htmltools (>= 0.2.9), jsonlite, shiny (>=
+1.0.0)",,"knitr (>= 1.7), rmarkdown, shinyAce, testthat (>= 0.9.1), V8
+(>= 0.6)",,"AGPL-3",,,,,"no","3.5.3"
+"shinystan","C:/Users/jtolbert/Documents/R/win-library/3.5","2.5.0",,"R (>= 3.1.0), shiny (>= 1.0.3)","bayesplot (>= 1.5.0), colourpicker, DT (>= 0.2), dygraphs (>=
+1.1.1.2), ggplot2 (>= 2.1.1), gridExtra, gtools, markdown (>=
+0.7.4), methods, reshape2, rsconnect (>= 0.4.2), rstan (>=
+2.17.1), stats, shinyjs (>= 0.6.0), shinythemes (>= 1.0.1),
+threejs (>= 0.2.1), utils, xtable, xts (>= 0.9-7)",,"coda, knitr (>= 1.9), rmarkdown (>= 0.8.1), rstanarm (>=
+2.17.4), testthat",,"GPL (>= 3)",,,,,"no","3.5.3"
+"shinythemes","C:/Users/jtolbert/Documents/R/win-library/3.5","1.1.2",,"R (>= 3.0.0)","shiny (>= 0.11)",,,,"GPL-3 | file LICENSE",,,,,"no","3.5.3"
+"skimr","C:/Users/jtolbert/Documents/R/win-library/3.5","1.0.7",,"R (>= 3.1.2)","cli, dplyr (>= 0.7), magrittr, pander, purrr, rlang, stats,
+stringr (>= 1.1), knitr (>= 1.2), tibble (>= 0.6), tidyr (>=
+0.7), tidyselect (>= 0.2.4)",,"extrafont, rmarkdown, testthat (>= 2.0.0), withr, covr",,"GPL-3",,,,,"no","3.5.3"
+"slam","C:/Users/jtolbert/Documents/R/win-library/3.5","0.1-45",,"R (>= 3.4.0)","stats",,,"Matrix, SparseM, spam","GPL-2",,,,,"yes","3.5.2"
+"smbinning","C:/Users/jtolbert/Documents/R/win-library/3.5","0.9",,"R (>= 3.2.0),sqldf,partykit,Formula","gsubfn",,,,"GPL (>= 2)",,,,,"no","3.5.3"
+"snakecase","C:/Users/jtolbert/Documents/R/win-library/3.5","0.11.0",,"R (>= 3.2)","stringr, stringi",,"testthat, covr, tibble, purrrlyr, knitr, rmarkdown, magrittr",,"GPL-3",,,,,"no","3.5.3"
+"snow","C:/Users/jtolbert/Documents/R/win-library/3.5","0.4-3",,"R (>= 2.13.1), utils",,,"Rmpi,rlecuyer,nws",,"GPL",,,,,"no","3.5.2"
+"SnowballC","C:/Users/jtolbert/Documents/R/win-library/3.5","0.6.0",,,,,,,"BSD_3_clause + file LICENSE",,,,,"yes","3.5.2"
+"snowfall","C:/Users/jtolbert/Documents/R/win-library/3.5","1.84-6.1",,"R (>= 2.10), snow",,,"Rmpi",,"GPL",,,,,"no","3.5.2"
+"sodium","C:/Users/jtolbert/Documents/R/win-library/3.5","1.1",,,,,"knitr, rmarkdown",,"MIT + file LICENSE",,,,,"yes","3.5.2"
+"sourcetools","C:/Users/jtolbert/Documents/R/win-library/3.5","0.1.7",,"R (>= 3.0.2)",,,"testthat",,"MIT + file LICENSE",,,,,"yes","3.5.2"
+"sp","C:/Users/jtolbert/Documents/R/win-library/3.5","1.3-1",,"R (>= 3.0.0), methods","utils, stats, graphics, grDevices, lattice, grid",,"RColorBrewer, rgdal (>= 0.8-7), rgeos (>= 0.3-13), gstat,
+maptools, deldir",,"GPL (>= 2)",,,,,"yes","3.5.2"
+"spark","C:/Users/jtolbert/Documents/R/win-library/3.5","2.0.0",,,"clisymbols (>= 1.2.0),
+methods,
+utils",,"covr,
+crayon,
+mockr,
+testthat",,"MIT + file LICENSE",,,,,,"3.5.0"
+"sparkline","C:/Users/jtolbert/Documents/R/win-library/3.5","2.0",,,"htmltools, htmlwidgets (>= 0.8)",,"formattable, knitr, rmarkdown, shiny",,"MIT + file LICENSE",,,,,"no","3.5.2"
+"SparseM","C:/Users/jtolbert/Documents/R/win-library/3.5","1.77",,"R (>= 2.15), methods","graphics, stats, utils",,,,"GPL (>= 2)",,,,,"yes","3.5.2"
+"sparsepp","C:/Users/jtolbert/Documents/R/win-library/3.5","1.22",,,,,"Rcpp",,"BSD_3_clause + file LICENSE",,,,,"no","3.5.3"
+"spatial","C:/Users/jtolbert/Documents/R/win-library/3.5","7.3-11","recommended","R (>= 3.0.0), graphics, stats, utils",,,"MASS",,"GPL-2 | GPL-3",,,,,"yes","3.5.2"
+"spatstat","C:/Users/jtolbert/Documents/R/win-library/3.5","1.60-1",,"R (>= 3.3.0), spatstat.data (>= 1.4-0), stats, graphics,
+grDevices, utils, methods, nlme, rpart","spatstat.utils (>= 1.13-0), mgcv, Matrix, deldir (>= 0.0-21),
+abind, tensor, polyclip (>= 1.10-0), goftest",,"sm, maptools, gsl, locfit, spatial, rpanel, tkrplot,
+RandomFields (>= 3.1.24.1), RandomFieldsUtils(>= 0.3.3.1),
+fftwtools (>= 0.9-8)",,"GPL (>= 2)",,,,,"yes","3.5.3"
+"spatstat.data","C:/Users/jtolbert/Documents/R/win-library/3.5","1.4-0",,"R (>= 3.3.0)","spatstat.utils",,"spatstat (>= 1.55-0)",,"GPL (>= 2)",,,,,"no","3.5.2"
+"spatstat.utils","C:/Users/jtolbert/Documents/R/win-library/3.5","1.13-0",,"R (>= 3.3.0), stats, graphics, grDevices, utils, methods",,,"spatstat",,"GPL (>= 2)",,,,,"yes","3.5.2"
+"spData","C:/Users/jtolbert/Documents/R/win-library/3.5","0.3.0",,"R (>= 3.3.0)",,,"foreign, maptools, raster, rgdal, sf, sp, spDataLarge (>=
+0.3.0), spdep",,"CC0",,,,,"no","3.5.2"
+"splancs","C:/Users/jtolbert/Documents/R/win-library/3.5","2.01-40",,"R (>= 2.10.0), sp (>= 0.9)","stats, graphics, grDevices, methods",,,,"GPL (>= 2)",,,,,"yes","3.5.2"
+"splashr","C:/Users/jtolbert/Documents/R/win-library/3.5","0.6.0",,"R (>= 3.2.0)","xml2, curl, httr, dplyr, purrr, stats, utils, stevedore,
+magick, scales, formatR, openssl, stringi, HARtools, jsonlite,
+lubridate",,"testthat, tibble, jpeg, png, covr, knitr, rmarkdown",,"MIT + file LICENSE",,,,,"no","3.5.3"
+"splitstackshape","C:/Users/jtolbert/Documents/R/win-library/3.5","1.4.8",,"R (>= 2.10)","data.table (>= 1.9.4)",,"covr, testthat",,"GPL-3",,,,,"no","3.5.3"
+"sqldf","C:/Users/jtolbert/Documents/R/win-library/3.5","0.4-11",,"R (>= 3.1.0), gsubfn (>= 0.6), proto, RSQLite","DBI, chron",,"RH2, RMySQL, RPostgreSQL, svUnit, tcltk, MASS",,"GPL-2",,,,,"no","3.5.2"
+"SQUAREM","C:/Users/jtolbert/Documents/R/win-library/3.5","2017.10-1",,"R (>= 3.0)",,,"setRNG",,"GPL (>= 2)",,,,,"no","3.5.2"
+"stabs","C:/Users/jtolbert/Documents/R/win-library/3.5","0.6-3",,"R (>= 2.14.0), methods, stats, parallel","graphics, grDevices, utils",,"glmnet, lars, mboost (> 2.3-0), gamboostLSS (>= 1.2-0), QUIC,
+TH.data, hdi, testthat, knitr, rmarkdown, igraph, huge",,"GPL-2",,,,,"no","3.5.2"
+"StanHeaders","C:/Users/jtolbert/Documents/R/win-library/3.5","2.19.0",,"R (>= 3.4.0)",,,"Rcpp, RcppEigen, BH, knitr (>= 1.15.1), rmarkdown, Matrix,
+methods, rstan",,"BSD_3_clause + file LICENSE",,,,,"yes","3.5.3"
+"stars","C:/Users/jtolbert/Documents/R/win-library/3.5","0.3-1",,"R (>= 3.3.0), abind, sf (>= 0.7-3)","methods, parallel, classInt (>= 0.2-2), rlang, units",,"PCICt, RNetCDF (>= 1.8-2), covr, dplyr (>= 0.7-0),
+future.apply, ggforce, ggplot2, ggthemes, gstat, httr,
+jsonlite, knitr, lwgeom, maps, ncmeta (>= 0.0.3), pbapply, plm,
+raster, rmarkdown, sp, spacetime, testthat, viridis, xts, zoo,
+starsdata",,"Apache License",,,,,"no","3.5.3"
+"stevedore","C:/Users/jtolbert/Documents/R/win-library/3.5","0.9.1",,,"crayon, curl (>= 2.3.0), jsonlite, yaml (>= 2.1.18)",,"knitr, openssl, redux, reticulate, rmarkdown, testthat, withr",,"MIT + file LICENSE",,,,,"no","3.5.3"
+"stopwords","C:/Users/jtolbert/Documents/R/win-library/3.5","1.0",,"R (>= 2.10)","ISOcodes",,"covr, lintr, quanteda, spelling, testthat",,"MIT + file LICENSE",,,,,"no","3.5.3"
+"streamR","C:/Users/jtolbert/Documents/R/win-library/3.5","0.4.5",,"R (>= 2.12.0), RCurl, rjson, ndjson",,,"ROAuth (>= 0.9.0)",,"GPL-2",,,,,"no","3.5.2"
+"stringdist","C:/Users/jtolbert/Documents/R/win-library/3.5","0.9.5.2",,"R (>= 2.15.3)","parallel",,"tinytest",,"GPL-3",,,,,"yes","3.5.3"
+"stringi","C:/Users/jtolbert/Documents/R/win-library/3.5","1.4.3",,"R (>= 2.14)","tools, utils, stats",,,,"file LICENSE","yes",,,,"yes","3.5.3"
+"stringr","C:/Users/jtolbert/Documents/R/win-library/3.5","1.4.0",,"R (>= 3.1)","glue (>= 1.2.0), magrittr, stringi (>= 1.1.7)",,"covr, htmltools, htmlwidgets, knitr, rmarkdown, testthat",,"GPL-2 | file LICENSE",,,,,"no","3.5.2"
+"striprtf","C:/Users/jtolbert/Documents/R/win-library/3.5","0.5.2",,"R (>= 3.0)","magrittr, Rcpp, stringr, utils","Rcpp","testthat",,"MIT + file LICENSE",,,,,"yes","3.5.2"
+"strucchange","C:/Users/jtolbert/Documents/R/win-library/3.5","1.5-1",,"R (>= 2.10.0), zoo, sandwich","graphics, stats",,"stats4, car, dynlm, e1071, foreach, lmtest, mvtnorm, tseries",,"GPL-2 | GPL-3",,,,,"no","3.5.2"
+"styler","C:/Users/jtolbert/Documents/R/win-library/3.5","1.1.1",,,"backports (>= 1.1.0), cli (>= 1.1.0), magrittr (>= 1.0.1),
+purrr (>= 0.2.3), rematch2 (>= 2.0.1), rlang (>= 0.1.1),
+rprojroot (>= 1.1), tibble (>= 1.4.2), tools, withr (>= 1.0.0),
+xfun (>= 0.1)",,"data.tree (>= 0.1.6), dplyr, here, knitr, prettycode,
+rmarkdown, rstudioapi (>= 0.7), testthat",,"GPL-3",,,,,"no","3.5.3"
+"subprocess","C:/Users/jtolbert/Documents/R/win-library/3.5","0.8.3",,"R (>= 3.2.0)",,,"mockery, testthat, knitr, rmarkdown (>= 1.0)",,"MIT + file LICENSE",,,,,"yes","3.5.2"
+"superheat","C:/Users/jtolbert/Documents/R/win-library/3.5","0.1.0",,"R (>= 3.1)","dplyr (>= 0.4.3), ggplot2 (>= 2.0.0), gtable (>= 0.1.2),
+magrittr (>= 1.5), plyr (>= 1.8.3), scales (>= 0.3.0),
+ggdendro,",,"knitr (>= 1.11), RColorBrewer, rmarkdown, testthat (>=
+0.11.0),",,"CC0",,,,,"no","3.5.2"
+"survival","C:/Users/jtolbert/Documents/R/win-library/3.5","2.44-1.1","recommended","R (>= 2.13.0)","graphics, Matrix, methods, splines, stats, utils",,,,"LGPL (>= 2)",,,,,"yes","3.5.3"
+"svglite","C:/Users/jtolbert/Documents/R/win-library/3.5","1.2.2",,"R (>= 3.0.0)","Rcpp, gdtools (>= 0.1.6)","Rcpp, gdtools, BH","htmltools, testthat, xml2 (>= 1.0.0), covr, fontquiver (>=
+0.2.0), knitr, rmarkdown",,"GPL (>= 2)",,,,,"yes","3.5.3"
+"sys","C:/Users/jtolbert/Documents/R/win-library/3.5","3.3",,,,,"unix (>= 1.4), spelling, testthat",,"MIT + file LICENSE",,,,,"yes","3.5.3"
+"systemfonts","C:/Users/jtolbert/Documents/R/win-library/3.5","0.1.1",,,,,"testthat (>= 2.1.0), covr, knitr, rmarkdown, tools",,"MIT + file LICENSE",,,,,"yes","3.5.3"
+"syuzhet","C:/Users/jtolbert/Documents/R/win-library/3.5","1.0.4",,"R (>= 2.10)","textshape (>= 1.3.0), NLP, zoo, dtt, stats, graphics, dplyr,
+tidyr,",,"devtools, readxl, stringr, knitr, pander, testthat (>=
+0.9.1), parallel",,"GPL-3",,,,,"no","3.5.2"
+"TeachingDemos","C:/Users/jtolbert/Documents/R/win-library/3.5","2.10",,,,,"tkrplot, lattice, MASS, rgl, tcltk, tcltk2, png, ggplot2,
+logspline, maptools, R2wd, manipulate",,"Artistic-2.0",,,,,"no","3.5.2"
+"tensor","C:/Users/jtolbert/Documents/R/win-library/3.5","1.5",,,,,,,"GPL (>= 2)",,,,,,"3.5.2"
+"testthat","C:/Users/jtolbert/Documents/R/win-library/3.5","2.2.1",,"R (>= 3.1)","cli, crayon (>= 1.3.4), digest, evaluate, magrittr, methods,
+praise, R6 (>= 2.2.0), rlang (>= 0.3.0), withr (>= 2.0.0)",,"covr, curl (>= 0.9.5), devtools, knitr, rmarkdown, usethis,
+vctrs (>= 0.1.0), xml2",,"MIT + file LICENSE",,,,,"yes","3.5.3"
+"text2vec","C:/Users/jtolbert/Documents/R/win-library/3.5","0.5.1",,"R (>= 3.2.0), methods","Matrix (>= 1.1), Rcpp (>= 0.11), RcppParallel (>= 4.3.14),
+digest (>= 0.6.8), foreach(>= 1.4.3), data.table(>= 1.9.6),
+irlba (>= 2.2.1), R6 (>= 2.1.2), futile.logger (>= 1.4.3),
+stringi (>= 1.1.5), mlapi (>= 0.1.0)","Rcpp, RcppParallel, digest, sparsepp (>= 0.2.0)","doParallel, testthat, covr, knitr, rmarkdown, glmnet,
+parallel, tokenizers, magrittr",,"GPL (>= 2) | file LICENSE",,,,,"yes","3.5.3"
+"textreadr","C:/Users/jtolbert/Documents/R/win-library/3.5","0.9.0",,"R (>= 3.2.2)","antiword, curl, data.table, pdftools, readxl, rvest, striprtf,
+textshape, tools, utils, xml2",,"tesseract, testthat",,"GPL-2",,,,,"no","3.5.2"
+"textshape","C:/Users/jtolbert/Documents/R/win-library/3.5","1.6.0",,"R (>= 3.4.0)","data.table, slam, stats, stringi, utils",,"testthat",,"GPL-2",,,,,"no","3.5.2"
+"TH.data","C:/Users/jtolbert/Documents/R/win-library/3.5","1.0-10",,"R (>= 2.10.0), survival, MASS",,,"dplyr, gdata, plyr",,"GPL-3",,,,,"no","3.5.2"
+"threejs","C:/Users/jtolbert/Documents/R/win-library/3.5","0.3.1",,"R (>= 3.0.0), igraph (>= 1.0.0)","htmlwidgets (>= 0.3.2), base64enc, crosstalk, methods, stats",,"maps","knitr, shiny","MIT + file LICENSE",,,,,"no","3.5.3"
+"tibble","C:/Users/jtolbert/Documents/R/win-library/3.5","2.1.3",,"R (>= 3.1.0)","cli, crayon (>= 1.3.4), fansi (>= 0.4.0), methods, pillar (>=
+1.3.1), pkgconfig, rlang (>= 0.3.0), utils",,"bench, covr, dplyr, htmltools, import, knitr, mockr,
+nycflights13, rmarkdown, testthat, withr",,"MIT + file LICENSE",,,,,"yes","3.5.3"
+"tidycensus","C:/Users/jtolbert/Documents/R/win-library/3.5","0.9.2",,"R (>= 3.3.0)","httr, sf, dplyr (>= 0.7.0), tigris, stringr, jsonlite (>=
+1.5.0), purrr, rvest, tidyr (>= 0.7.0), rappdirs, readr, xml2,
+units, utils",,"ggplot2",,"MIT + file LICENSE",,,,,"no","3.5.3"
+"tidymodels","C:/Users/jtolbert/Documents/R/win-library/3.5","0.0.2",,"R (>= 3.1)","broom (>= 0.5.0), cli (>= 1.0.1), crayon (>= 1.3.4), dials (>=
+0.0.1), dplyr (>= 0.7.8), ggplot2 (>= 3.1.0), infer (>= 0.4.0),
+magrittr (>= 1.5), parsnip (>= 0.0.1), pillar (>= 1.3.0), purrr
+(>= 0.2.5), recipes (>= 0.1.4), rlang (>= 0.3.0.1), rsample (>=
+0.0.3), rstudioapi (>= 0.8), tibble (>= 1.4.2), tidytext (>=
+0.2.0), tidypredict (>= 0.2.0), tidyposterior (>= 0.0.2),
+yardstick (>= 0.0.2)",,"covr, knitr, rmarkdown, testthat",,"GPL-3 | file LICENSE",,,,,"no","3.5.3"
+"tidyposterior","C:/Users/jtolbert/Documents/R/win-library/3.5","0.0.2",,"R (>= 2.10)","rsample (>= 0.0.2), tidyr (>= 0.7.1), dplyr, rstanarm (>=
+2.15.3), rlang, utils, purrr, tibble, generics, ggplot2,",,"knitr, testthat, covr",,"GPL-2",,,,,"no","3.5.3"
+"tidypredict","C:/Users/jtolbert/Documents/R/win-library/3.5","0.4.3",,"R (>= 3.1)","dplyr (>= 0.7), rlang, purrr, knitr, generics, tibble",,"dbplyr, testthat (>= 2.1.0), randomForest, ranger, earth,
+rmarkdown, nycflights13, RSQLite, methods, DBI, covr, xgboost,
+Cubist, mlbench, partykit, yaml, parsnip",,"GPL-3",,,,,"no","3.5.3"
+"tidyquant","C:/Users/jtolbert/Documents/R/win-library/3.5","0.5.6",,"R (>= 3.0.0), lubridate, PerformanceAnalytics, quantmod (>=
+0.4-13), tidyverse","dplyr, ggplot2, httr, lazyeval, magrittr, purrr, Quandl,
+stringr, tibble, tidyr, timetk, TTR, xml2, xts, rlang",,"alphavantager, broom, knitr, rmarkdown, testthat, tibbletime,
+scales, Rblpapi, readxl",,"MIT + file LICENSE",,,,,"no","3.5.3"
+"tidyr","C:/Users/jtolbert/Documents/R/win-library/3.5","1.0.0",,"R (>= 3.1)","dplyr (>= 0.8.2), ellipsis (>= 0.1.0), glue, magrittr, purrr,
+Rcpp, rlang, stringi, tibble (>= 2.1.1), tidyselect (>= 0.2.5),
+utils, vctrs (>= 0.2.0), lifecycle","Rcpp","covr, jsonlite, knitr, repurrrsive (>= 1.0.0), rmarkdown,
+readr, testthat (>= 2.1.0)",,"MIT + file LICENSE",,,,,"yes","3.5.3"
+"tidyselect","C:/Users/jtolbert/Documents/R/win-library/3.5","0.2.5",,"R (>= 3.1)","glue (>= 1.3.0), purrr, rlang (>= 0.2.2), Rcpp (>= 0.12.0)","Rcpp (>= 0.12.0),","covr, dplyr, testthat",,"GPL-3",,,,,"yes","3.5.2"
+"tidytext","C:/Users/jtolbert/Documents/R/win-library/3.5","0.2.2",,"R (>= 2.10)","rlang, dplyr, stringr, hunspell, generics, Matrix, tokenizers,
+janeaustenr, purrr (>= 0.1.1), methods, stopwords",,"readr, tidyr, XML, tm, quanteda, knitr, rmarkdown, ggplot2,
+reshape2, wordcloud, topicmodels, NLP, scales, gutenbergr,
+testthat, vdiffr, mallet, stm, data.table, broom, textdata",,"MIT + file LICENSE",,,,,"no","3.5.3"
+"tidyverse","C:/Users/jtolbert/Documents/R/win-library/3.5","1.2.1",,,"broom (>= 0.4.2), cli (>= 1.0.0), crayon (>= 1.3.4), dplyr (>=
+0.7.4), dbplyr (>= 1.1.0), forcats (>= 0.2.0), ggplot2 (>=
+2.2.1), haven (>= 1.1.0), hms (>= 0.3), httr (>= 1.3.1),
+jsonlite (>= 1.5), lubridate (>= 1.7.1), magrittr (>= 1.5),
+modelr (>= 0.1.1), purrr (>= 0.2.4), readr (>= 1.1.1), readxl
+(>= 1.0.0), reprex (>= 0.1.1), rlang (>= 0.1.4), rstudioapi (>=
+0.7), rvest (>= 0.3.2), stringr (>= 1.2.0), tibble (>= 1.3.4),
+tidyr (>= 0.7.2), xml2 (>= 1.1.1)",,"feather (>= 0.3.1), knitr (>= 1.17), rmarkdown (>= 1.7.4)",,"GPL-3 | file LICENSE",,,,,"no","3.5.3"
+"tiff","C:/Users/jtolbert/Documents/R/win-library/3.5","0.1-5",,"R (>= 2.9.0)",,,,,"GPL-2 | GPL-3",,,,,"yes","3.5.2"
+"tigris","C:/Users/jtolbert/Documents/R/win-library/3.5","0.8.2",,"R (>= 3.3.0)","stringr, magrittr, rgdal, sp, utils, rappdirs, maptools, httr,
+uuid, sf, dplyr, methods",,"acs, testthat, ggplot2, ggthemes, leaflet, knitr, rgeos",,"MIT + file LICENSE",,,,,"no","3.5.3"
+"timeDate","C:/Users/jtolbert/Documents/R/win-library/3.5","3043.102",,"R (>= 2.15.1), graphics, utils, stats, methods",,,"date, RUnit",,"GPL (>= 2)",,,,,"no","3.5.2"
+"timetk","C:/Users/jtolbert/Documents/R/win-library/3.5","0.1.1.1",,"R (>= 3.3.0)","devtools (>= 1.12.0), dplyr (>= 0.7.0), forecast (>= 0.8.0),
+lazyeval (>= 0.2.0), lubridate (>= 1.6.0), padr (>= 0.3.0),
+purrr (>= 0.2.2), readr (>= 1.0.0), stringi (>= 1.1.5), tibble
+(>= 1.2), tidyr (>= 0.6.1), xts (>= 0.9-7), zoo (>= 1.7-14)",,"broom, forcats, knitr, rmarkdown, robets, scales, stringr,
+testthat, tidyverse, tidyquant, timeSeries, fracdiff, timeDate,
+tseries",,"GPL (>= 3)",,,,,"no","3.5.2"
+"tinytex","C:/Users/jtolbert/Documents/R/win-library/3.5","0.15",,,"xfun (>= 0.5)",,"testit, rstudioapi",,"MIT + file LICENSE",,,,,"no","3.5.3"
+"tm","C:/Users/jtolbert/Documents/R/win-library/3.5","0.7-6",,"R (>= 3.2.0), NLP (>= 0.2-0)","Rcpp, parallel, slam (>= 0.1-37), stats, tools, utils,
+graphics, xml2","BH, Rcpp","antiword, filehash, methods, pdftools, Rcampdf, Rgraphviz,
+Rpoppler, SnowballC, testthat, tm.lexicon.GeneralInquirer",,"GPL-3",,,,,"yes","3.5.2"
+"tokenizers","C:/Users/jtolbert/Documents/R/win-library/3.5","0.2.1",,"R (>= 3.1.3)","stringi (>= 1.0.1), Rcpp (>= 0.12.3), SnowballC (>= 0.5.1)","Rcpp","covr, knitr, rmarkdown, stopwords (>= 0.9.0), testthat",,"MIT + file LICENSE",,,,,"yes","3.5.3"
+"treemap","C:/Users/jtolbert/Documents/R/win-library/3.5","2.4-2",,"R (>= 2.10)","colorspace, data.table (>= 1.8.8), ggplot2, grid, gridBase,
+igraph, methods, RColorBrewer, shiny (>= 0.12.0)",,"knitr",,"GPL-3",,,,,"no","3.5.3"
+"trimcluster","C:/Users/jtolbert/Documents/R/win-library/3.5","0.1-2.1",,"R (>= 1.9.0)",,,"fpc",,"GPL",,,,,"no","3.5.2"
+"tripack","C:/Users/jtolbert/Documents/R/win-library/3.5","1.3-8",,,,,,,"ACM | file LICENSE",,"yes",,,"yes","3.5.2"
+"tseries","C:/Users/jtolbert/Documents/R/win-library/3.5","0.10-47",,"R (>= 2.10.0)","graphics, stats, utils, quadprog, zoo, quantmod (>= 0.4-9)",,,,"GPL-2",,,,,"yes","3.5.3"
+"tsne","C:/Users/jtolbert/Documents/R/win-library/3.5","0.1-3",,,,,,,"GPL",,,,,"no","3.5.2"
+"TSP","C:/Users/jtolbert/Documents/R/win-library/3.5","1.1-7",,"R (>= 2.14.0)","graphics, foreach, utils, methods, stats, grDevices",,"maps, sp, maptools, testthat",,"GPL-3",,,,,"yes","3.5.3"
+"TTR","C:/Users/jtolbert/Documents/R/win-library/3.5","0.23-4",,,"xts (>= 0.10-0), zoo, curl","xts","RUnit","quantmod","GPL-2",,,,,"yes","3.5.2"
+"twitteR","C:/Users/jtolbert/Documents/R/win-library/3.5","1.1.9",,"R (>= 2.12.0)","methods, bit64, rjson, DBI (>= 0.3.1), httr (>= 1.0.0)",,"RSQLite, RMySQL",,"Artistic-2.0",,,,,"no","3.5.2"
+"ucminf","C:/Users/jtolbert/Documents/R/win-library/3.5","1.1-4",,,,,"numDeriv",,"GPL (>= 2)",,,,,"yes","3.5.2"
+"udunits2","C:/Users/jtolbert/Documents/R/win-library/3.5","0.13",,"R (>= 2.10.0)",,,,,"GPL-2",,,,,"yes","3.5.2"
+"units","C:/Users/jtolbert/Documents/R/win-library/3.5","0.6-4",,"R (>= 3.0.2)","Rcpp","Rcpp (>= 0.12.10)","udunits2, NISTunits, measurements, xml2, tibble, pillar (>=
+1.3.0), knitr, testthat, ggforce, rmarkdown, magrittr",,"GPL-2",,,,,"yes","3.5.3"
+"urca","C:/Users/jtolbert/Documents/R/win-library/3.5","1.3-0",,"R (>= 2.0.0), methods","nlme, graphics, stats",,,,"GPL (>= 2)",,,,,"yes","3.5.2"
+"uroot","C:/Users/jtolbert/Documents/R/win-library/3.5","2.1-0",,"R (>= 3.0.0), stats",,,,,"GPL-2",,,,,"no","3.5.3"
+"usethis","C:/Users/jtolbert/Documents/R/win-library/3.5","1.5.1",,"R (>= 3.2)","clipr (>= 0.3.0), clisymbols, crayon, curl (>= 2.7), desc, fs
+(>= 1.3.0), gh, git2r (>= 0.23), glue (>= 1.3.0), purrr, rlang,
+rprojroot (>= 1.2), rstudioapi, stats, utils, whisker, withr,
+yaml",,"covr, knitr, magick, pkgdown (>= 1.1.0), rmarkdown, roxygen2,
+spelling (>= 1.2), styler (>= 1.0.2), testthat (>= 2.1.0)",,"GPL-3",,,,,"no","3.5.3"
+"utf8","C:/Users/jtolbert/Documents/R/win-library/3.5","1.1.4",,"R (>= 2.10)",,,"knitr, rmarkdown, testthat",,"Apache License (== 2.0) | file LICENSE",,,,,"yes","3.5.2"
+"uuid","C:/Users/jtolbert/Documents/R/win-library/3.5","0.1-2",,"R (>= 2.9.0)",,,,,"MIT + file LICENSE",,,,,"yes","3.5.2"
+"V8","C:/Users/jtolbert/Documents/R/win-library/3.5","2.3",,,"Rcpp (>= 0.12.12), jsonlite (>= 1.0), curl (>= 1.0), utils","Rcpp","testthat, knitr, rmarkdown",,"MIT + file LICENSE",,,,,"yes","3.5.3"
+"vctrs","C:/Users/jtolbert/Documents/R/win-library/3.5","0.2.0",,"R (>= 3.2)","backports, ellipsis (>= 0.2.0), digest, glue, rlang (>=
+0.4.0), zeallot",,"bit64, covr, crayon, generics, knitr, pillar (>= 1.4.1),
+pkgdown, rmarkdown, testthat, tibble",,"GPL-3",,,,,"yes","3.5.3"
+"VennDiagram","C:/Users/jtolbert/Documents/R/win-library/3.5","1.6.20",,"R (>= 2.14.1), grid (>= 2.14.1), futile.logger",,,"testthat",,"GPL-2",,,,,"no","3.5.3"
+"viridis","C:/Users/jtolbert/Documents/R/win-library/3.5","0.5.1",,"R (>= 2.10), viridisLite (>= 0.3.0)","stats, ggplot2 (>= 1.0.1), gridExtra",,"hexbin (>= 1.27.0), scales, MASS, knitr, dichromat,
+colorspace, rasterVis, httr, mapproj, vdiffr, svglite (>=
+1.2.0), testthat, covr, rmarkdown, rgdal",,"MIT + file LICENSE",,,,,"no","3.5.2"
+"viridisLite","C:/Users/jtolbert/Documents/R/win-library/3.5","0.3.0",,"R (>= 2.10)",,,"hexbin (>= 1.27.0), ggplot2 (>= 1.0.1), testthat, covr",,"MIT + file LICENSE",,,,,"no","3.5.2"
+"visNetwork","C:/Users/jtolbert/Documents/R/win-library/3.5","2.0.8",,"R (>= 3.0)","htmlwidgets, htmltools, jsonlite, magrittr, utils, methods,
+grDevices, stats",,"knitr, rmarkdown, webshot, igraph, rpart, shiny,
+shinyWidgets, colourpicker, sparkline, ggraph, tidygraph,
+flashClust",,"MIT + file LICENSE",,,,,"no","3.5.3"
+"wdman","C:/Users/jtolbert/Documents/R/win-library/3.5","0.2.4",,"R (>= 3.2)","binman, assertthat, subprocess (>= 0.8.0), yaml, semver(>=
+0.2.0), utils",,"testthat, covr, knitr, rmarkdown",,"MIT + file LICENSE",,,,,"no","3.5.2"
+"webshot","C:/Users/jtolbert/Documents/R/win-library/3.5","0.5.1",,"R (>= 3.0)","magrittr, jsonlite, callr",,"httpuv, knitr, rmarkdown, shiny",,"GPL-2",,,,,"no","3.5.2"
+"whisker","C:/Users/jtolbert/Documents/R/win-library/3.5","0.4",,,,,"markdown",,"GPL-3",,,,,"no","3.5.3"
+"withr","C:/Users/jtolbert/Documents/R/win-library/3.5","2.1.2",,"R (>= 3.0.2)","stats, graphics, grDevices",,"testthat, covr, lattice, DBI, RSQLite, methods, knitr,
+rmarkdown",,"GPL (>= 2)",,,,,"no","3.5.2"
+"wordcloud","C:/Users/jtolbert/Documents/R/win-library/3.5","2.6",,"methods, RColorBrewer","Rcpp (>= 0.9.4)","Rcpp","tm (>= 0.6), slam",,"LGPL-2.1",,,,,"yes","3.5.2"
+"WriteXLS","C:/Users/jtolbert/Documents/R/win-library/3.5","5.0.0",,,"utils",,,,"GPL (>= 2)",,,,,"no","3.5.3"
+"wsrf","C:/Users/jtolbert/Documents/R/win-library/3.5","1.7.17",,"parallel, R (>= 3.3.0), Rcpp (>= 0.10.2), stats",,"Rcpp","knitr (>= 1.5), party (>= 1.0.7), randomForest (>= 4.6.7),
+rattle.data (>= 1.0.2), stringr (>= 0.6.2)",,"GPL (>= 2)",,,,,"yes","3.5.2"
+"xfun","C:/Users/jtolbert/Documents/R/win-library/3.5","0.9",,,"stats, tools",,"testit, parallel, rstudioapi, tinytex, mime, markdown, knitr,
+htmltools, base64enc, remotes, rmarkdown",,"MIT + file LICENSE",,,,,"no","3.5.3"
+"xgboost","C:/Users/jtolbert/Documents/R/win-library/3.5","0.90.0.2",,"R (>= 3.3.0)","Matrix (>= 1.1-0), methods, data.table (>= 1.9.6), magrittr
+(>= 1.5), stringi (>= 0.5.2)",,"knitr, rmarkdown, ggplot2 (>= 1.0.1), DiagrammeR (>= 0.9.0),
+Ckmeans.1d.dp (>= 3.3.1), vcd (>= 1.3), testthat, lintr, igraph
+(>= 1.0.1), jsonlite, float",,"Apache License (== 2.0) | file LICENSE",,,,,"yes","3.5.3"
+"XLConnect","C:/Users/jtolbert/Documents/R/win-library/3.5","0.2-15",,"R (>= 2.10.0), XLConnectJars (== 0.2-15)","methods, rJava",,"RUnit, lattice, ggplot2 (>= 0.9.3), zoo",,"GPL-3",,,,,"no","3.5.2"
+"XLConnectJars","C:/Users/jtolbert/Documents/R/win-library/3.5","0.2-15",,,"rJava",,,,"GPL-3",,,,,"no","3.5.2"
+"xlsx","C:/Users/jtolbert/Documents/R/win-library/3.5","0.6.1",,,"rJava, xlsxjars, grDevices, utils",,,,"GPL-3",,,,,"no","3.5.2"
+"xlsxjars","C:/Users/jtolbert/Documents/R/win-library/3.5","0.6.1",,"rJava",,,,,"GPL-3",,,,,"no","3.5.2"
+"XML","C:/Users/jtolbert/Documents/R/win-library/3.5","3.98-1.20",,"R (>= 2.13.0), methods, utils",,,"bitops, RCurl",,"BSD_2_clause + file LICENSE",,,,,"yes","3.5.3"
+"xml2","C:/Users/jtolbert/Documents/R/win-library/3.5","1.2.2",,"R (>= 3.1.0)","Rcpp, methods","Rcpp (>= 0.12.12)","covr, curl, httr, knitr, magrittr, mockery, rmarkdown,
+testthat (>= 2.1.0)",,"GPL (>= 2)",,,,,"yes","3.5.3"
+"xopen","C:/Users/jtolbert/Documents/R/win-library/3.5","1.0.0",,"R (>= 3.1)","processx",,"ps, testthat",,"MIT + file LICENSE",,,,,"no","3.5.2"
+"xtable","C:/Users/jtolbert/Documents/R/win-library/3.5","1.8-4",,"R (>= 2.10.0)","stats, utils",,"knitr, plm, zoo, survival",,"GPL (>= 2)",,,,,"no","3.5.3"
+"xts","C:/Users/jtolbert/Documents/R/win-library/3.5","0.11-2",,"zoo (>= 1.7-12)","methods","zoo","timeSeries, timeDate, tseries, chron, fts, tis, RUnit",,"GPL (>= 2)",,,,,"yes","3.5.2"
+"yaml","C:/Users/jtolbert/Documents/R/win-library/3.5","2.2.0",,,,,"RUnit",,"BSD_3_clause + file LICENSE",,,,,"yes","3.5.2"
+"zeallot","C:/Users/jtolbert/Documents/R/win-library/3.5","0.1.0",,,,,"testthat, knitr, rmarkdown, purrr, magrittr",,"MIT + file LICENSE",,,,,"no","3.5.3"
+"zip","C:/Users/jtolbert/Documents/R/win-library/3.5","2.0.4",,,,,"covr, processx, R6, testthat, withr",,"CC0",,,,,"yes","3.5.3"
+"zipcode","C:/Users/jtolbert/Documents/R/win-library/3.5","1.0",,"R (>= 2.10)",,,,,"CC BY-SA 2.0 + file LICENSE",,,,,,"3.5.2"
+"zoo","C:/Users/jtolbert/Documents/R/win-library/3.5","1.8-6",,"R (>= 3.1.0), stats","utils, graphics, grDevices, lattice (>= 0.20-27)",,"coda, chron, DAAG, fts, ggplot2, mondate, scales,
+strucchange, timeDate, timeSeries, tis, tseries, xts",,"GPL-2 | GPL-3",,,,,"yes","3.5.3"
+"base","C:/Program Files/R/R-3.5.2/library","3.5.2","base",,,,"methods",,"Part of R 3.5.2",,,,,,"3.5.2"
+"boot","C:/Program Files/R/R-3.5.2/library","1.3-20","recommended","R (>= 3.0.0), graphics, stats",,,"MASS, survival",,"Unlimited",,,,,"no","3.5.2"
+"class","C:/Program Files/R/R-3.5.2/library","7.3-14","recommended","R (>= 3.0.0), stats, utils","MASS",,,,"GPL-2 | GPL-3",,,,,"yes","3.5.2"
+"cluster","C:/Program Files/R/R-3.5.2/library","2.0.7-1","recommended","R (>= 3.2.0)","graphics, grDevices, stats, utils",,"MASS, Matrix",,"GPL (>= 2)",,,,,"yes","3.5.2"
+"codetools","C:/Program Files/R/R-3.5.2/library","0.2-15","recommended","R (>= 2.1)",,,,,"GPL",,,,,"no","3.5.2"
+"compiler","C:/Program Files/R/R-3.5.2/library","3.5.2","base",,,,,,"Part of R 3.5.2",,,,,,"3.5.2"
+"datasets","C:/Program Files/R/R-3.5.2/library","3.5.2","base",,,,,,"Part of R 3.5.2",,,,,,"3.5.2"
+"foreign","C:/Program Files/R/R-3.5.2/library","0.8-71","recommended","R (>= 3.0.0)","methods, utils, stats",,,,"GPL (>= 2)",,,,,"yes","3.5.2"
+"graphics","C:/Program Files/R/R-3.5.2/library","3.5.2","base",,"grDevices",,,,"Part of R 3.5.2",,,,,"yes","3.5.2"
+"grDevices","C:/Program Files/R/R-3.5.2/library","3.5.2","base",,,,"KernSmooth",,"Part of R 3.5.2",,,,,"yes","3.5.2"
+"grid","C:/Program Files/R/R-3.5.2/library","3.5.2","base",,"grDevices, utils",,"lattice",,"Part of R 3.5.2",,,,,"yes","3.5.2"
+"KernSmooth","C:/Program Files/R/R-3.5.2/library","2.23-15","recommended","R (>= 2.5.0), stats",,,"MASS",,"Unlimited",,,,,"yes","3.5.2"
+"lattice","C:/Program Files/R/R-3.5.2/library","0.20-38","recommended","R (>= 3.0.0)","grid, grDevices, graphics, stats, utils",,"KernSmooth, MASS, latticeExtra","chron","GPL (>= 2)",,,,,"yes","3.5.2"
+"MASS","C:/Program Files/R/R-3.5.2/library","7.3-51.1","recommended","R (>= 3.1.0), grDevices, graphics, stats, utils","methods",,"lattice, nlme, nnet, survival",,"GPL-2 | GPL-3",,,,,"yes","3.5.2"
+"Matrix","C:/Program Files/R/R-3.5.2/library","1.2-15","recommended","R (>= 3.2.0)","methods, graphics, grid, stats, utils, lattice",,"expm, MASS","MatrixModels, graph, SparseM, sfsmisc","GPL (>= 2) | file LICENCE",,,,,"yes","3.5.2"
+"methods","C:/Program Files/R/R-3.5.2/library","3.5.2","base",,"utils, stats",,"codetools",,"Part of R 3.5.2",,,,,"yes","3.5.2"
+"mgcv","C:/Program Files/R/R-3.5.2/library","1.8-26","recommended","R (>= 2.14.0), nlme (>= 3.1-64)","methods, stats, graphics, Matrix",,"splines, parallel, survival, MASS",,"GPL (>= 2)",,,,,"yes","3.5.2"
+"nlme","C:/Program Files/R/R-3.5.2/library","3.1-137","recommended","R (>= 3.4.0)","graphics, stats, utils, lattice",,"Hmisc, MASS",,"GPL (>= 2) | file LICENCE",,,,,"yes","3.5.2"
+"nnet","C:/Program Files/R/R-3.5.2/library","7.3-12","recommended","R (>= 2.14.0), stats, utils",,,"MASS",,"GPL-2 | GPL-3",,,,,"yes","3.5.2"
+"parallel","C:/Program Files/R/R-3.5.2/library","3.5.2","base",,"tools, compiler",,"methods","snow, nws, Rmpi","Part of R 3.5.2",,,,,"yes","3.5.2"
+"rpart","C:/Program Files/R/R-3.5.2/library","4.1-13","recommended","R (>= 2.15.0), graphics, stats, grDevices",,,"survival",,"GPL-2 | GPL-3",,,,,"yes","3.5.2"
+"spatial","C:/Program Files/R/R-3.5.2/library","7.3-11","recommended","R (>= 3.0.0), graphics, stats, utils",,,"MASS",,"GPL-2 | GPL-3",,,,,"yes","3.5.2"
+"splines","C:/Program Files/R/R-3.5.2/library","3.5.2","base",,"graphics, stats",,"Matrix, methods",,"Part of R 3.5.2",,,,,"yes","3.5.2"
+"stats","C:/Program Files/R/R-3.5.2/library","3.5.2","base",,"utils, grDevices, graphics",,"MASS, Matrix, SuppDists, methods, stats4",,"Part of R 3.5.2",,,,,"yes","3.5.2"
+"stats4","C:/Program Files/R/R-3.5.2/library","3.5.2","base",,"graphics, methods, stats",,,,"Part of R 3.5.2",,,,,,"3.5.2"
+"survival","C:/Program Files/R/R-3.5.2/library","2.43-3","recommended","R (>= 2.13.0)","graphics, Matrix, methods, splines, stats, utils",,,,"LGPL (>= 2)",,,,,"yes","3.5.2"
+"tcltk","C:/Program Files/R/R-3.5.2/library","3.5.2","base",,"utils",,,,"Part of R 3.5.2",,,,,"yes","3.5.2"
+"tools","C:/Program Files/R/R-3.5.2/library","3.5.2","base",,,,"codetools, methods, xml2, curl",,"Part of R 3.5.2",,,,,"yes","3.5.2"
+"translations","C:/Program Files/R/R-3.5.2/library","3.5.2",,,,,,,"Part of R 3.5.2",,,,,,"3.5.2"
+"utils","C:/Program Files/R/R-3.5.2/library","3.5.2","base",,,,"methods, xml2, commonmark",,"Part of R 3.5.2",,,,,"yes","3.5.2"
