@@ -88,12 +88,57 @@ return
 
 ; go in inbox
 #i::
-	KeyWait LWin
-	KeyWait RWin
-	SetTitleMatchMode RegEx 
-	WinActivate jtolbert.*Outlook
-	Send ^1 
+chrome := "- Google Chrome"
+found := "false"
+tabSearch := "Berkeley Mail"
+curWinNum := 0
+    
+SetTitleMatchMode, 2
+    
+WinGet, numOfChrome, Count, %chrome% ; Get the number of chrome windows
+    
+WinActivateBottom, %chrome% ; Activate the least recent window
+    
+WinWaitActive %chrome% ; Wait until the window is active
+SendInput ^1   ; go to the first tab b/c thats where I like to keep it
+    
+ControlFocus, Chrome_RenderWidgetHostHWND1 ; Set the focus to tab control ???
+    
+; Loop until all windows are tried, or until we find it
+while (curWinNum < numOfChrome and found = "false") { 
+   WinGetTitle, firstTabTitle, A ; The initial tab title
+   title := firstTabTitle
+   Loop
+        {
+            if(InStr(title, tabSearch)>0){
+                found := "true"
+                break
+            }
+            Send {Ctrl down}{Tab}{Ctrl up}
+            Sleep, 50
+            WinGetTitle, title, A  ;get active window title
+            if(title = firstTabTitle){
+                break
+            }
+        }
+        WinActivateBottom, %chrome%
+        curWinNum := curWinNum + 1
+    }
+    
+    ; If we did not find it, start it
+    if(found = "false"){
+        Run "http://bmail.berkeley.edu/"
+    }
+    
 return
+
+;#i::
+;	KeyWait LWin
+;	KeyWait RWin
+;	SetTitleMatchMode RegEx 
+;	WinActivate jtolbert.*Outlook
+;	Send ^1 
+;return
 
 
 ; paste Excel table into Outlook message

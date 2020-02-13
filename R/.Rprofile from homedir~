@@ -26,5 +26,4 @@
 # options(error = function() {beep(10)})
 
 
-Sys.setenv(R_USER="D:/Users/jaketolbert")
-Sys.setevn(OCI_LIB64="C:/Oracle/instantclient_19_5")
+Sys.setenv(R_USER="C:/Users/jtolbert")

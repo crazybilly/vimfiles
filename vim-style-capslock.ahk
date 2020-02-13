@@ -18,7 +18,7 @@ SetCapsLockState, AlwaysOff
 
 ; l = right
 CapsLock & l::
-       if getkeystate("alt") = 0
+       if getkeystate("shift") = 0
                Send,{Right}
        else
                Send,+{Right}
@@ -27,7 +27,7 @@ return
 
 ; h = Left 
 CapsLock & h::
-       if getkeystate("alt") = 0
+       if getkeystate("shift") = 0
                Send,{Left}
        else
                Send,+{Left}
@@ -36,7 +36,7 @@ return
 
 ; j = Down
 CapsLock & j::
-       if getkeystate("alt") = 0
+       if getkeystate("shift") = 0
                Send,{Down}
        else
                Send,+{Down}
@@ -45,24 +45,73 @@ return
 
 ; k = Up
 CapsLock & k::
-       if getkeystate("alt") = 0
+       if getkeystate("shift") = 0
                Send,{Up}
        else
                Send,+{Up}
 return
 
 
-; 0 = home
-CapsLock & 0::
-       if getkeystate("alt") = 0
+; 9 = home
+CapsLock & 9::
+       if getkeystate("shift") = 0
                Send,{Home}
        else
                Send,+{Home}
 return
 
+
+; 0 = end
+CapsLock & 0::
+       if getkeystate("shift") = 0
+               Send,{End}
+       else
+               Send,+{End}
+return
+
+; -----------------------------
+;  try a second home row below the first 
+;    for home, pgUp, pgDn, end
+; -----------------------------
+
+; n = home
+CapsLock & n::
+       if getkeystate("shift") = 0
+               Send,{Home}
+       else
+               Send,+{Home}
+return
+
+; m = PgDn
+CapsLock & m::
+       if getkeystate("shift") = 0
+               Send,{PgDn}
+       else
+               Send,+{PgDn}
+return
+
+; < = PgUp 
+CapsLock & <::
+       if getkeystate("shift") = 0
+               Send,{PgUp}
+       else
+               Send,+{PgUp}
+return
+
+
+; > = end
+CapsLock & >::
+       if getkeystate("shift") = 0
+               Send,{End}
+       else
+               Send,+{End}
+return
+
+
+
 ;; gg  go to top of document
 ; CapsLock & gg::
-;       if getkeystate("alt") = 0
+;       if getkeystate("shift") = 0
 ;               Send,gg
 ;       else
 ;               Send,^{Home}
@@ -70,14 +119,13 @@ return
 
 ; G  go to end of document
 ;CapsLock & G::
-;       if getkeystate("alt") = 0
+;       if getkeystate("shift") = 0
 ;               Send,G
 ;       else
 ;               Send,^{End}
 ;return
 
 ; CapsLock & BS::Send,{Del}
-; CapsLock & x::Send ^x
 ; CapsLock & c::Send ^c
 ; CapsLock & v::Send ^v
 
