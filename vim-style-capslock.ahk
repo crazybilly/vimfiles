@@ -15,6 +15,10 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 SetCapsLockState, AlwaysOff
 
+; set variables
+g_counter := 0
+
+
 
 ; l = right
 CapsLock & l::
@@ -107,23 +111,81 @@ CapsLock & >::
                Send,+{End}
 return
 
+; -----------------------------
+;  still haven't got the hang of this.
+;    try capslock and the arrow keys
+; -----------------------------
+
+CapsLock & Left::
+       if getkeystate("shift") = 0
+               Send,{Home}
+       else
+               Send,+{Home}
+return
+
+; m = PgDn
+CapsLock & Down::
+       if getkeystate("shift") = 0
+               Send,{PgDn}
+       else
+               Send,+{PgDn}
+return
+
+; < = PgUp 
+CapsLock & Up::
+       if getkeystate("shift") = 0
+               Send,{PgUp}
+       else
+               Send,+{PgUp}
+return
 
 
-;; gg  go to top of document
-; CapsLock & gg::
-;       if getkeystate("shift") = 0
-;               Send,gg
-;       else
-;               Send,^{Home}
-; return
+; > = end
+CapsLock & Right::
+       if getkeystate("shift") = 0
+               Send,{End}
+       else
+               Send,+{End}
+return
 
-; G  go to end of document
-;CapsLock & G::
-;       if getkeystate("shift") = 0
-;               Send,G
-;       else
-;               Send,^{End}
-;return
+;; gg  go to top/bottom  of document
+CapsLock & g::
+    
+    if (g_counter ="" || g_counter = 0 )
+        { 
+            g_counter := g_counter +1
+        }
+
+     if getkeystate("shift") = 0
+        {
+            if g_counter = 2
+                {
+                    Send ^{Home}
+                    g_counter := 0
+                }
+            else
+                {
+                    g_counter := g_counter + 1
+                }
+        }
+
+
+     ; pressed G, go to bottom 
+     else 
+        {
+            Send, ^{End}
+            g_counter := 0
+
+            ; not sure why, but shift + capslock is turning capslock on
+            SetCapsLockState Off
+         }
+
+return
+
+
+
+
+
 
 ; CapsLock & BS::Send,{Del}
 ; CapsLock & c::Send ^c
@@ -167,6 +229,20 @@ Capslock & p::
 	Send ^v
 return
 
+; Create a new line 
+Capslock & o::
+    if getkeystate("shift") = 0
+        {
+            Send {End}
+            Send {Enter}
+        }
+    else
+        {
+            Send {Home}
+            Send {Enter}
+            Send {Up}
+        }
+return
 
 
 
@@ -174,5 +250,24 @@ return
 CapsLock & Space::Send,{Space}
 
 *Capslock::SetCapsLockState, AlwaysOff
-+Capslock::SetCapsLockState, On
+
+; toggle CapsLock with Alt+Capslock
+!Capslock::
+    currentst := GetKeyState("CapsLock", "T")
+    SetCapsLockState % !GetKeyState("CapsLock", "T")
+    
+    ; when you turn CapsLock Off, turn it off permanently 
+    if currentst = 1 
+        {
+            SetCapsLockState, AlwaysOff
+        }
+
+    ; if you turned it on, turn it off permanently after 15 seconds
+    else 
+        {
+            Sleep 15000
+            SetCapsLockState, AlwaysOff
+        }
+
+return
 

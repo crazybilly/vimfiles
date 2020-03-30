@@ -2,42 +2,106 @@
 SetCapsLockState, AlwaysOff
 SetTitleMatchMode 2
 
-+F9::
-  Send {Media_Play_Pause}
+; Desktop List View
+#1::
+{
+    DesktopToggle := !DesktopToggle
+    ToggleDesktopView( DesktopToggle )
+}
+Return
+ 
+ToggleDesktopView( _Toggle )
+{
+    LV_VIEW_ICON      := 0 ; Default
+    LV_VIEW_DETAILS   := 1 ; Flat font and columns don't work right.
+    LV_VIEW_SMALLICON := 2 ; Correct font, columns are okay.
+    LV_VIEW_LIST      := 3 ; Flat font and columns are too far apart.
+    LV_VIEW_TILE      := 4 ; Flat font, columns are okay, and there is extra text detail.
+    LVM_SETVIEW       := 0x108E
+    LVM_GETVIEW       := 0x108F
+    If ( _Toggle ) ; LV_VIEW_SMALLICON & LV_VIEW_TILE work the best.
+    {
+        ControlGet, myDesktopWindow, HWND,, SysListView321, ahk_class Progman
+        SendMessage, % LVM_SETVIEW, % LV_VIEW_SMALLICON, 0, , % "ahk_id " . myDesktopWindow
+
+    }
+    Else ; Set back to default.
+    {
+        ControlGet, myDesktopWindow, HWND,, SysListView321, ahk_class Progman
+        SendMessage, % LVM_SETVIEW, % LV_VIEW_ICON, 0, , % "ahk_id " . myDesktopWindow
+    }
+}
+
+
+; WinSplit Tiling Keys
+;   gotta work around Windows' hotkeys 
+;   (no clue what win+arrow is SUPPOSED to do)
+#Left::
+Send #{Numpad4}
+Return
+
+#Right::
+Send #{Numpad6}
+Return
+
+#Up::
+Send #{Numpad8}
+Return
+
+#Down::
+Send #{Numpad2}
+Return
+
+
+
+; Fake PgUp and PgDn
+^Up::
+Send {PgUp}
 return
 
-+F10::
-  Send {Volume_Mute}
+^Down::
+Send {PgDn}
 return
 
-+F11::
-  Send {Volume_Down}
-return
 
-+F12::
-  Send {Volume_Up}
-return
 
-Launch_Media::
-   IfWinNotExist, Spotify
-   {
-	Run, C:\Users\jtolbert\AppData\Roaming\Spotify\Spotify.exe
-   } else
-   {
-	WinActivate Spotify
-   }
-return
 
-; Launch_mail
-
-Browser_home::
-	WinActivate Chrome
-return
-
-Launch_App2::
-	WinActivate Rstudio
-return
-
+; +F9::
+;   Send {Media_Play_Pause}
+; return
+; 
+; +F10::
+;   Send {Volume_Mute}
+; return
+; 
+; +F11::
+;   Send {Volume_Down}
+; return
+; 
+; +F12::
+;   Send {Volume_Up}
+; return
+; 
+; Launch_Media::
+;    IfWinNotExist, Spotify
+;    {
+; 	Run, C:\Users\jtolbert\AppData\Roaming\Spotify\Spotify.exe
+;    } else
+;    {
+; 	WinActivate Spotify
+;    }
+; return
+; 
+; ; Launch_mail
+; 
+; Browser_home::
+; 	WinActivate Chrome
+; return
+; 
+; Launch_App2::
+; 	WinActivate Rstudio
+; return
+; 
 
 
 
@@ -45,52 +109,52 @@ return
 ; OUTLOOK SHORTCUTS 
 ; --------------------------------------------
 
-; a function to determine if you're in a particular ClassNN within a window
-ControlActive(ClassNN, WinTitle) {
-    ControlGetFocus, CurCon, % WinTitle
-    Return (CurCon=ClassNN)
-}
-
-
-; in Outlook, map Delete to Archiving instead of deleting
-;      but only do it when you're on the list of messages, not within a reply
-#If ControlActive("OutlookGrid3", "Outlook") 	; params: ControlActive( ClassNN , WinTitle)
-Delete::
-    Send ^+1
-#If
-Return
-
-
-; create a new email from anywhere
-#n::
-	SetTitleMatchMode 2	
-
-	IfWinExist, jtolbert@millikin.edu - Outlook
-		{
-			WinActivate
-			Sleep, 250
-            Send ^1
-			Sleep, 250
-            Send !5
-		} 
-return
-
-
-; go in today in calendar
-#c::
-	KeyWait LWin
-	KeyWait RWin
-	SetTitleMatchMode 2
-	WinActivate  jtolbert@millikin.edu - Outlook
-	Send ^2 
-return
+; ; a function to determine if you're in a particular ClassNN within a window
+; ControlActive(ClassNN, WinTitle) {
+;     ControlGetFocus, CurCon, % WinTitle
+;     Return (CurCon=ClassNN)
+; }
+; 
+; 
+; ; in Outlook, map Delete to Archiving instead of deleting
+; ;      but only do it when you're on the list of messages, not within a reply
+; ; #If ControlActive("OutlookGrid3", "Outlook") 	; params: ControlActive( ClassNN , WinTitle)
+; ; Delete::
+; ;     Send ^+1
+; ; #If
+; ; Return
+; 
+; 
+; ; create a new email from anywhere
+; #n::
+; 	SetTitleMatchMode 2	
+; 
+; 	IfWinExist, jtolbert@millikin.edu - Outlook
+; 		{
+; 			WinActivate
+; 			Sleep, 250
+;             Send ^1
+; 			Sleep, 250
+;             Send !5
+; 		} 
+; return
+; 
+; 
+; ; go in today in calendar
+; #c::
+; 	KeyWait LWin
+; 	KeyWait RWin
+; 	SetTitleMatchMode 2
+; 	WinActivate  jtolbert@millikin.edu - Outlook
+; 	Send ^2 
+; return
 
 
 ; go in inbox
 #i::
 chrome := "- Google Chrome"
 found := "false"
-tabSearch := "Berkeley Mail"
+tabSearch := "jaketolbert@berkeley.edu"
 curWinNum := 0
     
 SetTitleMatchMode, 2
@@ -101,6 +165,7 @@ WinActivateBottom, %chrome% ; Activate the least recent window
     
 WinWaitActive %chrome% ; Wait until the window is active
 SendInput ^1   ; go to the first tab b/c thats where I like to keep it
+Sleep, 200
     
 ControlFocus, Chrome_RenderWidgetHostHWND1 ; Set the focus to tab control ???
     
